@@ -1,0 +1,22 @@
+#inicio{
+    width: 100%;
+    height: 80vh;
+    background: url("../imgs/app/home-bg.jpg") top center;
+    background-size: cover;
+    position: relative;
+}
+
+#inicio:before {
+    content: "";
+    background: rgba(45, 53, 69, 0.7);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#inicio .container {
+    text-align: center;
+    padding-top: 50px;
+}
