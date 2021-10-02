@@ -6,7 +6,7 @@ class controllerHelper{
         require 'app/views/'.$viewName.'.php';
     }
 
-    public function loadTemplate($viewName, $viewData = array(), $show_header = true){
+    public function loadTemplate($viewData = array()){
         extract ($viewData);
 
         require 'app/views/template.php';
