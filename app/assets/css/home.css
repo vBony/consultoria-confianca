@@ -48,3 +48,21 @@
 #inicio .btn-conheca:hover {
     background: #ffc107;
 }
+
+section {
+   padding: 60px 0; 
+}
+
+.about h2 {
+    color: #414c64;
+}
+
+.about h4 {
+    color: #444444;
+}
+
+.about i {
+    font-size: 40px;
+    margin-top: 15px;
+    color: #8b97b3;
+}
