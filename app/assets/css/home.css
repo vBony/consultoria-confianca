@@ -21,6 +21,34 @@
     padding-top: 50px;
 }
 
+.text-inicio{
+    color: white;
+}
+
+#sub-titulo-ti{
+    font-size: 16px;
+}
+
+#inicio .btn-conheca {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 9px 35px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin-top: 40px;
+    border: 2px solid #ffc107;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+#inicio .btn-conheca:hover {
+    background: #ffc107;
+}
+
 section {
    padding: 60px 0; 
 }
