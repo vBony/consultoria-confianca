@@ -1,0 +1,66 @@
+@font-face {
+    font-family: Gordita;
+    src: url(../fonts/gordita.woff);
+}
+
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+} 
+
+*{
+    font-family: Gordita, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    color: #31343B;
+}
+
+body{
+    margin: 0px;
+    background-color: #557CF2;
+}
+
+#all{
+    width: 100%;
+    max-height: max-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#boxLogin{
+    width: 750px;
+    /* background-color: #F7FAFF; */
+    border-radius: 10px;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 0.2s;
+}
+
+#signal-error{
+    background-color: #E85E6C;
+    text-align: center;
+}
+
+#signal-error i{
+    font-size: 150px;
+    color: #F7FAFF;
+    padding: 40px 0px;
+}
+
+#text-error-area{
+    text-align: center;
+    background-color: #F7FAFF;
+    padding: 20px;
+}
+
+#text-error{
+    width: 70%;
+    word-wrap: normal;
+    margin: 30px auto 30px auto;
+}
+
+#home-icon-btn{
+    color: white;
+}
+
