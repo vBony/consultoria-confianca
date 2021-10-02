@@ -1,8 +1,8 @@
-<header class="header sticky-top">
+<header class="fixed-top header-transparent">
     <nav class="navbar navbar-expand-lg navbar-light py-4">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <strong class="h6 mb-0 font-weight-bold text-uppercase">Consultoria Confiança</strong>
+                <strong class="h6 mb-0 font-weight-bold">Consultoria Confiança</strong>
             </a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
