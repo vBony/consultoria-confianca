@@ -12,28 +12,29 @@
     <title>Document</title>
 </head>
 <body>
-    <?php $this->loadTemplate($template); ?>
+<?php $this->loadTemplate($template); ?>
 
-    <!-- sessão sub-header -->
-    <section id="inicio" class="d-flex align-items-center justify-content-center">
-        <div class="container position-relative">
-            <h1 class="text-inicio mb-4">
-                Chegou a hora de tirar seus projetos do papel!
-            </h1>
+<!-- sessão sub-header -->
+<section id="inicio" class="d-flex align-items-center justify-content-center">
+    <div class="container position-relative">
+        <h1 class="text-inicio mb-4">
+            Chegou a hora de tirar seus projetos do papel!
+        </h1>
 
-            <h2 class="text-inicio" id="sub-titulo-ti">
-                Nós somos a uma empresa sediada em Goiânia, 
-                com atuação a nível nacional e uma equipe de 
-                especialistas que já ajudou centenas de pessoas a 
-                realizarem seus sonhos, projetos e objetivos, 
-                levando para essas pessoas um tipo de crédito 
-                que o seu banco não gosta odeia te oferecer.
-            </h2>
+        <h2 class="text-inicio" id="sub-titulo-ti">
+            Nós somos a uma empresa sediada em Goiânia, 
+            com atuação a nível nacional e uma equipe de 
+            especialistas que já ajudou centenas de pessoas a 
+            realizarem seus sonhos, projetos e objetivos, 
+            levando para essas pessoas um tipo de crédito 
+            que o seu banco não gosta odeia te oferecer.
+        </h2>
 
-            <a href="#about" class="btn-conheca scrollto">Conheça</a>
-        </div>
-    </section>
+        <a href="#about" class="btn-conheca scrollto">Conheça</a>
+    </div>
+</section>
 
+<main>
     <section class="about">
         <div class="container">
             <div class="row">
@@ -57,5 +58,8 @@
             </div>
         </div>
     </section>
+</main>
+
+    
 </body>
 </html>
