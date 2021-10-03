@@ -95,14 +95,67 @@
         </div>
     </section>
 
-    <section class="servies">
+    <section class="services">
         <div class="container">
             <div class="section-title">
                 <h2>Services</h2>
                 <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
             </div>
             <div class="row">
-                
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+                    <div class="icon-box iconbox-blue" data-cor="#47aeff">
+                        <div class="icon">
+                            <i class="fas fa-basketball-ball"></i>
+                        </div>
+                        <h4><a>Lorem Ipsum</a></h4>
+                        <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+                    <div class="icon-box iconbox-orange" data-cor="#ffa76e">
+                        <div class="icon">
+                            <i class="far fa-file-alt"></i>
+                        </div>
+                        <h4><a>Sed Perspiciatis</a></h4>
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+                    <div class="icon-box iconbox-pink" data-cor="#e80368">
+                        <div class="icon">
+                            <i class="far fa-comment-dots"></i>
+                        </div>
+                        <h4><a>Magni Dolores</a></h4>
+                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+                    <div class="icon-box iconbox-yellow" data-cor="#ffbb2c">
+                        <div class="icon">
+                            <i class="fas fa-book"></i>
+                        </div>
+                        <h4><a>Nemo Enim</a></h4>
+                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+                    <div class="icon-box iconbox-red" data-cor="#ff5828">
+                        <div class="icon">
+                            <i class="fas fa-desktop"></i>
+                        </div>
+                        <h4><a>Dele Cardo</a></h4>
+                        <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+                    <div class="icon-box iconbox-teal" data-cor="#11dbcf">
+                        <div class="icon">
+                            <i class="fas fa-archway"></i>
+                        </div>
+                        <h4><a>Divera Don</a></h4>
+                        <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
