@@ -44,10 +44,15 @@
     text-decoration: none;
 }
 
-
 #inicio .btn-conheca:hover {
     background: #ffc107;
 }
+
+/* 
+========================
+Sobre
+========================
+ */
 
 section {
    padding: 60px 0; 
@@ -66,7 +71,6 @@ section {
     margin-top: 15px;
     color: #8b97b3;
 }
-
 
 /* 
 ========================
@@ -99,4 +103,38 @@ Clientes
 .clientes img:hover {
     filter: none;
     transform: scale(1.15);
+}
+
+/* 
+========================
+Serviçoes
+========================
+ */
+
+.section-title {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.section-title h2 {
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.section-title p {
+    color: #aab3c7;
+}
+
+.section-title h2::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #ffc107;
+    bottom: 0;
+    left: calc(50% - 25px);
 }
