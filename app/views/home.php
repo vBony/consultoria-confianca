@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="./app/assets/css/template.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="./app/assets/js/home.js"></script>
+    <script src="./app/assets/libraries/glide-3.4.1/dist/glide.min.js"></script>
+    <link rel="stylesheet" href="./app/assets/libraries/glide-3.4.1/dist/css/glide.core.min.css">
+    <link rel="stylesheet" href="./app/assets/libraries/glide-3.4.1/dist/css/glide.theme.min.css">
     <title>Document</title>
 </head>
 <body>
@@ -118,6 +121,118 @@
         </div>
     </section>
 
+    <section id="testimonials" class="testimonials">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Depoimentos</h2>
+          <p>Confira os depoimentos de algumas das centenas de pessoas que já foram nossos clientes</p>
+        </div>
+
+        <div class="glide">
+            <div class="glide__track" data-glide-el="track">
+                <ul class="glide__slides p-4 mb-4">
+                    <li class="glide__slide">
+                        <div class="testemunha-item">
+                            <i class="fas fa-quote-right quote-icon"></i>
+
+                            Através do Wander e de sua empresa foi possível 
+                            realizarmos o sonho da nossa vida e adquirimos 
+                            nossa tão sonhada franquia, ainda com carência 
+                            de 6 meses para a primeira parcela. Quando 
+                            parecia que ninguém conseguiria nos ajudar, 
+                            ele chegou e nos deu a solução. Recomendo 100%
+
+                            <i class="fas fa-quote-right quote-icon"></i>
+
+                            <div class="mt-3">
+                                <h3>Luiza Souza</h3>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="glide__slide">
+                        <div class="testemunha-item">
+                            <i class="fas fa-quote-right quote-icon"></i>
+                            Minha construtora precisava levantar um recurso 
+                            para concluir uma obra. Recorri a ajuda e em pouco 
+                            tempo estava com o dinheiro na mão. Concluí minha 
+                            obra, vendi algumas unidades e já quitei o empréstimo. 
+                            Foi ótimo e com certeza eu pegaria novamente se fosse necessário!
+                            <i class="fas fa-quote-right quote-icon"></i>
+
+                            <div class="mt-3">
+                                <h3>Bruno Oliveira</h3>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="glide__slide">
+                        <div class="testemunha-item">
+                            <i class="fas fa-quote-right quote-icon"></i>
+                            O Wander me disse que se algo não der certo na mão dele, 
+                            não da certo na mão de mais ninguém. Realmente pude provar isso. 
+                            Quando todos os gerentes disseram que meu caso era impossível de 
+                            resolver, ele resolveu e me entregou tudo pronto.
+                            <i class="fas fa-quote-right quote-icon"></i>
+
+                            <div class="mt-3">
+                                <h3>Adriana Silva</h3>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="glide__slide">
+                        <div class="testemunha-item">
+                            <i class="fas fa-quote-right quote-icon"></i>
+                            Fui muito bem atendido e assistido, e o processo foi extremamente 
+                            rápido, isso foi muito bom.
+                            <i class="fas fa-quote-right quote-icon"></i>
+
+                            <div class="mt-3">
+                                <h3>Paulo Cesar</h3>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="glide__slide">
+                        <div class="testemunha-item">
+                            <i class="fas fa-quote-right quote-icon"></i>
+                            Atendimento sensacional. Toda a equipe foi muito profissional e 
+                            humana em me ajudar a realizar meu sonho. Consegui economizar 
+                            bastante. Obrigado
+                            <i class="fas fa-quote-right quote-icon"></i>
+
+                            <div class="mt-3">
+                                <h3>Leonardo Gomes</h3>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="glide__slide">
+                        <div class="testemunha-item">
+                            <i class="fas fa-quote-right quote-icon"></i>
+                            Mesmo eu morando no exterior consegui a minha aprovação de crédito. 
+                            Adorei!
+                            <i class="fas fa-quote-right quote-icon"></i>
+
+                            <div class="mt-3">
+                                <h3>Claudia Lima</h3>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <br>
+            <div class="glide__bullets" data-glide-el="controls[nav]">
+                <button class="glide__bullet" data-glide-dir="=0"></button>
+                <button class="glide__bullet" data-glide-dir="=1"></button>
+                <button class="glide__bullet" data-glide-dir="=3"></button>
+                <button class="glide__bullet" data-glide-dir="=4"></button>
+                <button class="glide__bullet" data-glide-dir="=5"></button>
+            </div>
+        </div>
+    </section>
     
 </main>
 

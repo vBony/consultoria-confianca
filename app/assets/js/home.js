@@ -1,4 +1,24 @@
 $(document).ready(() => {
+    var glide = new Glide('.glide', {
+        type: 'carousel',
+        focusAt: 'center',
+        autoplay: 2000,
+        hoverpause: false,
+        perView: 3,
+        breakpoints: {
+            576: {
+              perView: 1
+            },
+
+            768: {
+              perView: 2
+            }
+
+
+        }
+    })
+    
+    glide.mount()
     
     $(document).on('scroll', () => {
         let selectHeader = $('#header')
@@ -20,5 +40,4 @@ $(document).ready(() => {
             menuBtn.addClass('open')
         }
     })
-
 })
