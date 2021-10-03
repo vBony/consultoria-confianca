@@ -78,7 +78,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6"><img class="img-fluid" src="./app/assets/imgs/app/about.jpg"></div>
-                <div class="col-lg-6 pt pt-lg-0">
+                <div class="col-lg-6 pt-4 pt-lg-0">
                     <h2>Chegou a hora de tirar seus projetos do papel!</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit</p>
                     <div class="row">
