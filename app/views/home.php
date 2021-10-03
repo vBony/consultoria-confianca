@@ -106,6 +106,19 @@
             </div>
         </div>
     </section>
+
+    <section class="acao">
+        <div class="container">
+            <div class="text-center text-white">
+                <h3>Não perca tempo!</h3>
+                <p> Estamos com uma promoção de início de ano, para ajudar você a tirar seus projetos do papel, com um desconto imperdível na taxa de juros. </p>
+                <p> <b> Clique agora </b> no botão abaixo e <b> fale diretamente </b> com nosso <b> diretor! </b> </p>
+                <a class="btn-acao" href="#">Entrar em contato</a>
+            </div>
+        </div>
+    </section>
+
+    
 </main>
 
 </body>
