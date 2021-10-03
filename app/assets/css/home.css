@@ -66,3 +66,37 @@ section {
     margin-top: 15px;
     color: #8b97b3;
 }
+
+
+/* 
+========================
+Clientes
+========================
+ */
+
+.section-bg {
+    background-color: #f7f8fa;
+}
+
+.clientes {
+    padding: 15px 0;
+    text-align: center;
+}
+
+.clientes {
+    padding: 15px 0;
+    text-align: center;
+}
+
+.clientes img {
+    max-width: 45%;
+    transition: all 0.4s ease-in-out;
+    display: inline-block;
+    padding: 15px 0;
+    filter: grayscale(100);
+}
+
+.clientes img:hover {
+    filter: none;
+    transform: scale(1.15);
+}
