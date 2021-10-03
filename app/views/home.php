@@ -94,8 +94,32 @@
             </div>
         </div>
     </section>
-</main>
+
+    <section class="servies">
+        <div class="container">
+            <div class="section-title">
+                <h2>Services</h2>
+                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+            </div>
+            <div class="row">
+                
+            </div>
+        </div>
+    </section>
+
+    <section class="acao">
+        <div class="container">
+            <div class="text-center text-white">
+                <h3>Não perca tempo!</h3>
+                <p> Estamos com uma promoção de início de ano, para ajudar você a tirar seus projetos do papel, com um desconto imperdível na taxa de juros. </p>
+                <p> <b> Clique agora </b> no botão abaixo e <b> fale diretamente </b> com nosso <b> diretor! </b> </p>
+                <a class="btn-acao" href="#">Entrar em contato</a>
+            </div>
+        </div>
+    </section>
 
     
+</main>
+
 </body>
 </html>
