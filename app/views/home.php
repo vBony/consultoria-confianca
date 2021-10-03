@@ -37,6 +37,40 @@
 </section>
 
 <main>
+    <section id="clientes" class="clientes section-bg">
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                    <img src="./app/assets/imgs/app/clients/client-1.png" class="img-fluid" alt="">
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                    <img src="./app/assets/imgs/app/clients/client-2.png" class="img-fluid" alt="">
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                    <img src="./app/assets/imgs/app/clients/client-3.png" class="img-fluid" alt="">
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                    <img src="./app/assets/imgs/app/clients/client-4.png" class="img-fluid" alt="">
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                    <img src="./app/assets/imgs/app/clients/client-5.png" class="img-fluid" alt="">
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                    <img src="./app/assets/imgs/app/clients/client-6.png" class="img-fluid" alt="">
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
     <section class="about">
         <div class="container">
             <div class="row">
