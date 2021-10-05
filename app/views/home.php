@@ -286,6 +286,31 @@
             </div>
         </div>
     </section>
+
+    <section id="team" class="team section-bg">
+        <div class="container">
+            <div class="section-title">
+                <h2>Fundador</h2>
+                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 d-flex align-items-stretch mx-auto">
+                    <div class="member">
+                        <div class="member-img">
+                            <img src="./app/assets/imgs/app/fundador/wander_2.jpg" class="img-fluid">
+                            <div class="social">
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-facebook"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                                <a href=""><i class="fab fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                        <div class="member-info"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     
 </main>
 
