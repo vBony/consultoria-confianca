@@ -291,7 +291,7 @@
         <div class="container">
             <div class="section-title">
                 <h2>Fundador</h2>
-                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                <p>Wander Leite, empresário, administrador de empresas, sempre foi apaixonado por empreendedorismo, abrindo seu primeiro negócio aos 19 anos de idade. Especialista em crédito, hoje é diretor fundador de uma empresa que atua diretamente junto aos bancos, buscando sempre as melhores opções para os clientes conseguirem o crédito que precisam aliado a menor taxa de juros do mercado, tendo ajudado centenas de pessoas a realizarem seus sonhos, planos e objetivos. Em sua filosofia acredita que cada cliente é especial e até nos casos mais difíceis sempre luta com todas as possibilidades para ajudar todos os clientes a realizarem seus sonhos. Também acredita muito que o conhecimento é a chave para o sucesso e ministra diversos treinamentos e capacitações na área de desenvolvimento pessoal, inteligência financeira e crédito.</p>
             </div>
             <div class="row">
                 <div class="col-lg-3 col-md-6 d-flex align-items-stretch mx-auto">
@@ -305,7 +305,9 @@
                                 <a href=""><i class="fab fa-linkedin"></i></a>
                             </div>
                         </div>
-                        <div class="member-info"></div>
+                        <div class="member-info">
+                            <h4>Wander Leite</h4>
+                        </div>
                     </div>
                 </div>
             </div>
