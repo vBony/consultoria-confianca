@@ -294,7 +294,17 @@
         <div class="container">
             <div class="section-title">
                 <h2>Fundador</h2>
-                <p>Wander Leite, empresário, administrador de empresas, sempre foi apaixonado por empreendedorismo, abrindo seu primeiro negócio aos 19 anos de idade. Especialista em crédito, hoje é diretor fundador de uma empresa que atua diretamente junto aos bancos, buscando sempre as melhores opções para os clientes conseguirem o crédito que precisam aliado a menor taxa de juros do mercado, tendo ajudado centenas de pessoas a realizarem seus sonhos, planos e objetivos. Em sua filosofia acredita que cada cliente é especial e até nos casos mais difíceis sempre luta com todas as possibilidades para ajudar todos os clientes a realizarem seus sonhos. Também acredita muito que o conhecimento é a chave para o sucesso e ministra diversos treinamentos e capacitações na área de desenvolvimento pessoal, inteligência financeira e crédito.</p>
+                <p>
+                    Wander Leite, empresário, administrador de empresas, sempre foi apaixonado por empreendedorismo, 
+                    abrindo seu primeiro negócio aos 19 anos de idade. Especialista em crédito, hoje é diretor 
+                    fundador de uma empresa que atua diretamente junto aos bancos, buscando sempre as melhores opções 
+                    para os clientes conseguirem o crédito que precisam aliado a menor taxa de juros do mercado, tendo 
+                    ajudado centenas de pessoas a realizarem seus sonhos, planos e objetivos. Em sua filosofia acredita 
+                    que cada cliente é especial e até nos casos mais difíceis sempre luta com todas as possibilidades 
+                    para ajudar todos os clientes a realizarem seus sonhos. Também acredita muito que o conhecimento é 
+                    a chave para o sucesso e ministra diversos treinamentos e capacitações na área de desenvolvimento 
+                    pessoal, inteligência financeira e crédito.
+                </p>
             </div>
             <div class="row">
                 <div class="col-lg-3 col-md-6 d-flex align-items-stretch mx-auto">
@@ -326,7 +336,7 @@
             </div>
 
             <div class="accordion" id="accordionExample">
-                <div class="accordion-item faq-acc-item">
+                <div class="accordion-item faq-acc-item shadow-sm">
                     <h2 class="accordion-header" id="headingOne">
                         <button class="accordion-button collapsed d-flex align-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                             <i class="far fa-question-circle me-3 icon-acc"></i> <div> <b> Lorem Ipsum is simply </b> </div>
@@ -338,7 +348,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="accordion-item faq-acc-item">
+                <div class="accordion-item faq-acc-item shadow-sm">
                     <h2 class="accordion-header" id="headingTwo">
                         <button class="accordion-button collapsed d-flex align-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                             <i class="far fa-question-circle me-3 icon-acc"></i> <div> <b> Lorem Ipsum is simply </b> </div>
@@ -350,7 +360,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="accordion-item faq-acc-item">
+                <div class="accordion-item faq-acc-item shadow-sm">
                     <h2 class="accordion-header" id="headingThree">
                         <button class="accordion-button collapsed d-flex align-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                             <i class="far fa-question-circle me-3 icon-acc"></i> <div> <b> Lorem Ipsum is simply </b> </div>
