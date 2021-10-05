@@ -110,7 +110,7 @@ Clientes
 
 /* 
 ========================
-Serviçoes
+Serviços
 ========================
  */
 
@@ -346,7 +346,7 @@ Fundador/Time
 }
 
 .team .member .social i {
-    font-size: 20px;
+    font-size: 24px;
     margin: 0 2px;
 }
 
@@ -356,4 +356,20 @@ Fundador/Time
 
 .team .member .social i:hover {
     color: #ffc107;
+}
+
+.team .member .member-info h4 {
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #414c64;
+}
+
+.section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
 }
