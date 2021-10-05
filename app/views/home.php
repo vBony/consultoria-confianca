@@ -14,6 +14,9 @@
     <script src="./app/assets/libraries/glide-3.4.1/dist/glide.min.js"></script>
     <link rel="stylesheet" href="./app/assets/libraries/glide-3.4.1/dist/css/glide.core.min.css">
     <link rel="stylesheet" href="./app/assets/libraries/glide-3.4.1/dist/css/glide.theme.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
@@ -291,7 +294,7 @@
         <div class="container">
             <div class="section-title">
                 <h2>Fundador</h2>
-                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                <p>Wander Leite, empresário, administrador de empresas, sempre foi apaixonado por empreendedorismo, abrindo seu primeiro negócio aos 19 anos de idade. Especialista em crédito, hoje é diretor fundador de uma empresa que atua diretamente junto aos bancos, buscando sempre as melhores opções para os clientes conseguirem o crédito que precisam aliado a menor taxa de juros do mercado, tendo ajudado centenas de pessoas a realizarem seus sonhos, planos e objetivos. Em sua filosofia acredita que cada cliente é especial e até nos casos mais difíceis sempre luta com todas as possibilidades para ajudar todos os clientes a realizarem seus sonhos. Também acredita muito que o conhecimento é a chave para o sucesso e ministra diversos treinamentos e capacitações na área de desenvolvimento pessoal, inteligência financeira e crédito.</p>
             </div>
             <div class="row">
                 <div class="col-lg-3 col-md-6 d-flex align-items-stretch mx-auto">
@@ -305,7 +308,58 @@
                                 <a href=""><i class="fab fa-linkedin"></i></a>
                             </div>
                         </div>
-                        <div class="member-info"></div>
+                        <div class="member-info">
+                            <h4>Wander Leite</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq">
+        <div class="container">
+
+            <div class="section-title">
+                <h2>Dúvidas frequentes</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item faq-acc-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button collapsed d-flex align-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            <i class="far fa-question-circle me-3 icon-acc"></i> <div> <b> Lorem Ipsum is simply </b> </div>
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong> Lorem Ipsum is simply dummy text </strong> of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item faq-acc-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed d-flex align-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <i class="far fa-question-circle me-3 icon-acc"></i> <div> <b> Lorem Ipsum is simply </b> </div>
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                        <strong> Lorem Ipsum is simply dummy text </strong> of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item faq-acc-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed d-flex align-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <i class="far fa-question-circle me-3 icon-acc"></i> <div> <b> Lorem Ipsum is simply </b> </div>
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                        <strong> Lorem Ipsum is simply dummy text </strong> of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.
+                        </div>
                     </div>
                 </div>
             </div>
