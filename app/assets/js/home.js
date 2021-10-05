@@ -40,4 +40,16 @@ $(document).ready(() => {
             menuBtn.addClass('open')
         }
     })
+
+    $(".icon-box").hover(function () {
+        let cor = $(this).data('cor')
+        $(this).children('.icon').css('background-color', cor)
+        $(this).children('.icon').children('i').css('color', 'white')
+    }, 
+    function () {
+        let cor = $(this).data('cor')
+        $(this).children('.icon').css('background-color', '#f5f5f5')
+        $(this).children('.icon').children('i').css('color', cor)
+    });
+        
 })
