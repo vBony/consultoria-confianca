@@ -51,5 +51,12 @@ $(document).ready(() => {
         $(this).children('.icon').css('background-color', '#f5f5f5')
         $(this).children('.icon').children('i').css('color', cor)
     });
+
+    $(".member").hover(function () {
+        $(this).children('.member-img').children('.social').css('opacity', 1)
+    }, 
+    function () {
+        $(this).children('.member-img').children('.social').css('opacity', 0)
+    });
         
 })

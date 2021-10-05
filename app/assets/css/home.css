@@ -258,6 +258,7 @@ Ação
 Testemunhas
 ========================
  */
+
 .testemunha-item{
     background-color: #FAFAFC;
     font-style: italic;
@@ -293,4 +294,66 @@ Testemunhas
 
 .glide__bullet--active{
     background-color: #ffc107 !important;
+}
+
+/* 
+========================
+Fundador/Time
+========================
+ */
+
+.team .member {
+    margin-bottom: 20px;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 2px 15px rgb(65 76 100 / 6%);
+}
+
+.team .member .member-img {
+    position: relative;
+    overflow: hidden;
+}
+
+.team .member .member-info {
+    padding: 25px 15px;
+}
+
+.team .member .social {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 40px;
+    opacity: 0;
+    transition: ease-in-out 0.3s;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.85);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team .member .social a {
+    transition: color 0.3s;
+    color: #414c64;
+    margin: 0 10px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.team .member .social i {
+    font-size: 20px;
+    margin: 0 2px;
+}
+
+.team .member .social a i {
+    line-height: 0;
+}
+
+.team .member .social i:hover {
+    color: #ffc107;
 }
