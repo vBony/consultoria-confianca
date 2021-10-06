@@ -49,27 +49,27 @@
             <div class="row">
 
                 <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                    <img src="./app/assets/imgs/app/clients/client-1.png" class="img-fluid" alt="">
+                    <img src="./app/assets/imgs/app/clients/itau.png" style="height: 80px !important" class="img-fluid" alt="">
                 </div>
 
                 <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                    <img src="./app/assets/imgs/app/clients/client-2.png" class="img-fluid" alt="">
+                    <img src="./app/assets/imgs/app/clients/santander.png" class="img-fluid" alt="">
                 </div>
 
                 <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                    <img src="./app/assets/imgs/app/clients/client-3.png" class="img-fluid" alt="">
+                    <img src="./app/assets/imgs/app/clients/bradesco.png" class="img-fluid" alt="">
                 </div>
 
                 <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                    <img src="./app/assets/imgs/app/clients/client-4.png" class="img-fluid" alt="">
+                    <img src="./app/assets/imgs/app/clients/nubank.png" class="img-fluid" alt="">
                 </div>
 
                 <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                    <img src="./app/assets/imgs/app/clients/client-5.png" class="img-fluid" alt="">
+                    <img src="./app/assets/imgs/app/clients/banco-do-brasil.png" class="img-fluid" alt="">
                 </div>
 
                 <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                    <img src="./app/assets/imgs/app/clients/client-6.png" class="img-fluid" alt="">
+                    <img src="./app/assets/imgs/app/clients/c6.png" class="img-fluid" alt="">
                 </div>
 
             </div>
@@ -480,7 +480,7 @@
                     <h4>Assine nossa newsletter</h4>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     <div class="row g-3">
-                            <input type="Email" class="form-control" placeholder="E-mail">
+                            <input type="Email" class="form-control input-newsletter" placeholder="E-mail">
                             <button type="submit" class="btn btn-newsletter">Enviar</button>
                     </div>
                     <form method="post" class="newsletter-form">
