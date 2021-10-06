@@ -497,3 +497,7 @@ Contato
     border:1px solid #FFC107;
     box-shadow: none
 }
+
+.about p {
+    text-align: justify;
+}
