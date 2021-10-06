@@ -80,10 +80,10 @@
     <section class="about">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6"><img class="img-fluid" src="./app/assets/imgs/app/about.jpg"></div>
+                <div class="col-lg-6"><img class="img-fluid" src="http://lorempixel.com/1280/720"></div>
                 <div class="col-lg-6 pt-4 pt-lg-0">
-                    <h2>Chegou a hora de tirar seus projetos do papel!</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit</p>
+                    <h2>O que está te impedindo ?</h2>
+                    <p>A cada virada de ano nos últimos anos muitas pessoas fizeram diversas promessas para MUDAR DE VIDA. Teve gente que pulou 7 ondinhas, alguns comeram arroz com lentilha, usaram roupas amarelas e outros disseram: AGORA VAI! Acontece que os anos se passaram e a maioria não fez nada a respeito. De cara já vamos te deixar uma dica: Se você não fizer algo diferente, continuará a ter os mesmos resultados de sempre. Se a gente te desse um empurrãozinho, como já fizemos com centenas de pessoas para te ajudar a tirar seus projetos do papel e colher resultados diferentes</p>
                     <div class="row">
                         <div class="col-md-6">
                             <i class="far fa-file-alt"></i>
@@ -375,6 +375,67 @@
             </div>
         </div>
     </section>
+
+    <section class="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contato</h2>
+                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="info-box">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <h3>Endereço</h3>
+                                <p>Av. Goiás, 5673 - Segundo Andar - Sala 04 - St. Urias Magalhães, Goiânia - GO, 74565-250</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="info-box mt-4">
+                                <i class="fas fa-envelope"></i>
+                                <h3>Nosso e-mail</h3>
+                                <p>wander@consultoriaconfianca.com.br</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="info-box mt-4">
+                                <i class="fas fa-phone-alt"></i>
+                                <h3>Telefone</h3>
+                                <p>(62) 3636-3467</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <form method="POST" role="form" class="php-email-form">
+                        <div class="row">
+                            <div class="col-md-6 form-group">
+                                <input type="text" class="f-color form-control" placeholder="Nome" required>
+                            </div>
+                            <div class="col-md-6 form-group mt-3 mt-md-0">
+                                <input type="email" class="f-color form-control" placeholder="E-mail" required>
+                            </div>
+                        </div>
+                        <div class="form-group mt-3">
+                            <input type="text" class="f-color form-control" placeholder="Assunto" required>
+                        </div>
+                        <div class="form-group mt-3">
+                            <textarea class="f-color textarea form-control" name="message" rows="5" placeholder="Menssagem" required></textarea>
+                        </div>
+                        <div class="my-3">
+                            <div class="loading">Carregando</div>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
 </main>
 
 
