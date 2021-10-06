@@ -480,7 +480,7 @@
                     <h4>Assine nossa newsletter</h4>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     <div class="row g-3">
-                            <input type="Email" class="form-control" placeholder="E-mail">
+                            <input type="Email" class="form-control input-newsletter" placeholder="E-mail">
                             <button type="submit" class="btn btn-newsletter">Enviar</button>
                     </div>
                     <form method="post" class="newsletter-form">
