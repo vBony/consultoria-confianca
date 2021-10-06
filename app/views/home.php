@@ -438,5 +438,75 @@
     
 </main>
 
+
+<footer id="footer">
+    <div class="sub-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 footer-contato">
+                    <h4>Consultoria Confiança</h4>
+                    <p>
+                        Av. Goiás, 5673 <br>
+                        Segundo Andar - Sala 04 <br> 
+                        St. Urias Magalhães <br> 
+                        Goiânia - GO, 74565-250 <br><br>
+                        <strong>Telefone:</strong> (62) 3636-3467 <br>
+                        <strong>Email:</strong> <span style="font-size: 12px !important;">wander@consultoriaconfianca.com.br</span> <br>
+                    </p>
+                </div>
+
+                <div class="col-lg-2 col-md-6 footer-links">
+                    <h4>Links úteis</h4>
+                    <ul>
+                        <li><i class="fas fa-chevron-right"></i> <a href="#">Início</a></li>
+                        <li><i class="fas fa-chevron-right"></i> <a href="#">Sobre</a></li>
+                        <li><i class="fas fa-chevron-right"></i> <a href="#">Serviços</a></li>
+                        <li><i class="fas fa-chevron-right"></i> <a href="#">Contato</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6 footer-links">
+                    <h4>Nossos serviços</h4>
+                    <ul>
+                        <li><i class="fas fa-chevron-right"></i> <a href="#">Lorem</a></li>
+                        <li><i class="fas fa-chevron-right"></i> <a href="#">Lorem</a></li>
+                        <li><i class="fas fa-chevron-right"></i> <a href="#">Lorem</a></li>
+                        <li><i class="fas fa-chevron-right"></i> <a href="#">Lorem</a></li>
+                        <li><i class="fas fa-chevron-right"></i> <a href="#">Lorem</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-4 col-md-6 footer-newsletter">
+                    <h4>Assine nossa newsletter</h4>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <div class="row g-3">
+                            <input type="Email" class="form-control" placeholder="E-mail">
+                            <button type="submit" class="btn btn-newsletter">Enviar</button>
+                    </div>
+                    <form method="post" class="newsletter-form">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="last-footer">
+        <div class="container d-md-flex py-4 last-footer">
+
+            <div class="me-md-auto text-center text-md-start">
+                <div class="copyright">
+                    © Copyright 2021 - <strong><span>Confiança Consultoria em Crédito Imobiliário Eireli</span></strong> - Todos os Direitos Reservados
+                </div>
+            </div>
+            <div class="redes-sociais-footer text-center text-md-right pt-3 pt-md-0">
+                <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
+
 </body>
 </html>
