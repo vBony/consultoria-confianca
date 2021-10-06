@@ -222,7 +222,6 @@ Ação
  */
 
 .btn-acao{
-    font-family: "Raleway", sans-serif;
     font-weight: 500;
     font-size: 15px;
     letter-spacing: 1px;
@@ -500,4 +499,119 @@ Contato
 
 .about p {
     text-align: justify;
+}
+
+
+/* 
+========================
+Footer
+========================
+ */
+.footer-contato h3{
+    font-size: 24px !important;
+}
+
+.footer-contato p {
+    font-size: 12px;
+}
+
+.sub-footer{
+    background-color: #FAFAFC;
+    padding: 60px 0 30px 0;
+}
+
+.sub-footer h4{
+    font-size: 16px;
+    font-weight: bold;
+    color: #444444;
+    position: relative;
+    padding-bottom: 12px;
+}
+
+.footer-links ul{
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.footer-links ul li i {
+    margin-right: 5px;
+    color: #ffc20c;
+    font-size: 10px;
+}
+
+.footer-links ul li{
+    padding: 5px 0px;
+}
+
+.footer-links ul a{
+    text-decoration: none;
+    color: #777777;
+    transition: 0.2s;
+}
+
+.footer-links ul a:hover{
+    color: #ffc20c;
+}
+
+.last-footer{
+    background-color: #F4F5F8
+}
+
+.newsletter-form .form-control{
+    display: block;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn-newsletter{
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 9px 35px;
+    border-radius: 50px;
+    transition: 0.5s;
+    border: 2px solid #ffc107;
+    background-color: #ffc107;
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-newsletter:focus{
+    box-shadow: none;
+}
+
+.btn-newsletter:hover{
+    background: #ffc411;
+    color: white;
+}
+
+#footer .redes-sociais-footer a{
+    font-size: 18px;
+    display: inline-block;
+    background: #e1e4ec;
+    color: #5f6f92;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+}
+
+#footer .redes-sociais-footer a:hover{
+    background: #ffc107 !important;
 }
