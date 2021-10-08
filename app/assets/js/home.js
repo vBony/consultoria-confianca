@@ -1,4 +1,24 @@
 $(document).ready(() => {
+    var glide = new Glide('.glide', {
+        type: 'carousel',
+        focusAt: 'center',
+        autoplay: 2000,
+        hoverpause: false,
+        perView: 3,
+        breakpoints: {
+            576: {
+              perView: 1
+            },
+
+            768: {
+              perView: 2
+            }
+
+
+        }
+    })
+    
+    glide.mount()
     
     $(document).on('scroll', () => {
         let selectHeader = $('#header')
@@ -21,4 +41,22 @@ $(document).ready(() => {
         }
     })
 
+    $(".icon-box").hover(function () {
+        let cor = $(this).data('cor')
+        $(this).children('.icon').css('background-color', cor)
+        $(this).children('.icon').children('i').css('color', 'white')
+    }, 
+    function () {
+        let cor = $(this).data('cor')
+        $(this).children('.icon').css('background-color', '#f5f5f5')
+        $(this).children('.icon').children('i').css('color', cor)
+    });
+
+    $(".member").hover(function () {
+        $(this).children('.member-img').children('.social').css('opacity', 1)
+    }, 
+    function () {
+        $(this).children('.member-img').children('.social').css('opacity', 0)
+    });
+        
 })
