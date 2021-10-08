@@ -38,7 +38,7 @@
             que o seu banco não gosta odeia te oferecer.
         </h2>
 
-        <a href="#about" class="btn-conheca scrollto">Conheça</a>
+        <a href="https://bit.ly/38eCpDc" class="btn-conheca scrollto">Conheça</a>
     </div>
 </section>
 
