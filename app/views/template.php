@@ -1,12 +1,14 @@
 <header id="header" class="header-transparent">
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-light" style="padding: 0px !important">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <strong class="h6 mb-0 font-weight-bold logo-menu">Consultoria Confiança</strong>
             </a>
 
             <div id="btn-mobile-menu" class="menu-btn" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <div class="menu-btn__burger"></div>
+                <div class="bars bar1"></div>
+                <div class="bars bar2"></div>
+                <div class="bars bar3"></div>
             </div>
 
             <div class="collapse navbar-collapse" id="navbarNavDropdown">

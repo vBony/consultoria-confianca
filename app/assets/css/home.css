@@ -7,6 +7,10 @@ body {
     /* height: 85vh; */
     background-color: #F7F8FA;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* d-flex align-items-center justify-content-center */
 }
 
 /* #inicio:before {
@@ -74,6 +78,7 @@ body {
     line-height: 1.67;
     transform: translateX(-50%);
     width: auto;
+    display: none !important;
 }
 
 .btn-conheca-mais{
@@ -654,13 +659,35 @@ Footer
 }
 
 @media (max-width: 575px){
+    .btn-conheca-mais-area{
+        display: flex;
+    }
+
     .texts-inicio-area{
         margin-top: 1.5rem;
+    }
+
+    #inicio{
+        height: 90vh;
+        padding: 0px 12px;
+        justify-content: flex-start !important;
+        align-items: baseline;
+    }
+
+    .box-submenu{
+        padding: 0px;
     }
 }
 
 @media(max-width: 991px){
+    #inicio{
+        height: 90vh;
+        padding: 10px 12px;
+        justify-content: flex-start !important;
+        align-items: baseline;
+    }
+
     .box-submenu{
-        padding: 2vh 0px 10vh 0px;
+        padding: 0px;
     }
 }
