@@ -1,26 +1,55 @@
 .logo-menu{
+    font-size: 18px !important;
+    color:#161616 !important;
+    font-weight: bold;
+}
+
+.logo-menu.logo-menu-header-scrolled{
     color: white !important;
-    font-size: 28px !important;
+    font-weight: 600;
+}
+
+.header-font{
+    line-height:25.05px;
+    vertical-align:baseline;
+    letter-spacing:0.3px;
+    font-weight:600;
 }
 
 .nav-opt{
+    color:#161616 !important;
+    font-weight: bold;
+}
+
+.nav-opt.nav-header-scrolled{
     color: white !important;
+    font-weight: 600;
+    font-size:15px;
 }
 
 #header {
-    transition: all 0.5s;
+    transition: top 0.5s;
+    /* top:-200px; */
     z-index: 997;
-    padding: 10px 0;
-    background: rgba(55, 64, 85, 0.9);
-}
-
-#header.header-transparent {
-    background: transparent;
+    padding: 2px 0;
+    background: #F7F8FA;
+    /* background-color: rgb(55, 64, 85); */
+    width: 100%;
 }
 
 #header.header-scrolled {
-    background: rgba(55, 64, 85, 0.9);
-    padding: 12px 0;
+    background: rgb(55, 64, 85);
+    background: linear-gradient(183deg,rgb(21, 33, 119),rgb(55, 64, 85));
+    padding: 5px 0;
+    top:0;
+    animation-name: upToDown;
+    animation-duration: 0.3s;
+    position: fixed;
+}
+
+.btn-simu-area{
+    padding: 0px 20px;
+    margin-left: 20px;
 }
 
 .menu-btn {
@@ -73,8 +102,22 @@
     transform: rotate(-45deg) translate(35px, 35px);
 }
 
+@keyframes upToDown {
+    from {
+        top:-200px;
+    }
+    to {
+        top: 0;
+    }
+}
+
 @media (max-width: 991px){
     .menu-btn{
         display: flex !important;
+    }
+
+    .btn-simu-area{
+        padding: 0px;
+        margin-left:0px;
     }
 }
