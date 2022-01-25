@@ -25,7 +25,7 @@ body {
 }
 
 #title-ti{
-    font-size:48px;
+    /* font-size:48px; */
     font-weight: bold;
 }
 
@@ -44,7 +44,7 @@ body {
 
 #sub-titulo-ti{
     color:#6a6c72;
-    font-size:18px;
+    /* font-size:18px; */
 }
 
 #inicio .btn-conheca {
