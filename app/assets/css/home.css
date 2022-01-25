@@ -657,6 +657,14 @@ Footer
     .texts-inicio-area{
         margin-top: 1.5rem;
     }
+
+    #inicio{
+        height: 90vh;
+    }
+
+    .box-submenu{
+        padding: 0px;
+    }
 }
 
 @media(max-width: 991px){
