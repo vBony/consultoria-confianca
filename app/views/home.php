@@ -32,13 +32,13 @@
                     Seu financiamento imobiliário com a melhor taxa
                 </h1>
         
-                <h2 class="text-inicio mb-3" id="sub-titulo-ti">
+                <p class="text-inicio mb-3" id="sub-titulo-ti">
                     Financie seu imóvel com as melhores taxas de 
                     juros do mercado. Solicite uma simulação 
                     personalizada e vamos encontrar juntos as 
                     melhores opções para você, com parcelas que 
                     cabem no seu bolso.
-                </h2>
+                </p>
     
                 <div class="btn-ti-area">
                     <button class="default-button d-flex flex-row align-items-center justify-content-center"> 
