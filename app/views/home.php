@@ -41,7 +41,7 @@
                 </p>
     
                 <div class="btn-ti-area">
-                    <button class="default-button d-flex flex-row align-items-center justify-content-center"> 
+                    <button class="default-button d-flex flex-row align-items-center justify-content-center" id="btn-ti"> 
                         <div>Simular meu financiamento</div>
                         <div class="ms-2" style="margin-top:2.3px"><i class="fas fa-angle-right"></i></div>
                     </button>
