@@ -1,4 +1,4 @@
-<header id="header" class="fixed-top header-transparent">
+<header id="header" class="header-transparent">
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
             <a class="navbar-brand" href="#">
@@ -12,19 +12,23 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a href="#" class="nav-link active nav-opt" aria-current="page">Início</a>
+                        <a href="#" class="nav-link active nav-opt header-font" aria-current="page">Início</a>
                     </li>
 
                     <li class="nav-item">
-                        <a href="#" class="nav-link active nav-opt" aria-current="page">Sobre</a>
+                        <a href="#" class="nav-link active nav-opt header-font" aria-current="page">Sobre</a>
                     </li>
 
                     <li class="nav-item">
-                        <a href="#" class="nav-link active nav-opt" aria-current="page">Serviços</a>
+                        <a href="#" class="nav-link active nav-opt header-font" aria-current="page">Serviços</a>
                     </li>
 
                     <li class="nav-item">
-                        <a href="#" class="nav-link active nav-opt" aria-current="page">Contato</a>
+                        <a href="#" class="nav-link active nav-opt header-font" aria-current="page">Contato</a>
+                    </li>
+                    
+                    <li class="nav-item d-flex align-items-center btn-simu-area">
+                        <button type="submit" class="default-button ">Simular</button>
                     </li>
                 </ul>
             </div>

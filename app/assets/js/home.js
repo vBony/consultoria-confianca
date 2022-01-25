@@ -22,11 +22,18 @@ $(document).ready(() => {
     
     $(document).on('scroll', () => {
         let selectHeader = $('#header')
+        let navs = $('.nav-opt')
+        let logo = $('.logo-menu')
+
         if(selectHeader){
             if (window.scrollY > 100) {
                 selectHeader.addClass('header-scrolled')
+                navs.addClass('nav-header-scrolled')
+                logo.addClass('logo-menu-header-scrolled')
             } else {
                 selectHeader.removeClass('header-scrolled')
+                navs.removeClass('nav-header-scrolled')
+                logo.removeClass('logo-menu-header-scrolled')
             }
         }
     })

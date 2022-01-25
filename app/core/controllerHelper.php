@@ -16,6 +16,10 @@ class controllerHelper{
         extract($viewData);
         require 'app/views/'.$viewName.'.php';
     }
+
+    public function baseUrl(){
+        return $_ENV['BASE_URL'];
+    }
 }
 
 ?>
