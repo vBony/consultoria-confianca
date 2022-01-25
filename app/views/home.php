@@ -26,7 +26,7 @@
 <!-- sessão sub-header -->
 <section id="inicio" class="d-flex align-items-center justify-content-center">
     <div class="container d-flex flex-column align-content-between box-submenu">
-        <div class="row d-flex flex-wrap-reverse flex-grow-1">
+        <div class="d-flex flex-wrap-reverse flex-grow-1">
             <div class="col-lg-5 col-md-12 col-sm-12 mt-md-4 mt-sm-4 texts-inicio-area">
                 <h1 class="text-inicio mb-4" id="title-ti">
                     Seu financiamento imobiliário com a melhor taxa
@@ -57,7 +57,7 @@
 
     </div>
 
-    <div class="row btn-conheca-mais-area">
+    <div class="btn-conheca-mais-area">
         <div class="col-12 d-flex justify-content-center btn-conheca-mais">
             <div class="d-flex align-items-center justify-content-center flex-column">
                 <div>Conheça mais</div>
