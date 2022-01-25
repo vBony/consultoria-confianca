@@ -1,5 +1,5 @@
 <header id="header" class="header-transparent">
-    <nav class="navbar navbar-expand-lg navbar-light" style="padding: 0px !important">
+    <nav class="navbar navbar-expand-lg navbar-light menu-box">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <strong class="h6 mb-0 font-weight-bold logo-menu">Consultoria Confiança</strong>
