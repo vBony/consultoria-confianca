@@ -24,16 +24,19 @@ $(document).ready(() => {
         let selectHeader = $('#header')
         let navs = $('.nav-opt')
         let logo = $('.logo-menu')
+        let bars = $('.bars')
 
         if(selectHeader){
             if (window.scrollY > 100) {
                 selectHeader.addClass('header-scrolled')
                 navs.addClass('nav-header-scrolled')
                 logo.addClass('logo-menu-header-scrolled')
+                bars.addClass('bars-scrolled')
             } else {
                 selectHeader.removeClass('header-scrolled')
                 navs.removeClass('nav-header-scrolled')
                 logo.removeClass('logo-menu-header-scrolled')
+                bars.removeClass('bars-scrolled')
             }
         }
     })
@@ -41,11 +44,7 @@ $(document).ready(() => {
     $('#btn-mobile-menu').on('click', () => {
         let menuBtn = $('.menu-btn')
 
-        if(menuBtn.hasClass('open')){
-            menuBtn.removeClass('open')
-        }else{
-            menuBtn.addClass('open')
-        }
+        menuBtn.toggleClass('change')
     })
 
     $(".icon-box").hover(function () {

@@ -24,9 +24,9 @@
 <?php $this->loadTemplate(); ?>
 
 <!-- sessão sub-header -->
-<section id="inicio" class="d-flex align-items-center justify-content-center">
+<section id="inicio">
     <div class="container d-flex flex-column align-content-between box-submenu">
-        <div class="d-flex flex-wrap-reverse flex-grow-1">
+        <div class="d-flex flex-wrap-reverse">
             <div class="col-lg-5 col-md-12 col-sm-12 mt-md-4 mt-sm-4 texts-inicio-area px-lg-4">
                 <h1 class="text-inicio mb-4" id="title-ti">
                     Seu financiamento imobiliário com a melhor taxa
@@ -72,7 +72,7 @@
     <section class="about">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6"><img class="img-fluid" src="http://lorempixel.com/1280/720"></div>
+                <!-- <div class="col-lg-6"><img class="img-fluid" src="http://lorempixel.com/1280/720"></div> -->
                 <div class="col-lg-6 pt-4 pt-lg-0">
                     <h2>O que está te impedindo ?</h2>
                     <p>A cada virada de ano nos últimos anos muitas pessoas fizeram diversas promessas para MUDAR DE VIDA. Teve gente que pulou 7 ondinhas, alguns comeram arroz com lentilha, usaram roupas amarelas e outros disseram: AGORA VAI! Acontece que os anos se passaram e a maioria não fez nada a respeito. De cara já vamos te deixar uma dica: Se você não fizer algo diferente, continuará a ter os mesmos resultados de sempre. Se a gente te desse um empurrãozinho, como já fizemos com centenas de pessoas para te ajudar a tirar seus projetos do papel e colher resultados diferentes</p>
