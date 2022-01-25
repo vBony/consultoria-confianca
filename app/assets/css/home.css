@@ -659,6 +659,10 @@ Footer
 }
 
 @media (max-width: 575px){
+    #btn-ti{
+        width: 100% !important;
+    }
+
     .btn-conheca-mais-area{
         display: flex;
     }
