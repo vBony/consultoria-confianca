@@ -4,7 +4,7 @@ body {
 
 #inicio{
     width: 100%;
-    height: 85vh;
+    /* height: 85vh; */
     background-color: #F7F8FA;
     position: relative;
 }
@@ -81,6 +81,10 @@ body {
     color: var(--primary-color);
     font-weight: bolder;
     font-size: 18px;
+}
+
+.box-submenu{
+    padding: 10vh 0px 10vh 0px;
 }
 
 /* 
