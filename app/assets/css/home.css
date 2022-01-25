@@ -658,3 +658,9 @@ Footer
         margin-top: 1.5rem;
     }
 }
+
+@media(max-width: 991px){
+    .box-submenu{
+        padding: 2vh 0px 10vh 0px;
+    }
+}
