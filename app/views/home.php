@@ -68,26 +68,125 @@
 </section>
 
 <main>
-
-    <section class="about">
+    <section class="solutions">
         <div class="container">
-            <div class="row">
-                <!-- <div class="col-lg-6"><img class="img-fluid" src="http://lorempixel.com/1280/720"></div> -->
-                <div class="col-lg-6 pt-4 pt-lg-0">
-                    <h2>O que está te impedindo ?</h2>
-                    <p>A cada virada de ano nos últimos anos muitas pessoas fizeram diversas promessas para MUDAR DE VIDA. Teve gente que pulou 7 ondinhas, alguns comeram arroz com lentilha, usaram roupas amarelas e outros disseram: AGORA VAI! Acontece que os anos se passaram e a maioria não fez nada a respeito. De cara já vamos te deixar uma dica: Se você não fizer algo diferente, continuará a ter os mesmos resultados de sempre. Se a gente te desse um empurrãozinho, como já fizemos com centenas de pessoas para te ajudar a tirar seus projetos do papel e colher resultados diferentes</p>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <i class="far fa-file-alt"></i>
-                            <h4>Corporis voluptates sit</h4>
-                            <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
-                        </div>
-                        <div class="col-md-6">
-                            <i class="fas fa-cube"></i>
-                            <h4>Ullamco laboris nisi</h4>
-                            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
-                        </div>
-                    </div>
+            <div class="col-lg-6 col-md-8 col-sm-12 text-start s-title">
+                <h1><b>Conheça as <strong class="text-primary">soluções</strong> que a <strong class="text-primary">Confiança Consultoria em Crédito Imobiliário</strong> oferece a você</b></h1>   
+            </div>
+
+            <div class="glide my-4" id="solutions_c">
+                <div class="glide__track" data-glide-el="track">
+                    <ul class="glide__slides mb-4">
+                        <li class="glide__slide">
+                            <div class="card sc-card">
+                                <img class="card-img-top sc-image" src="<?=$baseUrl?>app/assets/imgs/app/solutions-1.jpg" alt="Card image cap">
+                                <div class="card-body sc-body">
+                                    <h6 class="card-title sc-title">Financiamento Residencial</h6>
+                                    <p class="card-text sc-text">Financie sua casa ou apartamento.</p>
+                                    <div class="sc-btn">
+                                        <a href="#" class="">Financiar casa ou apartamento</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="glide__slide">
+                            <div class="card">
+                                <img class="card-img-top sc-image" src="<?=$baseUrl?>app/assets/imgs/app/solutions-2.jpg" alt="Card image cap">
+                                <div class="card-body sc-body">
+                                    <h5 class="card-title sc-title">Financiamento de Terreno</h5>
+                                    <p class="card-text sc-text">
+                                        Financie um terreno e aproveite a oportunidade 
+                                        e pagar uma parcela sem surpresas, balões ou 
+                                        correções mensais.
+                                    </p>
+                                    <div class="sc-btn">
+                                        <a href="#" class="">Financiar um terreno</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="glide__slide">
+                            <div class="card">
+                                <img class="card-img-top sc-image" src="<?=$baseUrl?>app/assets/imgs/app/solutions-3.jpg" alt="Card image cap">
+                                <div class="card-body sc-body">
+                                    <h5 class="card-title sc-title">Financiamento de Construção</h5>
+                                    <p class="card-text sc-text">
+                                        Faça do seu jeito! É possível adquirir um terreno + 
+                                        construção ou somente a construção, conforme sua 
+                                        necessidade.
+                                    </p>
+                                    <div class="sc-btn">
+                                        <a href="#" class="">Financiar construção</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="glide__slide">
+                            <div class="card">
+                                <img class="card-img-top sc-image" src="<?=$baseUrl?>app/assets/imgs/app/solutions-4.jpeg" alt="Card image cap">
+                                <div class="card-body sc-body">
+                                    <h5 class="card-title sc-title">Financiamento Comercial</h5>
+                                    <p class="card-text sc-text">
+                                        Financie sua sala comercial e 
+                                        troque o aluguel do seu negócio 
+                                        pela parcela do seu financiamento.
+                                    </p>
+                                    <div class="sc-btn">
+                                        <a href="#" class="">Conhecer empréstimo</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="glide__slide">
+                            <div class="card">
+                                <img class="card-img-top sc-image" src="<?=$baseUrl?>app/assets/imgs/app/solutions-5.jpg" alt="Card image cap">
+                                <div class="card-body sc-body">
+                                    <div class="card-title sc-title">
+                                        Empréstimo com Garantia de Imóvel
+                                    </div>
+                                    <p class="card-text sc-text">
+                                        Use seu imóvel como garantia e pegue até 60% do valor dele 
+                                        em dinheiro, para usar como bem entender, sem necessidade 
+                                        de prestação de contas do dinheiro ao banco. Faça 
+                                        literalmente o que você quiser.
+                                    </p>
+                                    <div class="sc-btn">
+                                        <a href="#" class="">Conhecer empréstimo</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="glide__slide">
+                            <div class="card">
+                                <img class="card-img-top sc-image" src="<?=$baseUrl?>app/assets/imgs/app/solutions-6.jpg" alt="Card image cap">
+                                <div class="card-body sc-body">
+                                    <h5 class="card-title sc-title">Portabilidade</h5>
+                                    <p class="card-text sc-text">
+                                        Reduza a taxa de juros e o valor da 
+                                        parcela do seu financiamento já 
+                                        existente através da portabilidade
+                                    </p>
+                                    <div class="sc-btn">
+                                        <a href="#" class="">Conhecer empréstimo</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <br><br>
+                <div class="glide__bullets sc-bullets" data-glide-el="controls[nav]">
+                    <button class="glide__bullet" data-glide-dir="=0"></button>
+                    <button class="glide__bullet" data-glide-dir="=1"></button>
+                    <button class="glide__bullet" data-glide-dir="=2"></button>
+                    <button class="glide__bullet" data-glide-dir="=3"></button>
+                    <button class="glide__bullet" data-glide-dir="=4"></button>
+                    <button class="glide__bullet" data-glide-dir="=5"></button>
                 </div>
             </div>
         </div>
@@ -177,7 +276,7 @@
           <p>Confira os depoimentos de algumas das centenas de pessoas que já foram nossos clientes</p>
         </div>
 
-        <div class="glide">
+        <div class="glide" id="depoimentos_c">
             <div class="glide__track" data-glide-el="track">
                 <ul class="glide__slides p-4 mb-4">
                     <li class="glide__slide">

@@ -2,6 +2,10 @@ body {
     background-color: #ffffff;
 }
 
+section{
+    padding: 20vh 0px 10vh 0px;
+}
+
 #inicio{
     width: 100%;
     /* height: 85vh; */
@@ -89,31 +93,55 @@ body {
 }
 
 .box-submenu{
-    padding: 10vh 0px 10vh 0px;
+    /* padding: 10vh 0px 10vh 0px; */
 }
 
 /* 
 ========================
-Sobre
+Soluções
 ========================
  */
-
-section {
-   padding: 60px 0; 
+.sc-title{
+    color: var(--text-primary);
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
 }
 
-.about h2 {
-    color: #414c64;
+.sc-body{
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
 }
 
-.about h4 {
-    color: #444444;
+.sc-image{
+    height: 270px;
+    object-fit: cover;
 }
 
-.about i {
-    font-size: 40px;
-    margin-top: 15px;
-    color: #8b97b3;
+.sc-text{
+    height: 75px;
+    overflow: auto;
+    padding-right: 10px;
+}
+
+.solutions{
+    /* padding: 20vh 0px; */
+}
+
+.sc-btn{
+    margin-top: auto;
+}
+
+.sc-btn a {
+    color: var(--primary-color);
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.s-title{
+    margin-bottom: 50px;
 }
 
 /* 
@@ -599,7 +627,7 @@ Footer
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #212529;
+    color: var(--text-primary);
     background-color: #fff;
     background-clip: padding-box;
     border: 1px solid #ced4da;

@@ -1,5 +1,5 @@
 $(document).ready(() => {
-    var glide = new Glide('.glide', {
+    var glide = new Glide('#depoimentos_c', {
         type: 'carousel',
         focusAt: 'center',
         autoplay: 2000,
@@ -19,6 +19,27 @@ $(document).ready(() => {
     })
     
     glide.mount()
+
+    var solutions = new Glide('#solutions_c', {
+        type: 'carousel',
+        focusAt: 'center',
+        autoplay: 3000,
+        hoverpause: false,
+        perView: 3,
+        gap: 20,
+        breakpoints: {
+            767: {
+              perView: 1,
+              gap: 8
+            },
+            
+            991: {
+                perView: 2
+            }
+        }
+    })
+
+    solutions.mount()
     
     $(document).on('scroll', () => {
         let selectHeader = $('#header')
