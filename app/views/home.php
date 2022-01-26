@@ -331,7 +331,7 @@
                 <div class="accordion-item faq-acc-item shadow-sm">
                     <h2 class="accordion-header" id="headingOne">
                         <button class="accordion-button collapsed d-flex align-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                            <i class="far fa-question-circle me-3 icon-acc"></i> <div> <b> Lorem Ipsum is simply </b> </div>
+                            <i class="far fa-question-circle me-3 icon-acc"></i> <div> <b> Como fazer empréstimo online? </b> </div>
                         </button>
                     </h2>
                     <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
@@ -343,7 +343,7 @@
                 <div class="accordion-item faq-acc-item shadow-sm">
                     <h2 class="accordion-header" id="headingTwo">
                         <button class="accordion-button collapsed d-flex align-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            <i class="far fa-question-circle me-3 icon-acc"></i> <div> <b> Lorem Ipsum is simply </b> </div>
+                            <i class="far fa-question-circle me-3 icon-acc"></i> <div> <b> Qual a diferença entre empréstimo pessoal e empréstimo com garantia? </b> </div>
                         </button>
                     </h2>
                     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
@@ -355,7 +355,19 @@
                 <div class="accordion-item faq-acc-item shadow-sm">
                     <h2 class="accordion-header" id="headingThree">
                         <button class="accordion-button collapsed d-flex align-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            <i class="far fa-question-circle me-3 icon-acc"></i> <div> <b> Lorem Ipsum is simply </b> </div>
+                            <i class="far fa-question-circle me-3 icon-acc"></i> <div> <b> Qual é o valor máximo do empréstimo? </b> </div>
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                        <strong> Lorem Ipsum is simply dummy text </strong> of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item faq-acc-item shadow-sm">
+                    <h2 class="accordion-header" id="headingFour">
+                        <button class="accordion-button collapsed d-flex align-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            <i class="far fa-question-circle me-3 icon-acc"></i> <div> <b> Posso compor renda? Ou seja, usar duas ou mais rendas para pedir o empréstimo? </b> </div>
                         </button>
                     </h2>
                     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
