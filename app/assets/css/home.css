@@ -2,19 +2,18 @@ body {
     background-color: #ffffff;
 }
 
-*{
-    font-family: 'Nunito Sans', sans-serif, "Font Awesome 6 Free", "Font Awesome 6 Brands"  !important;
-} 
-
 #inicio{
     width: 100%;
-    height: 80vh;
-    background: url("../imgs/app/home-bg.jpg") top center;
-    background-size: cover;
+    /* height: 85vh; */
+    background-color: #F7F8FA;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* d-flex align-items-center justify-content-center */
 }
 
-#inicio:before {
+/* #inicio:before {
     content: "";
     background: rgba(45, 53, 69, 0.7);
     position: absolute;
@@ -22,19 +21,34 @@ body {
     top: 0;
     left: 0;
     right: 0;
-}
+} */
 
-#inicio .container {
+#inicio.container {
     text-align: center;
     padding-top: 50px;
 }
 
+#title-ti{
+    /* font-size:48px; */
+    font-weight: bold;
+}
+
 .text-inicio{
-    color: white;
+    text-align: start;
+}
+
+.btn-ti-area{
+    display: flex;
+    justify-content: start;
+}
+
+.btn-ti-area > .default-button{
+    padding: 10px 30px;
 }
 
 #sub-titulo-ti{
-    font-size: 16px;
+    color:#6a6c72;
+    /* font-size:18px; */
 }
 
 #inicio .btn-conheca {
@@ -47,13 +61,35 @@ body {
     border-radius: 50px;
     transition: 0.5s;
     margin-top: 40px;
-    border: 2px solid #ffc107;
+    border: 2px solid var(--primary-color);
     color: #fff;
     text-decoration: none;
 }
 
 #inicio .btn-conheca:hover {
-    background: #ffc107;
+    background: var(--primary-color);
+}
+
+.btn-conheca-mais-area{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    text-align: center;
+    line-height: 1.67;
+    transform: translateX(-50%);
+    width: auto;
+    display: none !important;
+}
+
+.btn-conheca-mais{
+    cursor: pointer;
+    color: var(--primary-color);
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.box-submenu{
+    padding: 10vh 0px 10vh 0px;
 }
 
 /* 
@@ -142,7 +178,7 @@ Serviços
     display: block;
     width: 50px;
     height: 3px;
-    background: #ffc107;
+    background: var(--primary-color);
     bottom: 0;
     left: calc(50% - 25px);
 }
@@ -230,13 +266,13 @@ Ação
     border-radius: 50px;
     transition: 0.5s;
     margin-top: 20px;
-    border: 2px solid #ffc107;
+    border: 2px solid var(--primary-color);
     color: #fff;
     text-decoration: none;
 }
 
 .btn-acao:hover {
-    background: #ffc107;
+    background: var(--primary-color);
     color: white;
 }
 
@@ -292,12 +328,12 @@ Testemunhas
     height: 12px !important;
     background-color: #fff !important;
     opacity: 1 !important;
-    border: 1px solid #ffc107 !important;
+    border: 1px solid var(--primary-color) !important;
     box-shadow: none !important;
 }
 
 .glide__bullet--active{
-    background-color: #ffc107 !important;
+    background-color: var(--primary-color) !important;
 }
 
 /* 
@@ -359,7 +395,7 @@ Fundador/Time
 }
 
 .team .member .social i:hover {
-    color: #ffc107;
+    color: var(--primary-color);
 }
 
 .team .member .member-info h4 {
@@ -459,7 +495,7 @@ Contato
 
 .contact .info-box i {
     font-size: 32px;
-    color: #ffc107;
+    color: var(--primary-color);
     border-radius: 50%;
     padding: 8px;
     border: 2px dotted #ffeeba;
@@ -483,7 +519,7 @@ Contato
 }
 
 .contact .php-email-form button[type=submit] {
-    background: #ffc107;
+    background: var(--primary-color);
     border: 0;
     padding: 10px 30px;
     color: #fff;
@@ -493,7 +529,7 @@ Contato
 
 .f-color:focus {
     outline: none !important;
-    border:1px solid #FFC107;
+    border:1px solid var(--primary-color);
     box-shadow: none
 }
 
@@ -582,8 +618,8 @@ Footer
     padding: 9px 35px;
     border-radius: 50px;
     transition: 0.5s;
-    border: 2px solid #ffc107;
-    background-color: #ffc107;
+    border: 2px solid var(--primary-color);
+    background-color: var(--primary-color);
     color: #fff;
     text-decoration: none;
 }
@@ -613,11 +649,49 @@ Footer
 }
 
 #footer .redes-sociais-footer a:hover{
-    background: #ffc107 !important;
+    background: var(--primary-color) !important;
 }
 
 .input-newsletter:focus{
     outline: none !important;
-    border:1px solid #FFC107;
+    border:1px solid var(--primary-color);
     box-shadow: none
+}
+
+@media (max-width: 575px){
+    #btn-ti{
+        width: 100% !important;
+    }
+
+    .btn-conheca-mais-area{
+        display: flex;
+    }
+
+    .texts-inicio-area{
+        margin-top: 1.5rem;
+    }
+
+    #inicio{
+        height: 90vh;
+        padding: 30px 12px;
+        justify-content: flex-start !important;
+        align-items: baseline;
+    }
+
+    .box-submenu{
+        padding: 0px;
+    }
+}
+
+@media(max-width: 991px){
+    #inicio{
+        height: 90vh;
+        padding: 30px 12px;
+        justify-content: flex-start !important;
+        align-items: baseline;
+    }
+
+    .box-submenu{
+        padding: 0px;
+    }
 }
