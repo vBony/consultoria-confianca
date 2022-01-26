@@ -9,6 +9,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./app/assets/css/home.css">
     <link rel="stylesheet" href="./app/assets/css/template.css">
+    <link rel="stylesheet" href="./app/assets/css/normalize.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="./app/assets/js/home.js"></script>
     <script src="./app/assets/libraries/glide-3.4.1/dist/glide.min.js"></script>
@@ -20,67 +21,58 @@
     <title>Document</title>
 </head>
 <body>
-<?php $this->loadTemplate($template); ?>
+<?php $this->loadTemplate(); ?>
 
 <!-- sessão sub-header -->
-<section id="inicio" class="d-flex align-items-center justify-content-center">
-    <div class="container position-relative">
-        <h1 class="text-inicio mb-4">
-            Chegou a hora de tirar seus projetos do papel!
-        </h1>
+<section id="inicio">
+    <div class="container d-flex flex-column align-content-between box-submenu">
+        <div class="d-flex flex-wrap-reverse">
+            <div class="col-lg-5 col-md-12 col-sm-12 mt-md-4 mt-sm-4 texts-inicio-area pe-lg-4">
+                <h1 class="text-inicio mb-4" id="title-ti">
+                    Seu financiamento imobiliário com a melhor taxa
+                </h1>
+        
+                <p class="text-inicio mb-3" id="sub-titulo-ti">
+                    Financie seu imóvel com as melhores taxas de 
+                    juros do mercado. Solicite uma simulação 
+                    personalizada e vamos encontrar juntos as 
+                    melhores opções para você, com parcelas que 
+                    cabem no seu bolso.
+                </p>
+    
+                <div class="btn-ti-area">
+                    <button class="default-button d-flex flex-row align-items-center justify-content-center" id="btn-ti"> 
+                        <div>Simular meu financiamento</div>
+                        <div class="ms-2" style="margin-top:2.3px"><i class="fas fa-angle-right"></i></div>
+                    </button>
+                </div>
+            </div>
+    
+            <div class="col-lg-7 col-md-12 col-sm-12">
+                <div class="img-inicio">
+                    <img class="img-fluid rounded" src="<?=$baseUrl?>app/assets/imgs/app/submenu.png" alt="">
+                </div>
+            </div>
+        </div>
 
-        <h2 class="text-inicio" id="sub-titulo-ti">
-            Nós somos a uma empresa sediada em Goiânia, 
-            com atuação a nível nacional e uma equipe de 
-            especialistas que já ajudou centenas de pessoas a 
-            realizarem seus sonhos, projetos e objetivos, 
-            levando para essas pessoas um tipo de crédito 
-            que o seu banco não gosta odeia te oferecer.
-        </h2>
+    </div>
 
-        <a href="https://bit.ly/38eCpDc" class="btn-conheca scrollto">Conheça</a>
+    <div class="btn-conheca-mais-area">
+        <div class="col-12 d-flex justify-content-center btn-conheca-mais">
+            <div class="d-flex align-items-center justify-content-center flex-column">
+                <div>Conheça mais</div>
+                <div><i class="fas fa-angle-down"></i></div>
+            </div>
+        </div>
     </div>
 </section>
 
 <main>
-    <section id="clientes" class="clientes section-bg">
-        <div class="container">
-
-            <div class="row">
-
-                <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                    <img src="./app/assets/imgs/app/clients/itau.png" style="height: 80px !important" class="img-fluid" alt="">
-                </div>
-
-                <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                    <img src="./app/assets/imgs/app/clients/santander.png" class="img-fluid" alt="">
-                </div>
-
-                <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                    <img src="./app/assets/imgs/app/clients/bradesco.png" class="img-fluid" alt="">
-                </div>
-
-                <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                    <img src="./app/assets/imgs/app/clients/nubank.png" class="img-fluid" alt="">
-                </div>
-
-                <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                    <img src="./app/assets/imgs/app/clients/banco-do-brasil.png" class="img-fluid" alt="">
-                </div>
-
-                <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                    <img src="./app/assets/imgs/app/clients/c6.png" class="img-fluid" alt="">
-                </div>
-
-            </div>
-
-        </div>
-    </section>
 
     <section class="about">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6"><img class="img-fluid" src="http://lorempixel.com/1280/720"></div>
+                <!-- <div class="col-lg-6"><img class="img-fluid" src="http://lorempixel.com/1280/720"></div> -->
                 <div class="col-lg-6 pt-4 pt-lg-0">
                     <h2>O que está te impedindo ?</h2>
                     <p>A cada virada de ano nos últimos anos muitas pessoas fizeram diversas promessas para MUDAR DE VIDA. Teve gente que pulou 7 ondinhas, alguns comeram arroz com lentilha, usaram roupas amarelas e outros disseram: AGORA VAI! Acontece que os anos se passaram e a maioria não fez nada a respeito. De cara já vamos te deixar uma dica: Se você não fizer algo diferente, continuará a ter os mesmos resultados de sempre. Se a gente te desse um empurrãozinho, como já fizemos com centenas de pessoas para te ajudar a tirar seus projetos do papel e colher resultados diferentes</p>

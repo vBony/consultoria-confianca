@@ -1,0 +1,21 @@
+*{
+    font-family: 'Nunito Sans', sans-serif, "Font Awesome 6 Free", "Font Awesome 6 Brands"  !important;
+}
+
+:root{
+    --primary-color: hsl(27,90%,50%)
+}
+
+.default-button{
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 3px 35px;
+    border-radius: 7px;
+    transition: 0.5s;
+    border: 2px solid var(--primary-color);
+    background-color: var(--primary-color);
+    color: #fff;
+    text-decoration: none;
+}
