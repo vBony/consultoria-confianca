@@ -324,7 +324,7 @@
 
             <div class="section-title">
                 <h2>Dúvidas frequentes</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> -->
             </div>
 
             <div class="accordion" id="accordionExample">
@@ -358,19 +358,19 @@
                             <i class="far fa-question-circle me-3 icon-acc"></i> <div> <b> Qual é o valor máximo do empréstimo? </b> </div>
                         </button>
                     </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
                         <strong> Lorem Ipsum is simply dummy text </strong> of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.
                         </div>
                     </div>
                 </div>
                 <div class="accordion-item faq-acc-item shadow-sm">
-                    <h2 class="accordion-header" id="headingFour">
-                        <button class="accordion-button collapsed d-flex align-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    <h2 class="accordion-header" id="headingFive">
+                        <button class="accordion-button collapsed d-flex align-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                             <i class="far fa-question-circle me-3 icon-acc"></i> <div> <b> Posso compor renda? Ou seja, usar duas ou mais rendas para pedir o empréstimo? </b> </div>
                         </button>
                     </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
                         <strong> Lorem Ipsum is simply dummy text </strong> of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.
                         </div>
