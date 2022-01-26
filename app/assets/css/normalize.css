@@ -3,7 +3,8 @@
 }
 
 :root{
-    --primary-color: hsl(27,90%,50%)
+    --primary-color: hsl(27,90%,50%);
+    --text-primary: #212529;
 }
 
 .default-button{
@@ -18,4 +19,8 @@
     background-color: var(--primary-color);
     color: #fff;
     text-decoration: none;
+}
+
+.text-primary{
+    color: var(--primary-color) !important; 
 }

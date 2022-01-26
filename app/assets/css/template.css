@@ -103,6 +103,6 @@
 
 @media (max-width: 767px){
     .menu-box{
-        padding: 0px;
+        padding: 5px 0px;
     }
 }
