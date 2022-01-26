@@ -673,7 +673,7 @@ Footer
 
     #inicio{
         height: 90vh;
-        padding: 0px 12px;
+        padding: 30px 12px;
         justify-content: flex-start !important;
         align-items: baseline;
     }
@@ -686,7 +686,7 @@ Footer
 @media(max-width: 991px){
     #inicio{
         height: 90vh;
-        padding: 10px 12px;
+        padding: 30px 12px;
         justify-content: flex-start !important;
         align-items: baseline;
     }

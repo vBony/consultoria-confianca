@@ -27,7 +27,7 @@
 <section id="inicio">
     <div class="container d-flex flex-column align-content-between box-submenu">
         <div class="d-flex flex-wrap-reverse">
-            <div class="col-lg-5 col-md-12 col-sm-12 mt-md-4 mt-sm-4 texts-inicio-area px-lg-4">
+            <div class="col-lg-5 col-md-12 col-sm-12 mt-md-4 mt-sm-4 texts-inicio-area pe-lg-4">
                 <h1 class="text-inicio mb-4" id="title-ti">
                     Seu financiamento imobiliário com a melhor taxa
                 </h1>
