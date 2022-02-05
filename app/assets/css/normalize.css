@@ -3,7 +3,9 @@
 }
 
 :root{
-    --primary-color: hsl(27,90%,50%);
+    --primary-color: #86BD3A;
+    --dark-primary: #7daf36;
+    --secondary-color: #FF7A00;
     --text-primary: #212529;
 }
 
@@ -19,6 +21,24 @@
     background-color: var(--primary-color);
     color: #fff;
     text-decoration: none;
+}
+
+.primary-button{
+    background-color: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+}
+
+.secondary-button{
+    background-color: var(--secondary-color) !important;
+    border-color: var(--secondary-color) !important;
+}
+
+.bg-primary{
+    background-color: var(--primary-color) !important;
+}
+
+.bg-secondary{
+    background-color: var(--secondary-color) !important;
 }
 
 .text-primary{

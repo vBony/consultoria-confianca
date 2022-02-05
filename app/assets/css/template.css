@@ -21,6 +21,19 @@
     font-weight: bold;
 }
 
+.opt,.opt-scrolled{
+    transition: 0.2s;
+    border-radius: 5px;
+}
+
+.opt-scrolled:hover{
+    background-color: var(--dark-primary) !important;
+}
+
+.opt:hover{
+    background-color: #D9D9D9;
+}
+
 .nav-opt.nav-header-scrolled{
     color: white !important;
     font-weight: 600;
@@ -35,8 +48,10 @@
 }
 
 #header.header-scrolled {
-    background: rgb(55, 64, 85);
-    background: linear-gradient(183deg,rgb(21, 33, 119),rgb(55, 64, 85));
+    /* background: var(--primary-color); */
+    /* background: linear-gradient(160deg, var(--primary-color), #d1ed02); */
+    /* background: linear-gradient(183deg, #ff8700,#ff500f); */
+    background: linear-gradient(180deg, var(--primary-color) 1%, #a2d144 99%);
     padding: 5px 0;
     top:0;
     animation-name: upToDown;

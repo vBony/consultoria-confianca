@@ -91,7 +91,7 @@
                         </li>
 
                         <li class="glide__slide">
-                            <div class="card">
+                            <div class="card sc-card">
                                 <img class="card-img-top sc-image" src="<?=$baseUrl?>app/assets/imgs/app/solutions-2.jpg" alt="Card image cap">
                                 <div class="card-body sc-body">
                                     <h5 class="card-title sc-title">Financiamento de Terreno</h5>
@@ -108,7 +108,7 @@
                         </li>
 
                         <li class="glide__slide">
-                            <div class="card">
+                            <div class="card sc-card">
                                 <img class="card-img-top sc-image" src="<?=$baseUrl?>app/assets/imgs/app/solutions-3.jpg" alt="Card image cap">
                                 <div class="card-body sc-body">
                                     <h5 class="card-title sc-title">Financiamento de Construção</h5>
@@ -125,7 +125,7 @@
                         </li>
 
                         <li class="glide__slide">
-                            <div class="card">
+                            <div class="card sc-card">
                                 <img class="card-img-top sc-image" src="<?=$baseUrl?>app/assets/imgs/app/solutions-4.jpeg" alt="Card image cap">
                                 <div class="card-body sc-body">
                                     <h5 class="card-title sc-title">Financiamento Comercial</h5>
@@ -142,7 +142,7 @@
                         </li>
 
                         <li class="glide__slide">
-                            <div class="card">
+                            <div class="card sc-card">
                                 <img class="card-img-top sc-image" src="<?=$baseUrl?>app/assets/imgs/app/solutions-5.jpg" alt="Card image cap">
                                 <div class="card-body sc-body">
                                     <div class="card-title sc-title">
@@ -162,7 +162,7 @@
                         </li>
 
                         <li class="glide__slide">
-                            <div class="card">
+                            <div class="card sc-card">
                                 <img class="card-img-top sc-image" src="<?=$baseUrl?>app/assets/imgs/app/solutions-6.jpg" alt="Card image cap">
                                 <div class="card-body sc-body">
                                     <h5 class="card-title sc-title">Portabilidade</h5>

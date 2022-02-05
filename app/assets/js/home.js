@@ -46,6 +46,8 @@ $(document).ready(() => {
         let navs = $('.nav-opt')
         let logo = $('.logo-menu')
         let bars = $('.bars')
+        let opts = $('.opt')
+        let btn = $('#simular-btn')
 
         if(selectHeader){
             if (window.scrollY > 100) {
@@ -53,11 +55,15 @@ $(document).ready(() => {
                 navs.addClass('nav-header-scrolled')
                 logo.addClass('logo-menu-header-scrolled')
                 bars.addClass('bars-scrolled')
+                opts.addClass('opt-scrolled')
+                btn.addClass('secondary-button')
             } else {
                 selectHeader.removeClass('header-scrolled')
                 navs.removeClass('nav-header-scrolled')
                 logo.removeClass('logo-menu-header-scrolled')
                 bars.removeClass('bars-scrolled')
+                opts.removeClass('opt-scrolled')
+                btn.removeClass('secondary-button')
             }
         }
     })
