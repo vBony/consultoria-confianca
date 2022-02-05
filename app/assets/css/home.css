@@ -706,11 +706,23 @@ Footer
         margin-top: 1.5rem;
     }
 
+    .steps-area{
+        margin-top: 1.5rem;
+    }
+
+    .steps-title{
+        padding: 0px !important;
+    }
+
     #inicio{
         height: 90vh;
         padding: 30px 12px;
         justify-content: flex-start !important;
         align-items: baseline;
+    }
+
+    .timeline{
+        padding: 10px !important;
     }
 
     .box-submenu{
