@@ -194,13 +194,13 @@
 
     <section class="simulacao">
         <div class="container">
-            <div class="row">
+            <div>
                 <div class="col-lg-7 col-md-12 col-sm-12 d-flex align-items-center">
                     <div class="">
                         <img class="img-fluid rounded" src="<?=$baseUrl?>app/assets/imgs/app/simulacao.jpg" alt="">
                     </div>
                 </div>
-                <div class="col-lg-5 col-md-12 col-sm-12 mt-md-4 mt-sm-4 d-flex align-items-center flex-column">
+                <div class="col-lg-5 col-md-12 col-sm-12 mt-md-4 mt-sm-4 d-flex align-items-center flex-column mt-md-4 mt-sm-4 steps-area">
                     <div class="col-12 steps-title">
                         <h1 class="default-title">Veja como é fácil financiar seu imóvel</h1>
                     </div>
