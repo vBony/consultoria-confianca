@@ -192,6 +192,81 @@
         </div>
     </section>
 
+    <section class="simulacao">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 col-md-12 col-sm-12 d-flex align-items-center">
+                    <div class="">
+                        <img class="img-fluid rounded" src="<?=$baseUrl?>app/assets/imgs/app/simulacao.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-12 col-sm-12 mt-md-4 mt-sm-4 d-flex align-items-center flex-column">
+                    <div class="col-12 steps-title">
+                        <h1 class="default-title">Veja como é fácil financiar seu imóvel</h1>
+                    </div>
+
+                    <div class="timeline">
+                        <div class="outer">
+                            <div class="card-steps">
+                                <div class="info-steps">
+                                    <h3 class="title-steps text-grayscale--400 fs-14 fw-600 lh-17 mb-2">
+                                        Faça sua Simulação
+                                    </h3>
+                                    <p>
+                                        Informe os dados solicitados em nosso formulário 
+                                        e receba as melhores propostas personalizadas 
+                                        para você.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card-steps">
+                                <div class="info-steps">
+                                    <h3 class="title-steps">
+                                        Juntada de documentos e Aprovação de crédito
+                                    </h3>
+                                    <p>
+                                        Tudo certo com a simulação? Envie a documentação 
+                                        solicita por nossos especialistas e cuidaremos 
+                                        da sua aprovação de crédito
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card-steps">
+                                <div class="info-steps">
+                                    <h3 class="title-steps">
+                                        Vistoria do imóvel
+                                    </h3>
+                                    <p>
+                                        Aqui o banco enviará um engenheiro qualificado para 
+                                        avaliar o imóvel que está sendo adquirido e na 
+                                        sequência confeccionar o laudo de avaliação.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card-steps">
+                                <div class="info-steps">
+                                    <h3 class="title-steps">
+                                        Análise Jurídica/Emissão do contrato
+                                    </h3>
+                                    <p>
+                                        Nessa última etapa, o banco analisa a documentação 
+                                        dos envolvidos e emite o contrato de financiamento 
+                                        para assinatura. Após o registro do contrato em 
+                                        cartório, o dinheiro é liberado ao(s) vendedor(es).
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="btn-steps-area">
+                                <button class="default-button">Simular agora</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section class="services">
         <div class="container">
             <div class="section-title">

@@ -44,3 +44,9 @@
 .text-primary{
     color: var(--primary-color) !important; 
 }
+
+.default-title{
+    color:#161616;
+    /* font-size:40px !important;  */
+    font-weight: bold !important;
+}

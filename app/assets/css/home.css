@@ -718,6 +718,88 @@ Footer
     }
 }
 
+/* :root {
+    --primary-color: #fff;
+    --background-color: #212121;
+    --font: sans-serif;
+}
+  
+* {
+    margin: 0;
+    padding: 0;
+}
+*/
+.simulacao {
+    background: var(--background-color);
+    font-family: var(--font);
+    display: flex;
+    justify-content: center;
+}
+  
+.timeline {
+    width: 100%;
+    /* margin: 20px auto; */
+    padding: 20px;
+} 
+  
+  /* Outer Layer with the timeline border */
+.outer {
+    border-left: 2px solid var(--primary-color);
+    border-bottom-left-radius: 10px;
+}
+  
+  /* Card container */
+.card-steps {
+    position: relative;
+    margin: 0 0 20px 20px;
+    padding: 10px;
+    background: #F7F8FA;
+    color: var(--text-primary);
+    border-radius: 8px;
+    width: 100%;
+}
+  
+  /* Information about the timeline */
+.info-steps {
+    display: flex;
+    flex-direction: column;
+}
+
+.steps-title{
+    padding: 0px 0px 0px 20px;
+}
+
+.info-steps p {
+    color: #6a6c72 !important;
+    font-size: 14px;
+    font-weight:400;
+    margin: 0px;
+}
+  
+  /* Title of the card */
+.title-steps {
+    color: #6a6c72;
+    font-size: 14px;
+    position: relative;
+    font-weight:600;
+}
+  
+  /* Timeline dot  */
+.title-steps::before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: var(--primary-color);
+    border-radius: 100%;
+    left: -42px;
+    border: 3px solid var(--primary-color);
+}
+
+.btn-steps-area button{
+    padding: 10px 50px !important;
+}
+
 @media(max-width: 991px){
     #inicio{
         height: 90vh;
