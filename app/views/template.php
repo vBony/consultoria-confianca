@@ -13,24 +13,24 @@
 
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
+                    <li class="nav-item opt">
                         <a href="#" class="nav-link active nav-opt header-font" aria-current="page">Início</a>
                     </li>
 
-                    <li class="nav-item">
+                    <li class="nav-item opt">
                         <a href="#" class="nav-link active nav-opt header-font" aria-current="page">Sobre</a>
                     </li>
 
-                    <li class="nav-item">
+                    <li class="nav-item opt">
                         <a href="#" class="nav-link active nav-opt header-font" aria-current="page">Serviços</a>
                     </li>
 
-                    <li class="nav-item">
+                    <li class="nav-item opt">
                         <a href="#" class="nav-link active nav-opt header-font" aria-current="page">Contato</a>
                     </li>
                     
                     <li class="nav-item d-flex align-items-center btn-simu-area">
-                        <button type="submit" class="default-button ">Simular</button>
+                        <button type="submit" id="simular-btn" class="default-button primary-button">Simular</button>
                     </li>
                 </ul>
             </div>
