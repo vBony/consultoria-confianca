@@ -9,6 +9,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./app/assets/css/home.css">
     <link rel="stylesheet" href="./app/assets/css/template.css">
+    <link rel="stylesheet" href="./app/assets/css/normalize.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="./app/assets/js/home.js"></script>
     <script src="./app/assets/libraries/glide-3.4.1/dist/glide.min.js"></script>
@@ -20,80 +21,245 @@
     <title>Document</title>
 </head>
 <body>
-<?php $this->loadTemplate($template); ?>
+<?php $this->loadTemplate(); ?>
 
 <!-- sessão sub-header -->
-<section id="inicio" class="d-flex align-items-center justify-content-center">
-    <div class="container position-relative">
-        <h1 class="text-inicio mb-4">
-            Chegou a hora de tirar seus projetos do papel!
-        </h1>
+<section id="inicio">
+    <div class="container d-flex flex-column align-content-between box-submenu">
+        <div class="d-flex flex-wrap-reverse">
+            <div class="col-lg-5 col-md-12 col-sm-12 mt-md-4 mt-sm-4 texts-inicio-area pe-lg-4">
+                <h1 class="text-inicio mb-4" id="title-ti">
+                    Seu financiamento imobiliário com a melhor taxa
+                </h1>
+        
+                <p class="text-inicio mb-3" id="sub-titulo-ti">
+                    Financie seu imóvel com as melhores taxas de 
+                    juros do mercado. Solicite uma simulação 
+                    personalizada e vamos encontrar juntos as 
+                    melhores opções para você, com parcelas que 
+                    cabem no seu bolso.
+                </p>
+    
+                <div class="btn-ti-area">
+                    <button class="default-button d-flex flex-row align-items-center justify-content-center" id="btn-ti"> 
+                        <div>Simular meu financiamento</div>
+                        <div class="ms-2" style="margin-top:2.3px"><i class="fas fa-angle-right"></i></div>
+                    </button>
+                </div>
+            </div>
+    
+            <div class="col-lg-7 col-md-12 col-sm-12">
+                <div class="img-inicio">
+                    <img class="img-fluid rounded" src="<?=$baseUrl?>app/assets/imgs/app/submenu.png" alt="">
+                </div>
+            </div>
+        </div>
 
-        <h2 class="text-inicio" id="sub-titulo-ti">
-            Nós somos a uma empresa sediada em Goiânia, 
-            com atuação a nível nacional e uma equipe de 
-            especialistas que já ajudou centenas de pessoas a 
-            realizarem seus sonhos, projetos e objetivos, 
-            levando para essas pessoas um tipo de crédito 
-            que o seu banco não gosta odeia te oferecer.
-        </h2>
+    </div>
 
-        <a href="https://bit.ly/38eCpDc" class="btn-conheca scrollto">Conheça</a>
+    <div class="btn-conheca-mais-area">
+        <div class="col-12 d-flex justify-content-center btn-conheca-mais">
+            <div class="d-flex align-items-center justify-content-center flex-column">
+                <div>Conheça mais</div>
+                <div><i class="fas fa-angle-down"></i></div>
+            </div>
+        </div>
     </div>
 </section>
 
 <main>
-    <section id="clientes" class="clientes section-bg">
+    <section class="solutions">
         <div class="container">
-
-            <div class="row">
-
-                <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                    <img src="./app/assets/imgs/app/clients/itau.png" style="height: 80px !important" class="img-fluid" alt="">
-                </div>
-
-                <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                    <img src="./app/assets/imgs/app/clients/santander.png" class="img-fluid" alt="">
-                </div>
-
-                <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                    <img src="./app/assets/imgs/app/clients/bradesco.png" class="img-fluid" alt="">
-                </div>
-
-                <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                    <img src="./app/assets/imgs/app/clients/nubank.png" class="img-fluid" alt="">
-                </div>
-
-                <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                    <img src="./app/assets/imgs/app/clients/banco-do-brasil.png" class="img-fluid" alt="">
-                </div>
-
-                <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                    <img src="./app/assets/imgs/app/clients/c6.png" class="img-fluid" alt="">
-                </div>
-
+            <div class="col-lg-6 col-md-8 col-sm-12 text-start s-title">
+                <h1><b>Conheça as <strong class="text-primary">soluções</strong> que a <strong class="text-primary">Confiança Consultoria em Crédito Imobiliário</strong> oferece a você</b></h1>   
             </div>
 
+            <div class="glide my-4" id="solutions_c">
+                <div class="glide__track" data-glide-el="track">
+                    <ul class="glide__slides mb-4">
+                        <li class="glide__slide">
+                            <div class="card sc-card">
+                                <img class="card-img-top sc-image" src="<?=$baseUrl?>app/assets/imgs/app/solutions-1.jpg" alt="Card image cap">
+                                <div class="card-body sc-body">
+                                    <h6 class="card-title sc-title">Financiamento Residencial</h6>
+                                    <p class="card-text sc-text">Financie sua casa ou apartamento.</p>
+                                    <div class="sc-btn">
+                                        <a href="#" class="">Financiar casa ou apartamento</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="glide__slide">
+                            <div class="card sc-card">
+                                <img class="card-img-top sc-image" src="<?=$baseUrl?>app/assets/imgs/app/solutions-2.jpg" alt="Card image cap">
+                                <div class="card-body sc-body">
+                                    <h5 class="card-title sc-title">Financiamento de Terreno</h5>
+                                    <p class="card-text sc-text">
+                                        Financie um terreno e aproveite a oportunidade 
+                                        e pagar uma parcela sem surpresas, balões ou 
+                                        correções mensais.
+                                    </p>
+                                    <div class="sc-btn">
+                                        <a href="#" class="">Financiar um terreno</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="glide__slide">
+                            <div class="card sc-card">
+                                <img class="card-img-top sc-image" src="<?=$baseUrl?>app/assets/imgs/app/solutions-3.jpg" alt="Card image cap">
+                                <div class="card-body sc-body">
+                                    <h5 class="card-title sc-title">Financiamento de Construção</h5>
+                                    <p class="card-text sc-text">
+                                        Faça do seu jeito! É possível adquirir um terreno + 
+                                        construção ou somente a construção, conforme sua 
+                                        necessidade.
+                                    </p>
+                                    <div class="sc-btn">
+                                        <a href="#" class="">Financiar construção</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="glide__slide">
+                            <div class="card sc-card">
+                                <img class="card-img-top sc-image" src="<?=$baseUrl?>app/assets/imgs/app/solutions-4.jpeg" alt="Card image cap">
+                                <div class="card-body sc-body">
+                                    <h5 class="card-title sc-title">Financiamento Comercial</h5>
+                                    <p class="card-text sc-text">
+                                        Financie sua sala comercial e 
+                                        troque o aluguel do seu negócio 
+                                        pela parcela do seu financiamento.
+                                    </p>
+                                    <div class="sc-btn">
+                                        <a href="#" class="">Conhecer empréstimo</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="glide__slide">
+                            <div class="card sc-card">
+                                <img class="card-img-top sc-image" src="<?=$baseUrl?>app/assets/imgs/app/solutions-5.jpg" alt="Card image cap">
+                                <div class="card-body sc-body">
+                                    <div class="card-title sc-title">
+                                        Empréstimo com Garantia de Imóvel
+                                    </div>
+                                    <p class="card-text sc-text">
+                                        Use seu imóvel como garantia e pegue até 60% do valor dele 
+                                        em dinheiro, para usar como bem entender, sem necessidade 
+                                        de prestação de contas do dinheiro ao banco. Faça 
+                                        literalmente o que você quiser.
+                                    </p>
+                                    <div class="sc-btn">
+                                        <a href="#" class="">Conhecer empréstimo</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="glide__slide">
+                            <div class="card sc-card">
+                                <img class="card-img-top sc-image" src="<?=$baseUrl?>app/assets/imgs/app/solutions-6.jpg" alt="Card image cap">
+                                <div class="card-body sc-body">
+                                    <h5 class="card-title sc-title">Portabilidade</h5>
+                                    <p class="card-text sc-text">
+                                        Reduza a taxa de juros e o valor da 
+                                        parcela do seu financiamento já 
+                                        existente através da portabilidade
+                                    </p>
+                                    <div class="sc-btn">
+                                        <a href="#" class="">Conhecer empréstimo</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <br><br>
+                <div class="glide__bullets sc-bullets" data-glide-el="controls[nav]">
+                    <button class="glide__bullet" data-glide-dir="=0"></button>
+                    <button class="glide__bullet" data-glide-dir="=1"></button>
+                    <button class="glide__bullet" data-glide-dir="=2"></button>
+                    <button class="glide__bullet" data-glide-dir="=3"></button>
+                    <button class="glide__bullet" data-glide-dir="=4"></button>
+                    <button class="glide__bullet" data-glide-dir="=5"></button>
+                </div>
+            </div>
         </div>
     </section>
 
-    <section class="about">
+    <section class="simulacao">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6"><img class="img-fluid" src="http://lorempixel.com/1280/720"></div>
-                <div class="col-lg-6 pt-4 pt-lg-0">
-                    <h2>O que está te impedindo ?</h2>
-                    <p>A cada virada de ano nos últimos anos muitas pessoas fizeram diversas promessas para MUDAR DE VIDA. Teve gente que pulou 7 ondinhas, alguns comeram arroz com lentilha, usaram roupas amarelas e outros disseram: AGORA VAI! Acontece que os anos se passaram e a maioria não fez nada a respeito. De cara já vamos te deixar uma dica: Se você não fizer algo diferente, continuará a ter os mesmos resultados de sempre. Se a gente te desse um empurrãozinho, como já fizemos com centenas de pessoas para te ajudar a tirar seus projetos do papel e colher resultados diferentes</p>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <i class="far fa-file-alt"></i>
-                            <h4>Corporis voluptates sit</h4>
-                            <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
-                        </div>
-                        <div class="col-md-6">
-                            <i class="fas fa-cube"></i>
-                            <h4>Ullamco laboris nisi</h4>
-                            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+                <div class="col-lg-7 col-md-12 col-sm-12 d-flex align-items-center">
+                    <div class="">
+                        <img class="img-fluid rounded" src="<?=$baseUrl?>app/assets/imgs/app/simulacao.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-12 col-sm-12 mt-md-4 mt-sm-4 d-flex align-items-center flex-column">
+                    <div class="col-12 steps-title">
+                        <h1 class="default-title">Veja como é fácil financiar seu imóvel</h1>
+                    </div>
+
+                    <div class="timeline">
+                        <div class="outer">
+                            <div class="card-steps">
+                                <div class="info-steps">
+                                    <h3 class="title-steps text-grayscale--400 fs-14 fw-600 lh-17 mb-2">
+                                        Faça sua Simulação
+                                    </h3>
+                                    <p>
+                                        Informe os dados solicitados em nosso formulário 
+                                        e receba as melhores propostas personalizadas 
+                                        para você.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card-steps">
+                                <div class="info-steps">
+                                    <h3 class="title-steps">
+                                        Juntada de documentos e Aprovação de crédito
+                                    </h3>
+                                    <p>
+                                        Tudo certo com a simulação? Envie a documentação 
+                                        solicita por nossos especialistas e cuidaremos 
+                                        da sua aprovação de crédito
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card-steps">
+                                <div class="info-steps">
+                                    <h3 class="title-steps">
+                                        Vistoria do imóvel
+                                    </h3>
+                                    <p>
+                                        Aqui o banco enviará um engenheiro qualificado para 
+                                        avaliar o imóvel que está sendo adquirido e na 
+                                        sequência confeccionar o laudo de avaliação.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="card-steps">
+                                <div class="info-steps">
+                                    <h3 class="title-steps">
+                                        Análise Jurídica/Emissão do contrato
+                                    </h3>
+                                    <p>
+                                        Nessa última etapa, o banco analisa a documentação 
+                                        dos envolvidos e emite o contrato de financiamento 
+                                        para assinatura. Após o registro do contrato em 
+                                        cartório, o dinheiro é liberado ao(s) vendedor(es).
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="btn-steps-area">
+                                <button class="default-button">Simular agora</button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -185,7 +351,7 @@
           <p>Confira os depoimentos de algumas das centenas de pessoas que já foram nossos clientes</p>
         </div>
 
-        <div class="glide">
+        <div class="glide" id="depoimentos_c">
             <div class="glide__track" data-glide-el="track">
                 <ul class="glide__slides p-4 mb-4">
                     <li class="glide__slide">
@@ -332,14 +498,14 @@
 
             <div class="section-title">
                 <h2>Dúvidas frequentes</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> -->
             </div>
 
             <div class="accordion" id="accordionExample">
                 <div class="accordion-item faq-acc-item shadow-sm">
                     <h2 class="accordion-header" id="headingOne">
                         <button class="accordion-button collapsed d-flex align-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                            <i class="far fa-question-circle me-3 icon-acc"></i> <div> <b> Lorem Ipsum is simply </b> </div>
+                            <i class="far fa-question-circle me-3 icon-acc"></i> <div> <b> Como fazer empréstimo online? </b> </div>
                         </button>
                     </h2>
                     <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
@@ -351,7 +517,7 @@
                 <div class="accordion-item faq-acc-item shadow-sm">
                     <h2 class="accordion-header" id="headingTwo">
                         <button class="accordion-button collapsed d-flex align-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            <i class="far fa-question-circle me-3 icon-acc"></i> <div> <b> Lorem Ipsum is simply </b> </div>
+                            <i class="far fa-question-circle me-3 icon-acc"></i> <div> <b> Qual a diferença entre empréstimo pessoal e empréstimo com garantia? </b> </div>
                         </button>
                     </h2>
                     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
@@ -363,10 +529,22 @@
                 <div class="accordion-item faq-acc-item shadow-sm">
                     <h2 class="accordion-header" id="headingThree">
                         <button class="accordion-button collapsed d-flex align-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            <i class="far fa-question-circle me-3 icon-acc"></i> <div> <b> Lorem Ipsum is simply </b> </div>
+                            <i class="far fa-question-circle me-3 icon-acc"></i> <div> <b> Qual é o valor máximo do empréstimo? </b> </div>
                         </button>
                     </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                        <strong> Lorem Ipsum is simply dummy text </strong> of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item faq-acc-item shadow-sm">
+                    <h2 class="accordion-header" id="headingFive">
+                        <button class="accordion-button collapsed d-flex align-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            <i class="far fa-question-circle me-3 icon-acc"></i> <div> <b> Posso compor renda? Ou seja, usar duas ou mais rendas para pedir o empréstimo? </b> </div>
+                        </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
                         <strong> Lorem Ipsum is simply dummy text </strong> of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.
                         </div>
