@@ -194,8 +194,8 @@
 
     <section class="simulacao">
         <div class="container">
-            <div>
-                <div class="col-lg-7 col-md-12 col-sm-12 d-flex align-items-center">
+            <div class="d-flex align-items-center justify-content-between flex-row flex-wrap">
+                <div class="col-lg-6 col-md-12 col-sm-12 d-flex align-items-center">
                     <div class="">
                         <img class="img-fluid rounded" src="<?=$baseUrl?>app/assets/imgs/app/simulacao.jpg" alt="">
                     </div>
