@@ -7,6 +7,8 @@
     --dark-primary: #7daf36;
     --secondary-color: #FF7A00;
     --text-primary: #212529;
+    --text-secondary: #6a6c72;
+    --primary-color-transparency: #86bd3a0e;
 }
 
 .default-button{
@@ -43,6 +45,10 @@
 
 .text-primary{
     color: var(--primary-color) !important; 
+}
+
+.text-secondaty{
+    color: var(--text-secondary);
 }
 
 .default-title{

@@ -6,6 +6,12 @@ section{
     padding: 20vh 0px 10vh 0px;
 }
 
+@media (max-width: 991px){
+    section{
+        padding: 10vh 0px 5vh 0px;
+    }
+}
+
 #inicio{
     width: 100%;
     /* height: 85vh; */
@@ -16,16 +22,6 @@ section{
     justify-content: center;
     /* d-flex align-items-center justify-content-center */
 }
-
-/* #inicio:before {
-    content: "";
-    background: rgba(45, 53, 69, 0.7);
-    position: absolute;
-    bottom: 0;
-    top: 0;
-    left: 0;
-    right: 0;
-} */
 
 #inicio.container {
     text-align: center;
@@ -183,107 +179,141 @@ Clientes
     transform: scale(1.15);
 }
 
+/*
+========================
+Steps/simulacao
+========================
+*/
+.simulacao {
+    background: var(--background-color);
+    font-family: var(--font);
+    display: flex;
+    justify-content: center;
+}
+  
+.timeline {
+    width: 100%;
+    /* margin: 20px auto; */
+    padding: 20px;
+} 
+  
+  /* Outer Layer with the timeline border */
+.outer {
+    border-left: 2px solid var(--primary-color);
+    border-bottom-left-radius: 10px;
+}
+  
+  /* Card container */
+.card-steps {
+    position: relative;
+    margin: 0 0 20px 20px;
+    padding: 10px;
+    background: #F7F8FA;
+    color: var(--text-primary);
+    border-radius: 8px;
+    width: 100%;
+}
+  
+  /* Information about the timeline */
+.info-steps {
+    display: flex;
+    flex-direction: column;
+}
+
+.steps-title{
+    padding: 0px 0px 0px 20px;
+}
+
+.info-steps p {
+    color: #6a6c72 !important;
+    font-size: 14px;
+    font-weight:400;
+    margin: 0px;
+}
+  
+  /* Title of the card */
+.title-steps {
+    color: #6a6c72;
+    font-size: 14px;
+    position: relative;
+    font-weight:600;
+}
+  
+  /* Timeline dot  */
+.title-steps::before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: var(--primary-color);
+    border-radius: 100%;
+    left: -42px;
+    border: 3px solid var(--primary-color);
+}
+
+.btn-steps-area button{
+    padding: 10px 50px !important;
+}
+
+
 /* 
 ========================
 Serviços
 ========================
  */
 
-.section-title {
-    text-align: center;
-    padding-bottom: 30px;
+.services{
+    background-color: #f7f8fa;
 }
 
-.section-title h2 {
-    font-weight: bold;
-    text-transform: uppercase;
-    padding-bottom: 20px;
-    margin-bottom: 20px;
-    position: relative;
+.card-services{
+    padding: 10px;
+    margin: 10px;
+    background: #F7F8FA;
+    border: 1px solid var(--primary-color);
+    background-color: var(--primary-color-transparency);
+    border-radius: 8px;
 }
 
-.section-title p {
-    color: #aab3c7;
-}
-
-.section-title h2::after {
-    content: "";
-    position: absolute;
-    display: block;
-    width: 50px;
-    height: 3px;
-    background: var(--primary-color);
-    bottom: 0;
-    left: calc(50% - 25px);
-}
-
-.services .icon-box {
-    text-align: center;
-    padding: 70px 20px 80px 20px;
-    transition: all ease-in-out 0.3s;
-    background: #fff;
-    box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.05);
-}
-
-.services .icon-box .icon {
-    margin: 0 auto;
-    width: 64px;
-    height: 64px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: ease-in-out 0.3s;
-    position: relative;
-    background: #f5f5f5;
-    border-radius: 50px;
-}
-
-.services .icon-box .icon i {
-    font-size: 32px;
-    transition: 0.5s;
-    line-height: 1;
-    position: relative;
-}
-
-.services .iconbox-blue i {
-    color: #47aeff;
-}
-
-.services .iconbox-pink i {
-    color: #e80368;
-}
-
-.services .iconbox-red i {
-    color: #ff5828;
-}
-
-.services .iconbox-teal i {
-    color: #11dbcf;
-}
-
-.services .iconbox-yellow i {
-    color: #ffbb2c;
-}
-
-.services .iconbox-orange i {
-    color: #ffa76e;
-}
-
-.services .icon-box h4 a {
-    color: #414c64;
-    transition: ease-in-out 0.3s;
-}
-
-.services .icon-box p {
-    line-height: 24px;
+.title-card-services{
+    color: #6a6c72;
     font-size: 14px;
-    margin-bottom: 0;
+    position: relative;
+    font-weight:600;
 }
 
-.icon-box:hover {
-    box-shadow: 0px 0 35px 0 rgba(0, 0, 0, 0.08);
+.card-services p {
+    color: #6a6c72 !important;
+    font-size: 14px;
+    font-weight:400;
+    margin: 0px;
 }
 
+#cards-mobile{
+    display: none !important;
+}
+
+.btn-services{
+    padding: 10px 50px !important;
+}
+
+.btn-services-area{
+    margin-top: 10px;
+}
+
+@media (max-width: 991px){
+    #cards-web{
+        display: none !important;
+    }
+
+    #cards-mobile{
+        display: block !important;
+    }
+
+    #btn-destop-services{
+        display: none;
+    }
+}   
 
 /* 
 ========================
@@ -715,7 +745,7 @@ Footer
     }
 
     #inicio{
-        height: 90vh;
+        /* height: 90vh; */
         padding: 30px 12px;
         justify-content: flex-start !important;
         align-items: baseline;
@@ -730,92 +760,10 @@ Footer
     }
 }
 
-/* :root {
-    --primary-color: #fff;
-    --background-color: #212121;
-    --font: sans-serif;
-}
-  
-* {
-    margin: 0;
-    padding: 0;
-}
-*/
-.simulacao {
-    background: var(--background-color);
-    font-family: var(--font);
-    display: flex;
-    justify-content: center;
-}
-  
-.timeline {
-    width: 100%;
-    /* margin: 20px auto; */
-    padding: 20px;
-} 
-  
-  /* Outer Layer with the timeline border */
-.outer {
-    border-left: 2px solid var(--primary-color);
-    border-bottom-left-radius: 10px;
-}
-  
-  /* Card container */
-.card-steps {
-    position: relative;
-    margin: 0 0 20px 20px;
-    padding: 10px;
-    background: #F7F8FA;
-    color: var(--text-primary);
-    border-radius: 8px;
-    width: 100%;
-}
-  
-  /* Information about the timeline */
-.info-steps {
-    display: flex;
-    flex-direction: column;
-}
-
-.steps-title{
-    padding: 0px 0px 0px 20px;
-}
-
-.info-steps p {
-    color: #6a6c72 !important;
-    font-size: 14px;
-    font-weight:400;
-    margin: 0px;
-}
-  
-  /* Title of the card */
-.title-steps {
-    color: #6a6c72;
-    font-size: 14px;
-    position: relative;
-    font-weight:600;
-}
-  
-  /* Timeline dot  */
-.title-steps::before {
-    content: "";
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    background: var(--primary-color);
-    border-radius: 100%;
-    left: -42px;
-    border: 3px solid var(--primary-color);
-}
-
-.btn-steps-area button{
-    padding: 10px 50px !important;
-}
-
 @media(max-width: 991px){
     #inicio{
-        height: 90vh;
-        padding: 30px 12px;
+        /* height: 60vh; */
+        padding: 80px 12px;
         justify-content: flex-start !important;
         align-items: baseline;
     }
