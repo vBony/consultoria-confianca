@@ -1,7 +1,7 @@
 $(document).ready(() => {
     var glide = new Glide('#depoimentos_c', {
         type: 'carousel',
-        focusAt: 'center',
+        // focusAt: 'center',
         autoplay: 2000,
         hoverpause: false,
         perView: 3,
@@ -22,11 +22,10 @@ $(document).ready(() => {
 
     var solutions = new Glide('#solutions_c', {
         type: 'carousel',
-        focusAt: 'center',
+        // focusAt: 'center',
         autoplay: 3000,
         hoverpause: false,
         perView: 3,
-        gap: 20,
         breakpoints: {
             767: {
               perView: 1,
@@ -40,6 +39,25 @@ $(document).ready(() => {
     })
 
     solutions.mount()
+
+    var services = new Glide('#services_c', {
+        type: 'carousel',
+        autoplay: 3000,
+        hoverpause: false,
+        perView: 2,
+        perTouch: 2,
+        breakpoints: {
+            991: {
+              perView: 2,
+            },
+
+            768: {
+                perView: 1,
+            }
+        }
+    })
+
+    services.mount()
     
     $(document).on('scroll', () => {
         let selectHeader = $('#header')

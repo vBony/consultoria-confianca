@@ -269,63 +269,205 @@
 
     <section class="services">
         <div class="container">
-            <div class="section-title">
-                <h2>Serviços</h2>
-                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-                    <div class="icon-box iconbox-blue" data-cor="#47aeff">
-                        <div class="icon">
-                            <i class="fas fa-basketball-ball"></i>
-                        </div>
-                        <h4><a>Lorem Ipsum</a></h4>
-                        <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+            <div class="row d-flex align-items-center">
+                <div class="col-lg-7 col-md-12 col-sm-12">
+                    <div class="col-12">
+                        <h1 class="default-title">Mais praticidade e simplicidade para adquirir seu imóvel</h1>
+                    </div>
+
+                    <div class="services-text-area text-secondary">
+                        Fale agora mesmo com um de nossos especialistas e saiba como podemos te ajudar em seu 
+                        financiamento de forma rápida, prática, minimizando a burocracia, descomplicando e 
+                        cuidando de absolutamente tudo pra você.
+                    </div>
+
+                    <div class="btn-services-area" id="btn-destop-services">
+                        <button class="default-button primary-button btn-services">Fale conosco</button>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-                    <div class="icon-box iconbox-orange" data-cor="#ffa76e">
-                        <div class="icon">
-                            <i class="far fa-file-alt"></i>
+    
+                <div class="col-lg-5 col-md-12 col-sm-12 d-flex flex-row flex-wrap" id="cards-web">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="card-services">
+                            <h3 class="title-card-services">Parcelas que cabem no seu bolso</h3>
+                            <p>
+                                Aproveite as melhores taxas de juros do mercado 
+                                e saiba também qual a melhor opção de 
+                                financiamento se encaixa no seu orçamento.
+                            </p>
                         </div>
-                        <h4><a>Sed Perspiciatis</a></h4>
-                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+
+                        <div class="card-services">
+                            <h3 class="title-card-services">Imóveis residenciais, comerciais, terrenos e construção</h3>
+                            <p>
+                                Seu imóvel pode ser novo ou usado e você também pode adquirir 
+                                terreno, terreno com construção ou até mesmo só a construção 
+                                em terreno próprio.
+                            </p>
+                        </div>
+
+                        <div class="card-services">
+                            <h3 class="title-card-services">Financie em prazos maiores</h3>
+                            <p>
+                                É possível financiar em até 30 anos na maioria dos bancos 
+                                (360 meses). Alguns deles ainda possibilitam que o prazo 
+                                de financiamento chegue a 35 anos (420 meses).
+                            </p>
+                        </div>
+
+                        <div class="card-services">
+                            <h3 class="title-card-services">Financie as despesas de prefeitura e cartório</h3>
+                            <p>
+                                Em muitos casos é possível financiar também as despesas para pagamento 
+                                das transferências junto à prefeitura e cartório.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <div class="card-services">
+                            <h3 class="title-card-services">Use seu FGTS</h3>
+                            <p>
+                                Você pode utilizar seu saldo de FGTS para ajudar 
+                                no seu financiamento de imóvel residencial ou 
+                                construção
+                            </p>
+                        </div>
+
+                        <div class="card-services">
+                            <h3 class="title-card-services">Financie o máximo possível</h3>
+                            <p>
+                                Os bancos liberam entre 70, 80 e 90% de financiamento, a 
+                                depender do perfil do cliente. Em alguns casos específicos, 
+                                conseguimos auxiliar o cliente a financiar até 100% do valor 
+                                do imóvel.
+                            </p>
+                        </div>
+                        
+                        <div class="card-services">
+                            <h3 class="title-card-services">Com ou sem comprovação de renda</h3>
+                            <p>
+                                Consulte-nos para saber mais a respeito.
+                            </p>
+                        </div>
+
+                        <div class="card-services">
+                            <h3 class="title-card-services">Junte sua renda com amigos e familiares</h3>
+                            <p>
+                                Se achar necessário, você pode compor renda com mais pessoas, com ou sem vínculo de parentesco.
+                            </p>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-                    <div class="icon-box iconbox-pink" data-cor="#e80368">
-                        <div class="icon">
-                            <i class="far fa-comment-dots"></i>
+
+                <div class="col-12" id="cards-mobile">
+                    <div class="glide my-4" id="services_c">
+                        <div class="glide__track" data-glide-el="track">
+                            <ul class="glide__slides mb-4">
+                                <li class="glide__slide">
+                                    <div class="card-services">
+                                        <h3 class="title-card-services">Parcelas que cabem no seu bolso</h3>
+                                        <p>
+                                            Aproveite as melhores taxas de juros do mercado 
+                                            e saiba também qual a melhor opção de 
+                                            financiamento se encaixa no seu orçamento.
+                                        </p>
+                                    </div>
+                                </li>
+
+                                <li class="glide__slide">
+                                    <div class="card-services">
+                                        <h3 class="title-card-services">Imóveis residenciais, comerciais, terrenos e construção</h3>
+                                        <p>
+                                            Seu imóvel pode ser novo ou usado e você também pode adquirir 
+                                            terreno, terreno com construção ou até mesmo só a construção 
+                                            em terreno próprio.
+                                        </p>
+                                    </div>
+                                </li>
+
+                                <li class="glide__slide">
+                                    <div class="card-services">
+                                        <h3 class="title-card-services">Financie em prazos maiores</h3>
+                                        <p>
+                                            É possível financiar em até 30 anos na maioria dos bancos 
+                                            (360 meses). Alguns deles ainda possibilitam que o prazo 
+                                            de financiamento chegue a 35 anos (420 meses).
+                                        </p>
+                                    </div>
+                                </li>
+
+                                <li class="glide__slide">
+                                    <div class="card-services">
+                                        <h3 class="title-card-services">Financie as despesas de prefeitura e cartório</h3>
+                                        <p>
+                                            Em muitos casos é possível financiar também as despesas para pagamento 
+                                            das transferências junto à prefeitura e cartório.
+                                        </p>
+                                    </div>
+                                </li>
+
+                                <li class="glide__slide">
+                                    <div class="card-services">
+                                        <h3 class="title-card-services">Use seu FGTS</h3>
+                                        <p>
+                                            Você pode utilizar seu saldo de FGTS para ajudar 
+                                            no seu financiamento de imóvel residencial ou 
+                                            construção
+                                        </p>
+                                    </div>
+                                </li>
+
+                                <li class="glide__slide">
+                                    <div class="card-services">
+                                        <h3 class="title-card-services">Financie o máximo possível</h3>
+                                        <p>
+                                            Os bancos liberam entre 70, 80 e 90% de financiamento, a 
+                                            depender do perfil do cliente. Em alguns casos específicos, 
+                                            conseguimos auxiliar o cliente a financiar até 100% do valor 
+                                            do imóvel.
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="glide__slide">
+                                    <div class="card-services">
+                                        <h3 class="title-card-services">Financie o máximo possível</h3>
+                                        <p>
+                                            Os bancos liberam entre 70, 80 e 90% de financiamento, a 
+                                            depender do perfil do cliente. Em alguns casos específicos, 
+                                            conseguimos auxiliar o cliente a financiar até 100% do valor 
+                                            do imóvel.
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="glide__slide">
+                                    <div class="card-services">
+                                        <h3 class="title-card-services">Financie o máximo possível</h3>
+                                        <p>
+                                            Os bancos liberam entre 70, 80 e 90% de financiamento, a 
+                                            depender do perfil do cliente. Em alguns casos específicos, 
+                                            conseguimos auxiliar o cliente a financiar até 100% do valor 
+                                            do imóvel.
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
                         </div>
-                        <h4><a>Magni Dolores</a></h4>
-                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+                        <br><br>
+                        <div class="glide__bullets sc-bullets" data-glide-el="controls[nav]">
+                            <button class="glide__bullet" data-glide-dir="=0"></button>
+                            <button class="glide__bullet" data-glide-dir="=1"></button>
+                            <button class="glide__bullet" data-glide-dir="=2"></button>
+                            <button class="glide__bullet" data-glide-dir="=3"></button>
+                            <button class="glide__bullet" data-glide-dir="=4"></button>
+                            <button class="glide__bullet" data-glide-dir="=5"></button>
+                            <button class="glide__bullet" data-glide-dir="=6"></button>
+                            <button class="glide__bullet" data-glide-dir="=7"></button>
+                        </div>
+
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-                    <div class="icon-box iconbox-yellow" data-cor="#ffbb2c">
-                        <div class="icon">
-                            <i class="fas fa-book"></i>
-                        </div>
-                        <h4><a>Nemo Enim</a></h4>
-                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-                    <div class="icon-box iconbox-red" data-cor="#ff5828">
-                        <div class="icon">
-                            <i class="fas fa-desktop"></i>
-                        </div>
-                        <h4><a>Dele Cardo</a></h4>
-                        <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-                    <div class="icon-box iconbox-teal" data-cor="#11dbcf">
-                        <div class="icon">
-                            <i class="fas fa-archway"></i>
-                        </div>
-                        <h4><a>Divera Don</a></h4>
-                        <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+
+                    <div class="btn-services-area d-flex justify-content-center">
+                        <button class="default-button primary-button btn-services">Fale conosco</button>
                     </div>
                 </div>
             </div>
@@ -353,7 +495,7 @@
 
         <div class="glide" id="depoimentos_c">
             <div class="glide__track" data-glide-el="track">
-                <ul class="glide__slides p-4 mb-4">
+                <ul class="glide__slides">
                     <li class="glide__slide">
                         <div class="testemunha-item">
                             <i class="fas fa-quote-right quote-icon"></i>
@@ -445,7 +587,7 @@
                     </li>
                 </ul>
             </div>
-            <br>
+            <br><br>
             <div class="glide__bullets" data-glide-el="controls[nav]">
                 <button class="glide__bullet" data-glide-dir="=0"></button>
                 <button class="glide__bullet" data-glide-dir="=1"></button>
