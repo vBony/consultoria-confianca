@@ -2,7 +2,7 @@ $(document).ready(() => {
     var glide = new Glide('#depoimentos_c', {
         type: 'carousel',
         // focusAt: 'center',
-        autoplay: 2222000,
+        autoplay: 3000,
         hoverpause: false,
         perView: 3,
         breakpoints: {
