@@ -480,7 +480,7 @@
                 <h3>Não perca tempo!</h3>
                 <p> Estamos com uma promoção de início de ano, para ajudar você a tirar seus projetos do papel, com um desconto imperdível na taxa de juros. </p>
                 <p> <b> Clique agora </b> no botão abaixo e <b> fale diretamente </b> com nosso <b> diretor! </b> </p>
-                <a class="btn-acao" href="#">Entrar em contato</a>
+                <button class="default-button secondary-button" id="btn-acao">Entrar em contato</button>
             </div>
         </div>
     </section>
@@ -488,9 +488,9 @@
     <section id="testimonials" class="testimonials">
       <div class="container">
 
-        <div class="section-title">
-          <h2>Depoimentos</h2>
-          <p>Confira os depoimentos de algumas das centenas de pessoas que já foram nossos clientes</p>
+        <div class="col-12 my-4">
+            <h1 class="default-title">O que dizem os nossos clientes</h1>
+            <div class="text-secondary">Confira os depoimentos de algumas das centenas de pessoas que já foram nossos clientes</div>
         </div>
 
         <div class="glide" id="depoimentos_c">
@@ -498,90 +498,210 @@
                 <ul class="glide__slides">
                     <li class="glide__slide">
                         <div class="testemunha-item">
-                            <i class="fas fa-quote-right quote-icon"></i>
+                            <div class="row d-flex flex-row align-items-center">
+                                <div class="testemunha-avatar col-3">
+                                    <img class="img img-fluid" src="<?=$baseUrl?>app/assets/imgs/app/testemunhas/1.png" alt="">
+                                </div>
+                                <div class="col-9">
+                                    <div class="col-12 name-testemunha"><h3>Grasiele Gomes Sousa</h3></div>
+                                    <div class="col-12 rate-testemunha">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="desc-testemunha col-12">
+                                Através do Wander e de sua empresa foi possível 
+                                realizarmos o sonho da nossa vida e adquirimos 
+                                nossa tão sonhada franquia, ainda com carência 
+                                de 6 meses para a primeira parcela. Quando 
+                                parecia que ninguém conseguiria nos ajudar, 
+                                ele chegou e nos deu a solução. Recomendo 100%
+                            </div>
 
-                            Através do Wander e de sua empresa foi possível 
-                            realizarmos o sonho da nossa vida e adquirimos 
-                            nossa tão sonhada franquia, ainda com carência 
-                            de 6 meses para a primeira parcela. Quando 
-                            parecia que ninguém conseguiria nos ajudar, 
-                            ele chegou e nos deu a solução. Recomendo 100%
-
-                            <i class="fas fa-quote-right quote-icon"></i>
-
-                            <div class="mt-3">
-                                <h3>Luiza Souza</h3>
+                            <div class="link-google-testemunha col-12 d-flex flex-row align-items-center pt-4">
+                                <div class="google-icon-testemunha me-2">
+                                    <img class="img img-fluid" src="<?=$baseUrl?>app/assets/imgs/app/logo-google.svg" alt="">
+                                </div>
+                                <div class="data-testemunha">
+                                    4 meses atrás
+                                </div>
                             </div>
                         </div>
                     </li>
 
                     <li class="glide__slide">
                         <div class="testemunha-item">
-                            <i class="fas fa-quote-right quote-icon"></i>
-                            Minha construtora precisava levantar um recurso 
-                            para concluir uma obra. Recorri a ajuda e em pouco 
-                            tempo estava com o dinheiro na mão. Concluí minha 
-                            obra, vendi algumas unidades e já quitei o empréstimo. 
-                            Foi ótimo e com certeza eu pegaria novamente se fosse necessário!
-                            <i class="fas fa-quote-right quote-icon"></i>
+                            <div class="row d-flex flex-row align-items-center">
+                                <div class="testemunha-avatar col-3">
+                                    <img class="img img-fluid" src="<?=$baseUrl?>app/assets/imgs/app/testemunhas/2.png" alt="">
+                                </div>
+                                <div class="col-9">
+                                    <div class="col-12 name-testemunha"><h3>Carlos Cezar Oliveira</h3></div>
+                                    <div class="col-12 rate-testemunha">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="desc-testemunha col-12">
+                                Execelente atendimento do Matheus! Graças a Deus tudo fluiu bem e rápido. Indico!
+                            </div>
 
-                            <div class="mt-3">
-                                <h3>Bruno Oliveira</h3>
+                            <div class="link-google-testemunha col-12 d-flex flex-row align-items-center pt-4">
+                                <div class="google-icon-testemunha me-2">
+                                    <img class="img img-fluid" src="<?=$baseUrl?>app/assets/imgs/app/logo-google.svg" alt="">
+                                </div>
+                                <div class="data-testemunha">
+                                    4 meses atrás
+                                </div>
                             </div>
                         </div>
                     </li>
 
                     <li class="glide__slide">
                         <div class="testemunha-item">
-                            <i class="fas fa-quote-right quote-icon"></i>
-                            O Wander me disse que se algo não der certo na mão dele, 
-                            não da certo na mão de mais ninguém. Realmente pude provar isso. 
-                            Quando todos os gerentes disseram que meu caso era impossível de 
-                            resolver, ele resolveu e me entregou tudo pronto.
-                            <i class="fas fa-quote-right quote-icon"></i>
+                            <div class="row d-flex flex-row align-items-center">
+                                <div class="testemunha-avatar col-3">
+                                    <img class="img img-fluid" src="<?=$baseUrl?>app/assets/imgs/app/testemunhas/3.png" alt="">
+                                </div>
+                                <div class="col-9">
+                                    <div class="col-12 name-testemunha"><h3>Rodrigo N. Leles</h3></div>
+                                    <div class="col-12 rate-testemunha">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="desc-testemunha col-12">
+                                Gente, é o pessoal mais atencioso que eu já 
+                                conheci na minha vida para me ajudar a 
+                                financiar o meu imóvel. Recomento, sem medo! 
+                                O Mateus então, que cara gente fina, humano, 
+                                humilde e bacana. Valeu pessoal!
+                            </div>
 
-                            <div class="mt-3">
-                                <h3>Adriana Silva</h3>
+                            <div class="link-google-testemunha col-12 d-flex flex-row align-items-center pt-4">
+                                <div class="google-icon-testemunha me-2">
+                                    <img class="img img-fluid" src="<?=$baseUrl?>app/assets/imgs/app/logo-google.svg" alt="">
+                                </div>
+                                <div class="data-testemunha">
+                                    1 ano atrás
+                                </div>
                             </div>
                         </div>
                     </li>
 
                     <li class="glide__slide">
                         <div class="testemunha-item">
-                            <i class="fas fa-quote-right quote-icon"></i>
-                            Fui muito bem atendido e assistido, e o processo foi extremamente 
-                            rápido, isso foi muito bom.
-                            <i class="fas fa-quote-right quote-icon"></i>
+                            <div class="row d-flex flex-row align-items-center">
+                                <div class="testemunha-avatar col-3">
+                                    <img class="img img-fluid" src="<?=$baseUrl?>app/assets/imgs/app/testemunhas/4.png" alt="">
+                                </div>
+                                <div class="col-9">
+                                    <div class="col-12 name-testemunha"><h3>Murilo Moritz Parize</h3></div>
+                                    <div class="col-12 rate-testemunha">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="desc-testemunha col-12">
+                                Ótima experiência, profissionais capacitados e 
+                                atenciosos buscando sempre agilidade nos 
+                                processos necessários. Recomendo a todos que 
+                                tem a intenção de adquirir um imóvel. Parabéns 
+                                a toda Equipe Confiança Consultoria.
+                            </div>
 
-                            <div class="mt-3">
-                                <h3>Paulo Cesar</h3>
+                            <div class="link-google-testemunha col-12 d-flex flex-row align-items-center pt-4">
+                                <div class="google-icon-testemunha me-2">
+                                    <img class="img img-fluid" src="<?=$baseUrl?>app/assets/imgs/app/logo-google.svg" alt="">
+                                </div>
+                                <div class="data-testemunha">
+                                    1 ano atrás
+                                </div>
                             </div>
                         </div>
                     </li>
 
                     <li class="glide__slide">
                         <div class="testemunha-item">
-                            <i class="fas fa-quote-right quote-icon"></i>
-                            Atendimento sensacional. Toda a equipe foi muito profissional e 
-                            humana em me ajudar a realizar meu sonho. Consegui economizar 
-                            bastante. Obrigado
-                            <i class="fas fa-quote-right quote-icon"></i>
+                            <div class="row d-flex flex-row align-items-center">
+                                <div class="testemunha-avatar col-3">
+                                    <img class="img img-fluid" src="<?=$baseUrl?>app/assets/imgs/app/testemunhas/5.png" alt="">
+                                </div>
+                                <div class="col-9">
+                                    <div class="col-12 name-testemunha"><h3>Weslley Lima</h3></div>
+                                    <div class="col-12 rate-testemunha">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="desc-testemunha col-12">
+                                Foi ótimo,  atendimento nota 1000, o Matheus 
+                                sempre muito atencioso e competentemente.. 
+                                super indico.. Weslley e Keubianny.. Abraço
+                            </div>
 
-                            <div class="mt-3">
-                                <h3>Leonardo Gomes</h3>
+                            <div class="link-google-testemunha col-12 d-flex flex-row align-items-center pt-4">
+                                <div class="google-icon-testemunha me-2">
+                                    <img class="img img-fluid" src="<?=$baseUrl?>app/assets/imgs/app/logo-google.svg" alt="">
+                                </div>
+                                <div class="data-testemunha">
+                                    1 ano atrás
+                                </div>
                             </div>
                         </div>
                     </li>
 
                     <li class="glide__slide">
                         <div class="testemunha-item">
-                            <i class="fas fa-quote-right quote-icon"></i>
-                            Mesmo eu morando no exterior consegui a minha aprovação de crédito. 
-                            Adorei!
-                            <i class="fas fa-quote-right quote-icon"></i>
+                            <div class="row d-flex flex-row align-items-center">
+                                <div class="testemunha-avatar col-3">
+                                    <img class="img img-fluid" src="<?=$baseUrl?>app/assets/imgs/app/testemunhas/6.png" alt="">
+                                </div>
+                                <div class="col-9">
+                                    <div class="col-12 name-testemunha"><h3>Paulo Cesar Silva</h3></div>
+                                    <div class="col-12 rate-testemunha">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="desc-testemunha col-12">
+                                Fui muito bem atendido e assistido, e o 
+                                processo foi extremamente rápido,  para 
+                                tramitar todo o processo,  gastaram 
+                                apenas 15 dias, isso foi muito bom.
+                            </div>
 
-                            <div class="mt-3">
-                                <h3>Claudia Lima</h3>
+                            <div class="link-google-testemunha col-12 d-flex flex-row align-items-center pt-4">
+                                <div class="google-icon-testemunha me-2">
+                                    <img class="img img-fluid" src="<?=$baseUrl?>app/assets/imgs/app/logo-google.svg" alt="">
+                                </div>
+                                <div class="data-testemunha">
+                                    1 ano atrás
+                                </div>
                             </div>
                         </div>
                     </li>
