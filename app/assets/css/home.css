@@ -8,7 +8,7 @@ section{
 
 @media (max-width: 991px){
     section{
-        padding: 10vh 0px 5vh 0px;
+        padding: 10vh 0px 10vh 0px;
     }
 }
 
@@ -321,16 +321,14 @@ Ação
 ========================
  */
 
-.btn-acao{
+#btn-acao{
     font-weight: 500;
     font-size: 15px;
     letter-spacing: 1px;
     display: inline-block;
-    padding: 9px 35px;
-    border-radius: 50px;
+    padding: 9px 55px !important;
     transition: 0.5s;
     margin-top: 20px;
-    border: 2px solid var(--primary-color);
     color: #fff;
     text-decoration: none;
 }
@@ -341,7 +339,7 @@ Ação
 }
 
 .acao {
-    background: #414c64;
+    background: var(--primary-color);
     background-size: cover;
     padding: 60px 0;
 }
@@ -364,11 +362,20 @@ Testemunhas
  */
 
 .testemunha-item{
-    background-color: #FAFAFC;
-    font-style: italic;
+    background-color: #fff;
     padding: 20px 20px 20px 20px;
-    border-radius: 6px;
+    box-shadow: 0px 2px 1px rgb(0 0 0 / 5%), 0px 0px 1px rgb(0 0 0 / 25%);
+    border-radius: 5px;
+    border: 1px solid #D6DAE4;
     z-index: 1;
+}
+
+.name-testemunha{
+    color: var(--text-primary);
+}
+
+.rate-testemunha i {
+    color: gold;
 }
 
 .quote-icon{
@@ -382,9 +389,33 @@ Testemunhas
     color: #111;
 }
 
+.google-icon-testemunha img{
+    height: 25px !important;
+}
+
+.desc-testemunha{
+    display: -webkit-box;
+    height: 100px;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.625;;
+}
+
+.data-testemunha{
+    font-size: 12px;
+    color: #9CA0AC;
+}
+
 .testemunha-item h4 {
     font-size: 14px;
     color: #999;
+}
+
+.desc-testemunha{
+    color: #6a6c72;
+    padding-top:20px;
 }
 
 .glide__bullet{
