@@ -714,15 +714,16 @@
                 <button class="glide__bullet" data-glide-dir="=3"></button>
                 <button class="glide__bullet" data-glide-dir="=4"></button>
                 <button class="glide__bullet" data-glide-dir="=5"></button>
+                <button class="glide__bullet" data-glide-dir="=6"></button>
             </div>
         </div>
     </section>
 
     <section id="team" class="team section-bg">
         <div class="container">
-            <div class="section-title">
-                <h2>Fundador</h2>
-                <p>
+            <div class="mb-4">
+                <h1 class="default-title">Fundador</h1>
+                <p class="text-secondary">
                     Wander Leite, empresário, administrador de empresas, sempre foi apaixonado por empreendedorismo, 
                     abrindo seu primeiro negócio aos 19 anos de idade. Especialista em crédito, hoje é diretor 
                     fundador de uma empresa que atua diretamente junto aos bancos, buscando sempre as melhores opções 
@@ -734,7 +735,7 @@
                     pessoal, inteligência financeira e crédito.
                 </p>
             </div>
-            <div class="row">
+            <div class="row mt-4">
                 <div class="col-lg-3 col-md-6 d-flex align-items-stretch mx-auto">
                     <div class="member">
                         <div class="member-img">
@@ -758,8 +759,8 @@
     <section id="faq">
         <div class="container">
 
-            <div class="section-title">
-                <h2>Dúvidas frequentes</h2>
+            <div>
+                <h1 class="default-title">Dúvidas frequentes</h1>
                 <!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> -->
             </div>
 
@@ -818,10 +819,6 @@
 
     <section class="contact">
         <div class="container">
-            <div class="section-title">
-                <h2>Contato</h2>
-                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-            </div>
             <div class="row">
                 <div class="col-lg-6">
                     <div class="row">
