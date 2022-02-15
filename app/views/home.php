@@ -21,7 +21,7 @@
     <title>Document</title>
 </head>
 <body>
-<?php $this->loadTemplate(); ?>
+<?php $this->loadTemplate($templateData); ?>
 
 <!-- sessão sub-header -->
 <section id="inicio">
@@ -41,7 +41,7 @@
                 </p>
     
                 <div class="btn-ti-area">
-                    <button class="default-button d-flex flex-row align-items-center justify-content-center" id="btn-ti"> 
+                    <button class="default-button d-flex flex-row align-items-center justify-content-center" id="btn-ti" onclick="window.location.href='<?=$baseUrl?>financiamento'"> 
                         <div>Simular meu financiamento</div>
                         <div class="ms-2" style="margin-top:2.3px"><i class="fas fa-angle-right"></i></div>
                     </button>
@@ -258,7 +258,7 @@
                             </div>
 
                             <div class="btn-steps-area">
-                                <button class="default-button">Simular agora</button>
+                                <button class="default-button" onclick="window.location.href='<?=$baseUrl?>financiamento'">Simular agora</button>
                             </div>
                         </div>
                     </div>

@@ -2,6 +2,8 @@
     <nav class="navbar navbar-expand-lg navbar-light menu-box">
         <div class="container">
             <a class="navbar-brand" href="#">
+                <img class="logo-header" src="<?=$baseUrl?>app/assets/imgs/app/logo-white.png" id="logo-header-white" alt="">
+                <img class="logo-header" src="<?=$baseUrl?>app/assets/imgs/app/logo-black.png" id="logo-header-black" alt="">
                 <strong class="h6 mb-0 font-weight-bold logo-menu">Consultoria Confiança</strong>
             </a>
 
@@ -30,7 +32,7 @@
                     </li>
                     
                     <li class="nav-item d-flex align-items-center btn-simu-area">
-                        <button type="submit" id="simular-btn" class="default-button primary-button">Simular</button>
+                        <button type="submit" id="simular-btn" class="default-button primary-button" onclick="window.location.href='<?=$baseUrl?>financiamento'">Simular</button>
                     </li>
                 </ul>
             </div>
