@@ -37,45 +37,6 @@ body{
     background-color: var(--primary-color);
 }
 
-.contact .php-email-form {
-    box-shadow: 0 0 20px rgb(65 76 100 / 5%);
-    padding: 30px;
-}
-
-.contact .info-box {
-    color: #444444;
-    text-align: center;
-    box-shadow: 0 0 20px rgb(65 76 100 / 5%);
-    padding: 20px 0 30px 0;
-}
-
-.default-input{
-    border-radius: 4px;
-    box-shadow: none;
-    font-size: 14px;
-    padding: 10px 15px;
-}
-
-.input-label{
-    font-weight: bolder;
-    color: var(--text-primary);
-}
-
-.default-input:focus {
-    outline: none !important;
-    border:1px solid var(--primary-color);
-    box-shadow: none
-}
-
-.invalid-msg{
-    margin-top: 0px !important;
-    color: red;
-    font-size: 14px;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-    height: 14px;
-}
-
 #btn-submit{
     width: 95% !important;
     padding: 8px 0px !important;
