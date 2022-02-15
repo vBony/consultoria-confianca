@@ -71,6 +71,8 @@ $(document).ready(() => {
                 bars.addClass('bars-scrolled')
                 opts.addClass('opt-scrolled')
                 btn.addClass('secondary-button')
+                $('#logo-header-white').show()
+                $('#logo-header-black').hide()
             } else {
                 selectHeader.removeClass('header-scrolled')
                 navs.removeClass('nav-header-scrolled')
@@ -78,6 +80,8 @@ $(document).ready(() => {
                 bars.removeClass('bars-scrolled')
                 opts.removeClass('opt-scrolled')
                 btn.removeClass('secondary-button')
+                $('#logo-header-white').hide()
+                $('#logo-header-black').show()
             }
         }
     })

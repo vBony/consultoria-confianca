@@ -96,6 +96,14 @@
     transform: rotate(45deg) translate(-6px, -6px);
 }
 
+.logo-header{
+    width: 65px;
+}
+
+#logo-header-white{
+    display: none;
+}
+
 @keyframes upToDown {
     from {
         top:-200px;
