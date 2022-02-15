@@ -22,6 +22,7 @@ body{
 
 #img-area img{
     max-height: 800px;
+    object-fit: cover;
 }
 
 #progress-financiamento{
