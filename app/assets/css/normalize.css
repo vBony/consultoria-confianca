@@ -25,6 +25,13 @@
     text-decoration: none;
 }
 
+.default-button:disabled{
+    color: #b6b7bb;
+    border: 1px solid #dedfe4;
+    cursor: not-allowed;
+    background-color: #dedfe4;
+}
+
 .primary-button{
     background-color: var(--primary-color) !important;
     border-color: var(--primary-color) !important;
