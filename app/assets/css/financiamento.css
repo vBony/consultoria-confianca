@@ -38,14 +38,79 @@ body{
     background-color: var(--primary-color);
 }
 
-#btn-submit{
+.btnSubmit, .btnSubmitLoading{
     width: 95% !important;
     padding: 8px 0px !important;
+}
+
+/* #btn-submit{
+    display: none;
+} */
+
+#step-2{
+    display: none;
+}
+
+.btnSubmitLoading{
+    display: none;
 }
 
 #btn-area{
     display: flex;
     justify-content: center;
+}
+
+/* #step-1{
+    display: none;
+} */
+
+.contact-input-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #dee2e6 !important;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.contact-input-area i{
+    font-size: 20px !important;
+}
+
+.loading-bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    opacity: 0.6;
+    display: none;
+}
+
+.desc-contact{
+    margin-right: auto;
+    /* font-weight: bold; */
+    color: #6a6c72;
+}
+
+.check-contact{
+    visibility: hidden;
+}
+
+.contact-input-selected{
+    border: 1px solid var(--primary-color) !important;
+    transition: 0.2s;
+}
+
+.contact-input-selected > .desc-contact{
+    color: var(--primary-color) !important;
+}
+
+.contact-input-selected > i{
+    color: var(--primary-color) !important;
 }
 
 @media(max-width: 991px){

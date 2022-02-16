@@ -74,6 +74,9 @@
 .input-label{
     font-weight: bolder !important;
     color: var(--text-primary) !important;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .default-input:focus {
@@ -89,6 +92,13 @@
     -webkit-line-clamp: 3 !important;
     -webkit-box-orient: vertical !important;
     height: 14px !important;
+}
+
+.input-label-info{
+    color: #6a6c72;
+    font-size: 12px;
+    margin-left: 3px;
+    font-weight: normal !important;
 }
 
 #btn-submit{
