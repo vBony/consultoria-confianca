@@ -12,6 +12,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="<?=$baseUrl?>app/assets/css/financiamento.css">
     <script src="<?=$baseUrl?>app/assets/js/financiamento.js"></script>
+    <script src="<?=$baseUrl?>app/assets/js/jquery.inputmask.min.js"></script>
+    <script src="<?=$baseUrl?>app/assets/js/jquery.maskMoney.min.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -49,7 +51,7 @@
                                 </div>
     
                                 <div class="mt-4">
-                                    <form id="form-step-2">
+                                    <form id="fStep1">
                                         <div class="row mb-2">
                                             <div class="form-group">
                                                 <div class="input-label">Tipo de imóvel</div>
@@ -81,7 +83,7 @@
                                         <div class="row mb-2">
                                             <div class="form-group">
                                                 <div class="input-label">Valor do Imóvel</div>
-                                                <input type="text" class="form-control default-input" placeholder="R$ 0,00">
+                                                <input type="text" id="valorImovel" name="valorImovel" class="form-control default-input" placeholder="R$ 0,00">
                                                 <div class="invalid-msg"></div>
                                             </div>
                                         </div>
@@ -89,7 +91,7 @@
                                         <div class="row mb-2">
                                             <div class="form-group">
                                                 <div class="input-label">Valor pretendido de financiamento</div>
-                                                <input type="text" class="form-control default-input" placeholder="R$ 0,00">
+                                                <input type="text" id="valorFinanciamento" name="valorFinanciamento" class="form-control default-input" placeholder="R$ 0,00">
                                                 <div class="invalid-msg"></div>
                                             </div>
                                         </div>
@@ -97,14 +99,14 @@
                                         <div class="row mb-2">
                                             <div class="form-group">
                                                 <div class="input-label">Prazo em meses</div>
-                                                <input type="text" class="form-control default-input" placeholder="0">
+                                                <input type="text" id="prazo" class="form-control default-input" placeholder="0">
                                                 <div class="invalid-msg"></div>
                                             </div>
                                         </div>
     
                                         <div class="row">
                                             <div class="form-group" id="btn-area">
-                                                <button class="default-button btnSubmit" id="submitStep1">Continuar</button>
+                                                <button type="submit" class="default-button btnSubmit" id="submitStep1">Continuar</button>
                                                 <button class="default-button btnSubmitLoading" disabled>Aguarde...</button>
                                             </div>
                                         </div>
@@ -127,11 +129,11 @@
                                 </div>
 
                                 <div class="mt-2">
-                                    <form id="form-step-2">
+                                    <form id="fStep2">
                                         <div class="row mb-2">
                                             <div class="form-group">
                                                 <div class="input-label">Nome completo</div>
-                                                <input type="text" class="form-control default-input" placeholder="Nome Completo">
+                                                <input type="text" id="nome" name="nome" class="form-control default-input" placeholder="Nome Completo">
                                                 <div class="invalid-msg"></div>
                                             </div>
                                         </div>
@@ -150,14 +152,14 @@
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
                                                     <div class="form-group">
                                                         <div class="input-label">CPF <div class="input-label-info">(opcional)</div></div>
-                                                        <input type="text" class="form-control default-input" placeholder="000.000.000-00">
+                                                        <input type="text" name="cpf" class="form-control default-input cpf" placeholder="000.000.000-00">
                                                         <div class="invalid-msg"></div>
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
                                                     <div class="form-group">
                                                         <div class="input-label">CPF do cônjuge <div class="input-label-info">(opcional)</div></div>
-                                                        <input type="text" class="form-control default-input" placeholder="000.000.000-00">
+                                                        <input type="text" name="cpfConjuge" class="form-control default-input cpf" placeholder="000.000.000-00">
                                                         <div class="invalid-msg"></div>
                                                     </div>
                                                 </div>
@@ -167,7 +169,7 @@
                                         <div class="row mb-2">
                                             <div class="form-group">
                                                 <div class="input-label">Telefone</div>
-                                                <input type="text" class="form-control default-input" placeholder="(00) 00000-0000">
+                                                <input type="text" id="telefone" class="form-control default-input" placeholder="(00) 00000-0000">
                                                 <div class="invalid-msg"></div>
                                             </div>
                                         </div>
@@ -175,7 +177,7 @@
                                         <div class="row mb-2">
                                             <div class="form-group">
                                                 <div class="input-label">Email</div>
-                                                <input type="text" class="form-control default-input">
+                                                <input type="text" name="email" id="email" class="form-control default-input">
                                                 <div class="invalid-msg"></div>
                                             </div>
                                         </div>
@@ -187,13 +189,13 @@
                                                 <div class="contact-input-area mb-1">
                                                     <i class="fa-brands fa-whatsapp default-title me-2"></i>
                                                     <div class="desc-contact">Whatsapp</div>
-                                                    <input type="checkbox"  class="check-contact">
+                                                    <input type="checkbox" name="formasContato[whatsapp]"  class="check-contact">
                                                 </div>
 
                                                 <div class="contact-input-area">
                                                     <i class="fa-brands fa-envelope default-title me-2"></i>
                                                     <div class="desc-contact">E-mail</div>
-                                                    <input type="checkbox" class="check-contact">
+                                                    <input type="checkbox" class="check-contact" name="formasContato[email]">
                                                 </div>
 
                                                 <div class="invalid-msg"></div>
@@ -215,5 +217,7 @@
             </div>
         </section>
     </main>
+
+    <input type="hidden" id="baseUrl" value="<?=$baseUrl?>">
 </body>
 </html>
