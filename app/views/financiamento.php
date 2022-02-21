@@ -134,7 +134,7 @@
                                             <div class="form-group">
                                                 <div class="input-label">Nome completo</div>
                                                 <input type="text" id="nome" name="nome" class="form-control default-input" placeholder="Nome Completo">
-                                                <div class="invalid-msg"></div>
+                                                <div class="invalid-msg m_nome"></div>
                                             </div>
                                         </div>
 
@@ -153,14 +153,14 @@
                                                     <div class="form-group">
                                                         <div class="input-label">CPF <div class="input-label-info">(opcional)</div></div>
                                                         <input type="text" name="cpf" class="form-control default-input cpf" placeholder="000.000.000-00">
-                                                        <div class="invalid-msg"></div>
+                                                        <div class="invalid-msg m_cpf"></div>
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
                                                     <div class="form-group">
                                                         <div class="input-label">CPF do cônjuge <div class="input-label-info">(opcional)</div></div>
                                                         <input type="text" name="cpfConjuge" class="form-control default-input cpf" placeholder="000.000.000-00">
-                                                        <div class="invalid-msg"></div>
+                                                        <div class="invalid-msg m_cpfConjuge"></div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -169,8 +169,8 @@
                                         <div class="row mb-2">
                                             <div class="form-group">
                                                 <div class="input-label">Telefone</div>
-                                                <input type="text" id="telefone" class="form-control default-input" placeholder="(00) 00000-0000">
-                                                <div class="invalid-msg"></div>
+                                                <input type="text" id="telefone" name="telefone" class="form-control default-input" placeholder="(00) 00000-0000">
+                                                <div class="invalid-msg m_telefone"></div>
                                             </div>
                                         </div>
     
@@ -178,7 +178,7 @@
                                             <div class="form-group">
                                                 <div class="input-label">Email</div>
                                                 <input type="text" name="email" id="email" class="form-control default-input">
-                                                <div class="invalid-msg"></div>
+                                                <div class="invalid-msg m_email"></div>
                                             </div>
                                         </div>
 
@@ -198,14 +198,19 @@
                                                     <input type="checkbox" class="check-contact" name="formasContato[email]">
                                                 </div>
 
-                                                <div class="invalid-msg"></div>
+                                                <div class="invalid-msg m_formasContato"></div>
                                             </div>
                                         </div>
     
                                         <div class="row">
-                                            <div class="form-group" id="btn-area">
-                                                <button class="default-button btnSubmit" id="submitStep2">Continuar</button>
-                                                <button class="default-button btnSubmitLoading" disabled>Aguarde...</button>
+                                            <div class="row" id="btn-area">
+                                                <div class="col-lg-6 col-md-6 col-sm-12 d-flex-align-items-center justify-content-center">
+                                                    <button class="default-button" id="voltar" onclick="voltarS2()">Voltar</button>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                                    <button type="submit" class="default-button btnSubmit" id="submitStep2">Continuar</button>
+                                                    <button class="default-button btnSubmitLoading" disabled>Aguarde...</button>
+                                                </div>
                                             </div>
                                         </div>
                                     </form>

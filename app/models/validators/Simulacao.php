@@ -1,6 +1,7 @@
 <?php
 
 namespace validators;
+use models\Simulacao as ModelSimulacao;
 
 class Simulacao {
     public $messages = [];
@@ -13,8 +14,8 @@ class Simulacao {
     }
 
     public function validate($data){
-        if($this->step == 1){
-            $this->passoUm($data);
+        if($this->step == 2){
+            $this->passoDois($data);
         }
     }
 
@@ -22,23 +23,23 @@ class Simulacao {
         return $this->messages;
     }
 
-    public function passoUm($data){
+    public function passoDois($data){
         $this->nome($data);
         $this->cpf($data);
         $this->cpfConjuge($data);
+        $this->telefone($data);
+        $this->email($data);
+        $this->formasContato($data);
     }
 
     public function nome($data){
         $nome = !empty($data['nome']) ? $data['nome'] : null;
         $nomeArr = array_filter(explode(' ', $nome));
 
-        echo '<pre>'; 
-        print_r($nomeArr);
-        echo '<pre>'; 
-        exit;
-
         if(!empty($nome)){
-
+            if(count($nomeArr) <= 1){
+                $this->messages['nome'] = "Digite seu nome completo";
+            }
         }else{
             $this->messages['nome'] = $this->emptyMessage;
         }
@@ -70,6 +71,44 @@ class Simulacao {
                     $this->messages['cpfConjuge'] = 'Informe um CPF diferente do seu';
                 }
             }
+        }
+    }
+
+    public function telefone($data){
+        $telefone = !empty($data['telefone']) ? $data['telefone'] : null;
+
+        if(!empty($telefone)){
+            if(strlen($telefone) != 11){
+                $this->messages['telefone'] = "Telefone inválido";
+            }
+        }else{
+            $this->messages['telefone'] = $this->emptyMessage;
+        }
+    }
+
+    public function email($data){
+        $email = !empty($data['email']) ? $data['email'] : null;
+
+        if(!empty($email)){
+            if(!filter_var($email, FILTER_VALIDATE_EMAIL)){
+                $this->messages['email'] = "E-mail inválido";
+            }
+        }else{
+            $this->messages['email'] = $this->emptyMessage;
+        }
+    }
+
+    public function formasContato($data){
+        $formasContato = isset($data['formasContato']) ? $data['formasContato'] : null;
+
+        if(!empty($formasContato)){
+            foreach($formasContato as $key => $fc){
+                if(!ModelSimulacao::isFormaContato($key)){
+                    $this->messages['formasContato'] = 'Opção inválida';
+                }
+            }
+        }else{
+            $this->messages['formasContato'] = $this->emptyMessage;
         }
     }
 

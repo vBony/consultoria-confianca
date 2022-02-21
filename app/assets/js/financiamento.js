@@ -1,9 +1,13 @@
 $(document).ready(function(){
     let baseUrl = $('#baseUrl').val()
+
+    // Iniciando mascaras do campo
     startMask()
-    let step = getParameterByName('step')
-    loadingStep(step)
+
+    // Buscando o passo que o usuário parou
+    // loadingStep(step)
     
+    // Marcando campo ao iniciar a tela (caso seja dados carregados)
     let checkbox = $('.check-contact')
     checkbox.each(function(){
         if($(this).prop('checked')){
@@ -11,6 +15,12 @@ $(document).ready(function(){
         }else{
             $(this).closest('.contact-input-area').removeClass('contact-input-selected')
         }
+    })
+
+    // Removendo a mensagem do campo ao alterar os dados do campo
+    $('.form-control').on('change', function(){
+        $(this).removeClass('is-invalid')
+        $(`.invalid-msg.m_${$(this).attr('name')}`).text('')
     })
 
     $('.contact-input-area').on('click', function(){
@@ -21,16 +31,17 @@ $(document).ready(function(){
         }else{
             $(this).addClass('contact-input-selected')
             checkbox.prop("checked", true);
+            $(`.invalid-msg.m_formasContato`).text('')
         }
     })
 
     $('#fStep1').on('submit', function(e){
         e.preventDefault()
         
-        setTimeout(() => {
+        // setTimeout(() => {
             loadingComplete()
             step2()
-        }, 2000);
+        // }, 2000);
     })
 
     $('#fStep2').on('submit', function(e){
@@ -47,12 +58,12 @@ $(document).ready(function(){
             dataType: 'json',                
             success: function(data){
 
-                if(data.error){
-                    let errors = data.error
+                if(data.errors){
+                    let errors = data.errors
                     
                     Object.entries(errors).forEach(([index, message]) => {
                         $(`.form-control[name='${index}'`).addClass('is-invalid')
-                        $(`.msg#msg-${index}`).text(message)
+                        $(`.invalid-msg.m_${index}`).text(message)
                     })
                 }
 
@@ -79,6 +90,11 @@ function loadingComplete(){
     $('.btnSubmitLoading').hide()
 }
 
+function clearErrors(){
+    $(`.form-control`).removeClass('is-invalid')
+    $(`.invalid-msg`).text('')
+}
+
 function step1(){
     $('.steps').hide()
     $('#step-1').fadeIn('fast')
@@ -89,22 +105,35 @@ function step2(){
     $('#step-2').fadeIn('fast')
 }
 
+function voltarS2(){
+    step1()
+}
+
 function loadingStep(step){
-    switch (step) {
-        case '1':
-            step1()
-            break
-        case '2':
-            step2()
-            break
-        default:
-            step1();
-    }
+    /**
+     * Verificar pela sessão se o ususario ja estava efetuanod uma simulaçap,
+     * para mostrar um modal avisando que ja existe uma simulação em andamento
+     * e que ao clicar no botao, a simulação é carregada
+     */
+
+    // switch (step) {
+    //     case '1':
+    //         step1()
+    //         break
+    //     case '2':
+    //         step2()
+    //         break
+    //     default:
+    //         step1();
+    // }
 }
 
 function startMask(){    
-    $("#email").inputmask('email')
-    $('#prazo').inputmask('numeric')
+    $('#prazo').inputmask({
+        alias: 'numeric',
+        autoUnmask: true,
+        rightAlign: false
+    })
 
     $('#nome').on('keyup', function(){
         let value = $(this).val()

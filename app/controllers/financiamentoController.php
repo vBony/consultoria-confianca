@@ -16,15 +16,14 @@ class financiamentoController extends controllerHelper{
         $request = array();
         parse_str($_POST['data'], $request);
         $request['step'] = $_POST['step'];
-        
 
         $validator = new SimulacaoValidator($request['step']);
         $validator->validate($request);
         $errors = $validator->getMessages();
 
-        // if(!empty($errors)){
+        if(!empty($errors)){
             $this->response(['errors' => $errors]);
-        // }
+        }
     }
 }
 
