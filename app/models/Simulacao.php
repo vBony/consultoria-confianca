@@ -1,7 +1,9 @@
 <?php
 namespace models;
 
-class Simulacao{
+use core\modelHelper;
+
+class Simulacao extends modelHelper{
     static private $formasContato = ['whatsapp', 'email'];
 
     public static function getFormasContato(){

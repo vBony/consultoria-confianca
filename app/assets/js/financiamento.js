@@ -38,10 +38,32 @@ $(document).ready(function(){
     $('#fStep1').on('submit', function(e){
         e.preventDefault()
         
-        // setTimeout(() => {
-            loadingComplete()
-            step2()
-        // }, 2000);
+        let data = $(this).serialize()
+        loading()
+        clearErrors()
+        $.ajax({
+            url: baseUrl+'financiamento/enviar',
+            type: "POST",             
+            data: {data:data, step: 1}, 
+            dataType: 'json',                
+            success: function(data){
+
+                if(data.errors){
+                    let errors = data.errors
+                    
+                    Object.entries(errors).forEach(([index, message]) => {
+                        $(`.form-control[name='${index}'`).addClass('is-invalid')
+                        $(`.invalid-msg.m_${index}`).text(message)
+                    })
+                }else{
+                    step2()
+                }
+
+            },
+            complete: function(){
+                loadingComplete()
+            }
+        })
     })
 
     $('#fStep2').on('submit', function(e){

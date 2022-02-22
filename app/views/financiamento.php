@@ -55,28 +55,28 @@
                                         <div class="row mb-2">
                                             <div class="form-group">
                                                 <div class="input-label">Tipo de imóvel</div>
-                                                <select class="form-control default-input">
+                                                <select class="form-control default-input" name="idTipoImovel">
                                                     <option>Selecione</option>
-                                                    <option>1</option>
-                                                    <option>3</option>
-                                                    <option>4</option>
-                                                    <option>5</option>
+                                                    <?php foreach($listas['tipoImovel'] as $tipoImovel): ?>
+                                                        <option value="<?=$tipoImovel['id']?>"><?=$tipoImovel['descricao']?></option>
+                                                    <?php endforeach; ?>
+                                                    <option value='sexo'>sex</option>
                                                 </select>
-                                                <div class="invalid-msg"></div>
+                                                <div class="invalid-msg m_idTipoImovel"></div>
                                             </div>
                                         </div>
     
                                         <div class="row mb-2">
                                             <div class="form-group">
                                                 <div class="input-label">Estado do imóvel</div>
-                                                <select class="form-control default-input">
+                                                <select class="form-control default-input" name="idEstadoImovel">
                                                     <option>Selecione</option>
-                                                    <option>1</option>
-                                                    <option>3</option>
-                                                    <option>4</option>
-                                                    <option>5</option>
+                                                    <?php foreach($listas['estados'] as $estado): ?>
+                                                        <option value="<?=$estado['id']?>"><?=$estado['nome']?></option>
+                                                    <?php endforeach; ?>
+                                                    <option value='sexo'>sex</option>
                                                 </select>
-                                                <div class="invalid-msg"></div>
+                                                <div class="invalid-msg m_idEstadoImovel"></div>
                                             </div>
                                         </div>
     
@@ -84,7 +84,7 @@
                                             <div class="form-group">
                                                 <div class="input-label">Valor do Imóvel</div>
                                                 <input type="text" id="valorImovel" name="valorImovel" class="form-control default-input" placeholder="R$ 0,00">
-                                                <div class="invalid-msg"></div>
+                                                <div class="invalid-msg m_valorImovel"></div>
                                             </div>
                                         </div>
     
@@ -92,15 +92,15 @@
                                             <div class="form-group">
                                                 <div class="input-label">Valor pretendido de financiamento</div>
                                                 <input type="text" id="valorFinanciamento" name="valorFinanciamento" class="form-control default-input" placeholder="R$ 0,00">
-                                                <div class="invalid-msg"></div>
+                                                <div class="invalid-msg m_valorFinanciamento"></div>
                                             </div>
                                         </div>
     
                                         <div class="row mb-2">
                                             <div class="form-group">
                                                 <div class="input-label">Prazo em meses</div>
-                                                <input type="text" id="prazo" class="form-control default-input" placeholder="0">
-                                                <div class="invalid-msg"></div>
+                                                <input type="text" id="prazo" name="prazoFinanciamento" class="form-control default-input" placeholder="0">
+                                                <div class="invalid-msg m_prazoFinanciamento"></div>
                                             </div>
                                         </div>
     

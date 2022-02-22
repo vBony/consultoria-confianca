@@ -2,6 +2,8 @@
 
 namespace validators;
 use models\Simulacao as ModelSimulacao;
+use models\TipoImovel;
+use models\Estados;
 
 class Simulacao {
     public $messages = [];
@@ -14,13 +16,20 @@ class Simulacao {
     }
 
     public function validate($data){
-        if($this->step == 2){
+        if($this->step == 1){
+            $this->passoUm($data);
+        }elseif($this->step == 2){
             $this->passoDois($data);
         }
     }
 
     public function getMessages(){
         return $this->messages;
+    }
+
+    public function passoUm($data){
+        $this->idTipoImovel($data);
+        $this->idEstadoImovel($data);
     }
 
     public function passoDois($data){
@@ -30,6 +39,26 @@ class Simulacao {
         $this->telefone($data);
         $this->email($data);
         $this->formasContato($data);
+    }
+
+    public function idTipoImovel($data){
+        $idTipoImovel = !empty($data['idTipoImovel']) ? $data['idTipoImovel'] : null;
+
+        if(!empty($idTipoImovel)){
+            $this->simpleSelect($idTipoImovel, 'idTipoImovel', new TipoImovel());
+        }else{
+            $this->messages['idTipoImovel'] = $this->emptyMessage;
+        }
+    }
+
+    public function idEstadoImovel($data){
+        $idEstadoImovel = !empty($data['idEstadoImovel']) ? $data['idEstadoImovel'] : null;
+
+        if(!empty($idEstadoImovel)){
+            $this->simpleSelect($idEstadoImovel, 'idEstadoImovel', new Estados());
+        }else{
+            $this->messages['idEstadoImovel'] = $this->emptyMessage;
+        }
     }
 
     public function nome($data){
@@ -109,6 +138,12 @@ class Simulacao {
             }
         }else{
             $this->messages['formasContato'] = $this->emptyMessage;
+        }
+    }
+
+    private function simpleSelect($id, $campo, $class){
+        if(empty($class->getById($id))){
+            $this->messages[$campo] = "Opção inválida";
         }
     }
 
