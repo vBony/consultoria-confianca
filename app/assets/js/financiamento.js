@@ -38,6 +38,9 @@ $(document).ready(function(){
     $('#fStep1').on('submit', function(e){
         e.preventDefault()
         
+        $("#valorImovelH").val($("#valorImovel").maskMoney('unmasked')[0])
+        $("#valorFinanciamentoH").val($("#valorFinanciamento").maskMoney('unmasked')[0])
+
         let data = $(this).serialize()
         loading()
         clearErrors()

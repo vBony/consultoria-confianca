@@ -35,7 +35,7 @@ class financiamentoController extends controllerHelper{
     }
 
     public function setStep1($data){
-        
+
     }
 
     private function getListas(){

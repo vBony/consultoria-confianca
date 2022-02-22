@@ -83,7 +83,8 @@
                                         <div class="row mb-2">
                                             <div class="form-group">
                                                 <div class="input-label">Valor do Imóvel</div>
-                                                <input type="text" id="valorImovel" name="valorImovel" class="form-control default-input" placeholder="R$ 0,00">
+                                                <input type="text" id="valorImovel" class="form-control default-input" placeholder="R$ 0,00">
+                                                <input type="hidden" id="valorImovelH" name="valorImovel">
                                                 <div class="invalid-msg m_valorImovel"></div>
                                             </div>
                                         </div>
@@ -91,7 +92,8 @@
                                         <div class="row mb-2">
                                             <div class="form-group">
                                                 <div class="input-label">Valor pretendido de financiamento</div>
-                                                <input type="text" id="valorFinanciamento" name="valorFinanciamento" class="form-control default-input" placeholder="R$ 0,00">
+                                                <input type="text" id="valorFinanciamento" class="form-control default-input" placeholder="R$ 0,00">
+                                                <input type="hidden" id="valorFinanciamentoH" name="valorFinanciamento">
                                                 <div class="invalid-msg m_valorFinanciamento"></div>
                                             </div>
                                         </div>
