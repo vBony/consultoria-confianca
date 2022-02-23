@@ -43,6 +43,10 @@ body{
     padding: 8px 0px !important;
 }
 
+#btnObservacaoLoading:disabled{
+    padding: 8px 0px !important;
+}
+
 #voltar{
     background-color: transparent !important;
     border-color: transparent !important;
@@ -125,6 +129,16 @@ body{
 
 .contact-input-selected > i{
     color: var(--primary-color) !important;
+}
+
+#observacao{
+    width: 100%;
+    max-height: 150px;
+    min-height: 150px;
+}
+
+.modal-footer{
+    border: none;
 }
 
 @media(max-width: 991px){

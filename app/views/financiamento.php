@@ -55,7 +55,7 @@
                                         <div class="row mb-2">
                                             <div class="form-group">
                                                 <div class="input-label">Tipo de imóvel</div>
-                                                <select class="form-control default-input" name="idTipoImovel">
+                                                <select class="form-control default-input" id="idTipoImovel" name="idTipoImovel">
                                                     <option>Selecione</option>
                                                     <?php foreach($listas['tipoImovel'] as $tipoImovel): ?>
                                                         <option value="<?=$tipoImovel['id']?>"><?=$tipoImovel['descricao']?></option>
@@ -69,7 +69,7 @@
                                         <div class="row mb-2">
                                             <div class="form-group">
                                                 <div class="input-label">Estado do imóvel</div>
-                                                <select class="form-control default-input" name="idEstadoImovel">
+                                                <select class="form-control default-input" id="idEstadoImovel" name="idEstadoImovel">
                                                     <option>Selecione</option>
                                                     <?php foreach($listas['estados'] as $estado): ?>
                                                         <option value="<?=$estado['id']?>"><?=$estado['nome']?></option>
@@ -83,7 +83,7 @@
                                         <div class="row mb-2">
                                             <div class="form-group">
                                                 <div class="input-label">Valor do Imóvel</div>
-                                                <input type="text" id="valorImovel" class="form-control default-input" placeholder="R$ 0,00">
+                                                <input type="text" id="valorImovel" class="form-control default-input" placeholder="R$ 0,00" autocomplete="off">
                                                 <input type="hidden" id="valorImovelH" name="valorImovel">
                                                 <div class="invalid-msg m_valorImovel"></div>
                                             </div>
@@ -92,7 +92,7 @@
                                         <div class="row mb-2">
                                             <div class="form-group">
                                                 <div class="input-label">Valor pretendido de financiamento</div>
-                                                <input type="text" id="valorFinanciamento" class="form-control default-input" placeholder="R$ 0,00">
+                                                <input type="text" id="valorFinanciamento" class="form-control default-input" placeholder="R$ 0,00" autocomplete="off">
                                                 <input type="hidden" id="valorFinanciamentoH" name="valorFinanciamento">
                                                 <div class="invalid-msg m_valorFinanciamento"></div>
                                             </div>
@@ -101,7 +101,7 @@
                                         <div class="row mb-2">
                                             <div class="form-group">
                                                 <div class="input-label">Prazo em meses</div>
-                                                <input type="text" id="prazo" name="prazoFinanciamento" class="form-control default-input" placeholder="0">
+                                                <input type="text" id="prazoFinanciamento" name="prazoFinanciamento" class="form-control default-input" placeholder="0" autocomplete="off">
                                                 <div class="invalid-msg m_prazoFinanciamento"></div>
                                             </div>
                                         </div>
@@ -154,14 +154,14 @@
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
                                                     <div class="form-group">
                                                         <div class="input-label">CPF <div class="input-label-info">(opcional)</div></div>
-                                                        <input type="text" name="cpf" class="form-control default-input cpf" placeholder="000.000.000-00">
+                                                        <input type="text" name="cpf" id="cpf" class="form-control default-input cpf" placeholder="000.000.000-00">
                                                         <div class="invalid-msg m_cpf"></div>
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
                                                     <div class="form-group">
                                                         <div class="input-label">CPF do cônjuge <div class="input-label-info">(opcional)</div></div>
-                                                        <input type="text" name="cpfConjuge" class="form-control default-input cpf" placeholder="000.000.000-00">
+                                                        <input type="text" name="cpfConjuge" id="cpfConjuge" class="form-control default-input cpf" placeholder="000.000.000-00">
                                                         <div class="invalid-msg m_cpfConjuge"></div>
                                                     </div>
                                                 </div>
@@ -218,6 +218,33 @@
                                     </form>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="modalObservacao" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="modalObservacao" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="loading-bg"></div>
+                        <div class="modal-body">
+                            <div class="col-12">
+                                <h5 class="default-title">
+                                    Estamos quase lá!
+                                </h5>
+                            </div>
+                            <div class="col-12 text-secondary">
+                                Antes de finalizar, gostaria de nos deixar uma observação
+                                a respeito do financiamento?
+                            </div>
+
+                            <textarea name="observacao" class="form-control default-input mt-2" id="observacao"></textarea>
+                            <div class="invalid-msg m_observacao"></div>
+                        </div>
+                        <div class="modal-footer mx-auto">
+                            <button type="button" class="default-button" id="btnObservacao">Não, obrigado</button>
+                            <button type="button" class="default-button btnSubmitLoading" id="btnObservacaoLoading" disabled>Carregando</button>
                         </div>
                     </div>
                 </div>

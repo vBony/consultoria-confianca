@@ -6,6 +6,23 @@ $(document).ready(function(){
 
     // Buscando o passo que o usuário parou
     // loadingStep(step)
+
+    $('#observacao').on('keyup', function(){
+        let observacao = $(this).val()
+        if(observacao.length == 0){
+            $('#btnObservacao').text('Não, obrigado')
+            $('#btnObservacao').prop('disabled', false)
+        }
+
+        if(observacao.length > 0 && observacao.length < 250){
+            $('#btnObservacao').prop('disabled', false)
+            $('#btnObservacao').text('Enviar simulação')
+        }
+
+        if(observacao.length > 250){
+            $('#btnObservacao').prop('disabled', true)
+        }
+    })
     
     // Marcando campo ao iniciar a tela (caso seja dados carregados)
     let checkbox = $('.check-contact')
@@ -20,7 +37,7 @@ $(document).ready(function(){
     // Removendo a mensagem do campo ao alterar os dados do campo
     $('.form-control').on('change', function(){
         $(this).removeClass('is-invalid')
-        $(`.invalid-msg.m_${$(this).attr('name')}`).text('')
+        $(`.invalid-msg.m_${$(this).attr('id')}`).text('')
     })
 
     $('.contact-input-area').on('click', function(){
@@ -53,12 +70,10 @@ $(document).ready(function(){
 
                 if(data.errors){
                     let errors = data.errors
-                    
-                    Object.entries(errors).forEach(([index, message]) => {
-                        $(`.form-control[name='${index}'`).addClass('is-invalid')
-                        $(`.invalid-msg.m_${index}`).text(message)
-                    })
-                }else{
+                    setErrors(errors)
+                }
+                
+                if(data.success){
                     step2()
                 }
 
@@ -85,16 +100,62 @@ $(document).ready(function(){
 
                 if(data.errors){
                     let errors = data.errors
-                    
-                    Object.entries(errors).forEach(([index, message]) => {
-                        $(`.form-control[name='${index}'`).addClass('is-invalid')
-                        $(`.invalid-msg.m_${index}`).text(message)
-                    })
+                    setErrors(errors)
+                }
+
+                if(data.success){
+                    step3()
                 }
 
             },
             complete: function(){
                 loadingComplete()
+            }
+        })
+    })
+
+    $('#btnObservacao').on('click', function(){
+        let observacao = $('#observacao').val();
+
+        // Loading
+        $('#btnObservacao').hide()
+        $('#btnObservacaoLoading').show()
+        $('#observacao').prop('readonly', true)
+
+        $.ajax({
+            url: baseUrl+'financiamento/enviar',
+            type: "POST",             
+            data: {data:observacao, step: 3}, 
+            dataType: 'json',                
+            success: function(data){
+
+                if(data.errors){
+                    let errors = data.errors
+                    setErrors(errors)
+                }
+
+                if(data.error){
+                    let error = data.error
+                    if(error == 1){
+                        step1()
+                    }
+
+                    if(error == 2){
+                        
+                        step2()
+                    }
+
+                    if(error == 3){
+                        step3()
+                    }
+                }
+
+            },
+            complete: function(){
+                // Loading
+                $('#btnObservacaoLoading').hide()
+                $('#btnObservacao').show()
+                $('#observacao').prop('readonly', false)
             }
         })
     })
@@ -120,14 +181,29 @@ function clearErrors(){
     $(`.invalid-msg`).text('')
 }
 
+function setErrors(errors){
+    Object.entries(errors).forEach(([index, message]) => {
+        $(`.form-control[id='${index}'`).addClass('is-invalid')
+        $(`.invalid-msg.m_${index}`).text(message)
+    })
+}
+
 function step1(){
     $('.steps').hide()
+    $('#modalObservacao').modal('hide')
+
     $('#step-1').fadeIn('fast')
 }
 
 function step2(){
     $('.steps').hide()
+    $('#modalObservacao').modal('hide')
+    
     $('#step-2').fadeIn('fast')
+}
+
+function step3(){
+    $('#modalObservacao').modal('show')
 }
 
 function voltarS2(){
@@ -154,10 +230,11 @@ function loadingStep(step){
 }
 
 function startMask(){    
-    $('#prazo').inputmask({
+    $('#prazoFinanciamento').inputmask({
         alias: 'numeric',
         autoUnmask: true,
-        rightAlign: false
+        rightAlign: false,
+        max: 999
     })
 
     $('#nome').on('keyup', function(){

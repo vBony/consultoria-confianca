@@ -20,7 +20,17 @@ class Simulacao {
             $this->passoUm($data);
         }elseif($this->step == 2){
             $this->passoDois($data);
+        }elseif($this->step == 3){
+            $this->passoTres($data);
+        }else{
+            $this->passoUm($data);
+            $this->passoDois($data);
+            $this->passoTres($data);
         }
+    }
+
+    public function setStep($id){
+        $this->step = $id;
     }
 
     public function getMessages(){
@@ -30,6 +40,9 @@ class Simulacao {
     public function passoUm($data){
         $this->idTipoImovel($data);
         $this->idEstadoImovel($data);
+        $this->valorImovel($data);
+        $this->valorFinanciamento($data);
+        $this->prazoFinanciamento($data);
     }
 
     public function passoDois($data){
@@ -39,6 +52,10 @@ class Simulacao {
         $this->telefone($data);
         $this->email($data);
         $this->formasContato($data);
+    }
+
+    public function passoTres($data){
+        $this->observacao($data);
     }
 
     public function idTipoImovel($data){
@@ -58,6 +75,39 @@ class Simulacao {
             $this->simpleSelect($idEstadoImovel, 'idEstadoImovel', new Estados());
         }else{
             $this->messages['idEstadoImovel'] = $this->emptyMessage;
+        }
+    }
+
+    public function valorImovel($data){
+        $valorImovel = isset($data['valorImovel']) ? $data['valorImovel'] : 0;
+
+        if($valorImovel == 0){
+            $this->messages['valorImovel'] = $this->emptyMessage;
+        }elseif($valorImovel > 500000000){
+            $this->messages['valorImovel'] = "O valor deve ser menor que R$ 500.000.000,00";
+        }
+    }
+
+    public function valorFinanciamento($data){
+        $valorFinanciamento = isset($data['valorFinanciamento']) ? $data['valorFinanciamento'] : 0;
+        $valorImovel = isset($data['valorImovel']) ? $data['valorImovel'] : 0;
+
+        if($valorImovel != 0){
+            if($valorFinanciamento > $valorImovel){
+                $this->messages['valorFinanciamento'] = "O valor do financiamento não pode ser maior que o valor do imóvel";
+            }
+        }elseif($valorFinanciamento == 0){
+            $this->messages['valorFinanciamento'] = $this->emptyMessage;
+        }
+    }
+
+    public function prazoFinanciamento($data){
+        $prazoFinanciamento = isset($data['prazoFinanciamento']) ? $data['prazoFinanciamento'] : 0;
+
+        if($prazoFinanciamento == 0 || empty($prazoFinanciamento)){
+            $this->messages['prazoFinanciamento'] = $this->emptyMessage;
+        }elseif($prazoFinanciamento > 500){
+            $this->messages['prazoFinanciamento'] = 'O prazo não pode ser maior que 500 meses';
         }
     }
 
@@ -138,6 +188,14 @@ class Simulacao {
             }
         }else{
             $this->messages['formasContato'] = $this->emptyMessage;
+        }
+    }
+
+    public function observacao($data){
+        $observacao = !empty($data['observacao']) ? $data['observacao'] : null;
+
+        if (strlen($observacao) > 250) {
+            $this->messages['observacao'] = "Texto muito longo (máx. 255 caracteres)";
         }
     }
 
