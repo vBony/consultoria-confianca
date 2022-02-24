@@ -152,6 +152,14 @@ $(document).ready(function(){
                     if(error == 3){
                         step3()
                     }
+
+                    if(error==404){
+                        alert('Houve um problema ao salvar a simulação, tente novamente mais tarde!');
+                    }
+                }
+
+                if(data.success){
+                    finalStep()
                 }
 
             },

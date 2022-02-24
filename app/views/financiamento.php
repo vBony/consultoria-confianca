@@ -24,11 +24,6 @@
                     <div id="logo-area" class="my-auto">
                         <img src="<?=$baseUrl?>app/assets/imgs/app/logo-black.png" class="me-3" alt="">
                         <h1 class="default-title"><strong> Consultoria Confiança </strong></h1>
-
-                    </div>
-
-                    <div>
-                        <div class="btn btn-danger" id="sexo">Sexo</div>
                     </div>
                 </div>
 

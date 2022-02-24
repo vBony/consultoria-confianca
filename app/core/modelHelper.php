@@ -1,4 +1,5 @@
 <?php
+
 namespace core;
 use \PDO;
 use \PDOException;
@@ -12,6 +13,10 @@ class modelHelper{
             echo "Error: ".$e->getMessage();
             exit;
         }
+    }
+
+    public static function createdAt(){
+        return date('Y-m-d H:i:s');
     }
 }
 ?>

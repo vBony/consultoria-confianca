@@ -4,6 +4,7 @@ use validators\Simulacao as SimulacaoValidator;
 use models\Estados;
 use models\Simulacao;
 use models\TipoImovel;
+use models\IpGeoLocation;
 class financiamentoController extends controllerHelper{
     public function index(){
         $data = array();
@@ -62,10 +63,10 @@ class financiamentoController extends controllerHelper{
                 }else{
                     $mSimulacao = new Simulacao();
 
-                    if($mSimulacao->salvar($data)){
+                    if($mSimulacao->salvar($simulacao)){
                         $this->response(['success' => 1]);
                     }else{
-                        $this->response(['error' => 1]);
+                        $this->response(['error' => 404]);
                     }
                 }
             }
@@ -85,7 +86,7 @@ class financiamentoController extends controllerHelper{
             return 1;
         }
 
-        if(isset($data['step2']) && !empty($data['step2'])){
+        if(isset($steps['step2']) && !empty($steps['step2'])){
             foreach($steps['step2'] as $key => $value){
                 $simulacao[$key] = $value;
             }
