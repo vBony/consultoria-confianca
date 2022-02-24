@@ -7,6 +7,10 @@ $(document).ready(function(){
     // Buscando o passo que o usuário parou
     // loadingStep(step)
 
+    $('#sexo').on('click', function(){
+        finalStep()
+    })
+
     $('#observacao').on('keyup', function(){
         let observacao = $(this).val()
         if(observacao.length == 0){
@@ -204,6 +208,14 @@ function step2(){
 
 function step3(){
     $('#modalObservacao').modal('show')
+}
+
+
+function finalStep(){
+    $('.steps').hide()
+    $('#modalObservacao').modal('hide')
+    
+    $('#final-step').fadeIn('fast')
 }
 
 function voltarS2(){

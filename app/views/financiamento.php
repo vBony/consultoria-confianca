@@ -24,6 +24,11 @@
                     <div id="logo-area" class="my-auto">
                         <img src="<?=$baseUrl?>app/assets/imgs/app/logo-black.png" class="me-3" alt="">
                         <h1 class="default-title"><strong> Consultoria Confiança </strong></h1>
+
+                    </div>
+
+                    <div>
+                        <div class="btn btn-danger" id="sexo">Sexo</div>
                     </div>
                 </div>
 
@@ -218,6 +223,15 @@
                                     </form>
                                 </div>
                             </div>
+
+                            <div id="final-step" class="row steps text-center">
+                                <h3 class="default-title mb-3">Recebemos a sua simulação</h3>
+                                <p class="default-text">Aguarde, o nosso time entrará em contato o mais rápido possível.</p>
+                                <p class="default-text">Fique de olho em seu e-mail e telefone. <span>&#128521;</span></p>
+                                <div>
+                                    <a class="default-button" id="financiamentoToHomeBtn" href="<?=$baseUrl?>">Voltar para página inicial</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -244,7 +258,7 @@
                         </div>
                         <div class="modal-footer mx-auto">
                             <button type="button" class="default-button" id="btnObservacao">Não, obrigado</button>
-                            <button type="button" class="default-button btnSubmitLoading" id="btnObservacaoLoading" disabled>Carregando</button>
+                            <button type="button" class="default-button btnSubmitLoading" id="btnObservacaoLoading" disabled>Carregando...</button>
                         </div>
                     </div>
                 </div>

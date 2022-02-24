@@ -2,6 +2,7 @@
 use core\controllerHelper;
 use validators\Simulacao as SimulacaoValidator;
 use models\Estados;
+use models\Simulacao;
 use models\TipoImovel;
 class financiamentoController extends controllerHelper{
     public function index(){
@@ -10,21 +11,6 @@ class financiamentoController extends controllerHelper{
         $data['listas'] = $this->getListas();
 
         $this->loadView('financiamento', $data);
-
-        if(isset($_SESSION['step1'])){
-            echo '<pre>'; 
-            print_r($_SESSION['step1']);
-            echo '<pre> <br> <hr>'; 
-        }
-        if(isset($_SESSION['step2'])){
-            echo '<pre>'; 
-            print_r($_SESSION['step2']);
-            echo '<pre> <br> <hr>'; 
-        }
-
-        if(isset($_SESSION['step1']) || isset($_SESSION['step2'])){
-            exit;
-        }
     }
 
     public function enviar(){
@@ -74,7 +60,13 @@ class financiamentoController extends controllerHelper{
                     $this->response(['error' => $errors]);
                     exit;
                 }else{
-                    // salvar e mandar para pagina de conclusao
+                    $mSimulacao = new Simulacao();
+
+                    if($mSimulacao->salvar($data)){
+                        $this->response(['success' => 1]);
+                    }else{
+                        $this->response(['error' => 1]);
+                    }
                 }
             }
         }else{
