@@ -5,7 +5,7 @@ use core\modelHelper;
 use \PDO;
 use \PDOException;
 
-class IpGeoLocation extends modelHelper{
+class IpGeolocation extends modelHelper{
     private $tabela = 'ipGeolocation';
     private $ip = null;
 

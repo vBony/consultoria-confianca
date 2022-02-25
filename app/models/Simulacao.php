@@ -4,19 +4,19 @@ namespace models;
 use core\modelHelper;
 use \PDO;
 use \PDOException;
-use models\IpGeoLocation;
+use models\IpGeolocation;
 use models\sanitazers\Simulacao as SanitazerSimulacao;
 
 class Simulacao extends modelHelper{
     static private $tabela = 'simulacao';
     static private $formasContato = ['whatsapp', 'email'];
 
-    private $IpGeoLocation;
+    private $IpGeolocation;
 
     public function __construct()
     {
         parent::__construct();
-        $this->IpGeoLocation = new IpGeoLocation();
+        $this->IpGeolocation = new IpGeolocation();
     }
 
     public static function getFormasContato(){
@@ -34,7 +34,7 @@ class Simulacao extends modelHelper{
         $sql .= "VALUES(:ip, :nome, :cpf, :cpfConjuge, :telefone, :email, :formasContato, :observacao, :idTipoImovel, :idEstadoImovel, :valorImovel, :valorFinanciamento, :prazoFinanciamento, :createdAt, 0, 0, '', '')";
         $sql = $this->db->prepare($sql);
 
-        $sql->bindValue(':ip', $this->IpGeoLocation->getIpid());
+        $sql->bindValue(':ip', $this->IpGeolocation->getIpid());
         $sql->bindValue(':nome', SanitazerSimulacao::name($data['nome']));
         $sql->bindValue(':cpf', $data['cpf']);
         $sql->bindValue(':cpfConjuge', $data['cpfConjuge']);

@@ -4,7 +4,7 @@ use models\validators\Simulacao as SimulacaoValidator;
 use models\Estados;
 use models\Simulacao;
 use models\TipoImovel;
-use models\IpGeoLocation;
+use models\IpGeolocation;
 class financiamentoController extends controllerHelper{
     public function index(){
         $data = array();
