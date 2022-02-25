@@ -18,8 +18,7 @@ class IpGeoLocation extends modelHelper{
     {
         parent::__construct();
 
-        $this->ip = '45.65.222.234';
-        // $this->ip = $this->getUserIP();
+        $this->ip = $this->getUserIP();
     }
 
     public function getIpid(){
