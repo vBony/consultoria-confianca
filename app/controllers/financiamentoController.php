@@ -1,6 +1,6 @@
 <?php
 use core\controllerHelper;
-use validators\Simulacao as SimulacaoValidator;
+use models\validators\Simulacao as SimulacaoValidator;
 use models\Estados;
 use models\Simulacao;
 use models\TipoImovel;

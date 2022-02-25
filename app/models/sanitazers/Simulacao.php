@@ -1,6 +1,6 @@
 <?php
 
-namespace sanitazers;
+namespace models\sanitazers;
 
 class Simulacao{
     public static function name($name){

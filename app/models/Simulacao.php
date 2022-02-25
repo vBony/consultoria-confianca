@@ -5,7 +5,7 @@ use core\modelHelper;
 use \PDO;
 use \PDOException;
 use models\IpGeoLocation;
-use sanitazers\Simulacao as SanitazerSimulacao;
+use models\sanitazers\Simulacao as SanitazerSimulacao;
 
 class Simulacao extends modelHelper{
     static private $tabela = 'simulacao';
