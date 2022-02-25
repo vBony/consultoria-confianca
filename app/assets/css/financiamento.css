@@ -39,8 +39,27 @@ body{
 }
 
 .btnSubmit, .btnSubmitLoading{
-    width: 95% !important;
+    width: 100% !important;
     padding: 8px 0px !important;
+}
+
+#btnObservacaoLoading:disabled, #btnObservacao{
+    padding: 8px 12px !important;
+    width: 100%;
+}
+
+#voltar{
+    background-color: transparent !important;
+    border-color: transparent !important;
+    color: var(--text-secondary);
+    padding: 8px 20px !important;
+    background-color: black;
+    font-weight: bolder;
+}
+
+#voltar:hover{
+    color: var(--text-primary);
+    text-decoration: underline;
 }
 
 /* #btn-submit{
@@ -48,6 +67,10 @@ body{
 } */
 
 #step-2{
+    display: none;
+}
+
+#final-step{
     display: none;
 }
 
@@ -111,6 +134,20 @@ body{
 
 .contact-input-selected > i{
     color: var(--primary-color) !important;
+}
+
+#observacao{
+    width: 100%;
+    max-height: 150px;
+    min-height: 150px;
+}
+
+.modal-footer{
+    border: none;
+}
+
+#financiamentoToHomeBtn:hover{
+    color: #fff;
 }
 
 @media(max-width: 991px){

@@ -14,6 +14,11 @@ spl_autoload_register(function($class){
         require 'app/core/'.$class.'.php';
     }else if(file_exists('app/models/'.$class.'.php')){
         require 'app/models/'.$class.'.php';
+    }else{
+        $class = str_replace("\\", '/', $class);
+        if(file_exists("app/$class.php")){
+            require "app/$class.php";
+        }
     }
 });
 

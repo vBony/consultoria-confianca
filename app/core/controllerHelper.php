@@ -1,4 +1,5 @@
 <?php
+namespace core;
 class controllerHelper{
     public function loadView($viewName, $viewData = array(), $show_header = true){
         extract($viewData);
@@ -19,6 +20,10 @@ class controllerHelper{
 
     public function baseUrl(){
         return $_ENV['BASE_URL'];
+    }
+
+    public function response($data){
+        echo json_encode($data);
     }
 }
 

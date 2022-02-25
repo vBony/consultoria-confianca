@@ -1,5 +1,8 @@
 <?php
-
+namespace models;
+use \PDO;
+use \PDOException;
+use core\modelHelper;
 class Cargos extends modelHelper{
 
     public function buscar($id = null){
