@@ -1,6 +1,6 @@
 <?php
 
-namespace validators;
+namespace models\validators;
 use models\Simulacao as ModelSimulacao;
 use models\TipoImovel;
 use models\Estados;
