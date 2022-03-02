@@ -194,7 +194,7 @@ class Simulacao {
     public function observacao($data){
         $observacao = !empty($data['observacao']) ? $data['observacao'] : null;
 
-        if (strlen($observacao) > 250) {
+        if (strlen($observacao) > 255) {
             $this->messages['observacao'] = "Texto muito longo (máx. 255 caracteres)";
         }
     }

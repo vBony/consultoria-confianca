@@ -18,7 +18,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <title>Confiança Consultoria em Crédito Imobiliário Eireli</title>
 </head>
 <body>
 <?php $this->loadTemplate($templateData); ?>
@@ -282,7 +282,7 @@
                     </div>
 
                     <div class="btn-services-area" id="btn-destop-services">
-                        <button class="default-button primary-button btn-services">Fale conosco</button>
+                        <button class="default-button primary-button btn-services" onclick="window.location.href='<?=$baseUrl?>contato'">Fale conosco</button>
                     </div>
                 </div>
     
@@ -480,7 +480,7 @@
                 <h3>Não perca tempo!</h3>
                 <p> Estamos com uma promoção de início de ano, para ajudar você a tirar seus projetos do papel, com um desconto imperdível na taxa de juros. </p>
                 <p> <b> Clique agora </b> no botão abaixo e <b> fale diretamente </b> com nosso <b> diretor! </b> </p>
-                <button class="default-button secondary-button" id="btn-acao">Entrar em contato</button>
+                <button class="default-button secondary-button" id="btn-acao" onclick="window.location.href='<?=$baseUrl?>contato'">Entrar em contato</button>
             </div>
         </div>
     </section>
@@ -820,7 +820,7 @@
     <section class="contact">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-12">
                     <div class="row">
                         <div class="col-md-12">
                             <div class="info-box">
@@ -845,30 +845,6 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <form method="POST" role="form" class="php-email-form">
-                        <div class="row">
-                            <div class="col-md-6 form-group">
-                                <input type="text" class="f-color form-control" placeholder="Nome" required>
-                            </div>
-                            <div class="col-md-6 form-group mt-3 mt-md-0">
-                                <input type="email" class="f-color form-control" placeholder="E-mail" required>
-                            </div>
-                        </div>
-                        <div class="form-group mt-3">
-                            <input type="text" class="f-color form-control" placeholder="Assunto" required>
-                        </div>
-                        <div class="form-group mt-3">
-                            <textarea class="f-color textarea form-control" name="message" rows="5" placeholder="Menssagem" required></textarea>
-                        </div>
-                        <div class="my-3">
-                            <div class="loading">Carregando</div>
-                        </div>
-                        <div class="text-center">
-                            <button type="submit">Enviar</button>
-                        </div>
-                    </form>
-                </div>
             </div>
         </div>
     </section>
@@ -892,17 +868,17 @@
                     </p>
                 </div>
 
-                <div class="col-lg-2 col-md-6 footer-links">
+                <div class="col-lg-5 col-md-6 footer-links">
                     <h4>Links úteis</h4>
                     <ul>
                         <li><i class="fas fa-chevron-right"></i> <a href="#">Início</a></li>
                         <li><i class="fas fa-chevron-right"></i> <a href="#">Sobre</a></li>
                         <li><i class="fas fa-chevron-right"></i> <a href="#">Serviços</a></li>
-                        <li><i class="fas fa-chevron-right"></i> <a href="#">Contato</a></li>
+                        <li><i class="fas fa-chevron-right"></i> <a href="#" onclick="window.location.href='<?=$baseUrl?>contato'">Contato</a></li>
                     </ul>
                 </div>
 
-                <div class="col-lg-3 col-md-6 footer-links">
+                <!-- <div class="col-lg-3 col-md-6 footer-links">
                     <h4>Nossos serviços</h4>
                     <ul>
                         <li><i class="fas fa-chevron-right"></i> <a href="#">Lorem</a></li>
@@ -911,14 +887,14 @@
                         <li><i class="fas fa-chevron-right"></i> <a href="#">Lorem</a></li>
                         <li><i class="fas fa-chevron-right"></i> <a href="#">Lorem</a></li>
                     </ul>
-                </div>
+                </div> -->
 
-                <div class="col-lg-4 col-md-6 footer-newsletter">
+                <div class="col-lg-4 col-md-12 footer-newsletter">
                     <h4>Assine nossa newsletter</h4>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> -->
                     <div class="row g-3">
-                            <input type="Email" class="form-control input-newsletter" placeholder="E-mail">
-                            <button type="submit" class="btn btn-newsletter">Enviar</button>
+                        <input type="Email" class="form-control input-newsletter" placeholder="E-mail">
+                        <button type="submit" class="btn btn-newsletter">Enviar</button>
                     </div>
                     <form method="post" class="newsletter-form">
                     </form>

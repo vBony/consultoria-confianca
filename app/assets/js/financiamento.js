@@ -7,10 +7,6 @@ $(document).ready(function(){
     // Buscando o passo que o usuário parou
     // loadingStep(step)
 
-    $('#sexo').on('click', function(){
-        finalStep()
-    })
-
     $('#observacao').on('keyup', function(){
         let observacao = $(this).val()
         if(observacao.length == 0){

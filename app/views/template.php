@@ -28,7 +28,7 @@
                     </li>
 
                     <li class="nav-item opt">
-                        <a href="#" class="nav-link active nav-opt header-font" aria-current="page">Contato</a>
+                        <a href="#" class="nav-link active nav-opt header-font" aria-current="page" onclick="window.location.href='<?=$baseUrl?>contato'">Contato</a>
                     </li>
                     
                     <li class="nav-item d-flex align-items-center btn-simu-area">
