@@ -80,6 +80,10 @@
     transition: 0.4s;
 }
 
+.navbar{
+    padding: 0px !important;
+}
+
 .bars-scrolled{
     background-color: white;
 }
@@ -97,8 +101,10 @@
 }
 
 .logo-header{
-    width: 65px;
+    width: 55px;
 }
+
+
 
 #logo-header-white{
     display: none;
