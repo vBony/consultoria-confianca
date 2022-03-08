@@ -220,7 +220,7 @@
                             </div>
 
                             <div id="final-step" class="row steps text-center">
-                                <h3 class="default-title mb-3">Recebemos a sua simulação</h3>
+                                <h3 class="default-title mb-3">Recebemos a sua solicitação</h3>
                                 <p class="default-text">Aguarde, o nosso time entrará em contato o mais rápido possível.</p>
                                 <p class="default-text">Fique de olho em seu e-mail e telefone. <span>&#128521;</span></p>
                                 <div>

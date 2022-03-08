@@ -474,17 +474,6 @@
         </div>
     </section>
 
-    <section class="acao">
-        <div class="container">
-            <div class="text-center text-white">
-                <h3>Não perca tempo!</h3>
-                <p> Estamos com uma promoção de início de ano, para ajudar você a tirar seus projetos do papel, com um desconto imperdível na taxa de juros. </p>
-                <p> <b> Clique agora </b> no botão abaixo e <b> fale diretamente </b> com nosso <b> diretor! </b> </p>
-                <button class="default-button secondary-button" id="btn-acao" onclick="window.location.href='<?=$baseUrl?>contato'">Entrar em contato</button>
-            </div>
-        </div>
-    </section>
-
     <section id="testimonials" class="testimonials">
       <div class="container">
 
@@ -719,43 +708,6 @@
         </div>
     </section>
 
-    <section id="team" class="team section-bg">
-        <div class="container">
-            <div class="mb-4">
-                <h1 class="default-title">Fundador</h1>
-                <p class="text-secondary">
-                    Wander Leite, empresário, administrador de empresas, sempre foi apaixonado por empreendedorismo, 
-                    abrindo seu primeiro negócio aos 19 anos de idade. Especialista em crédito, hoje é diretor 
-                    fundador de uma empresa que atua diretamente junto aos bancos, buscando sempre as melhores opções 
-                    para os clientes conseguirem o crédito que precisam aliado a menor taxa de juros do mercado, tendo 
-                    ajudado centenas de pessoas a realizarem seus sonhos, planos e objetivos. Em sua filosofia acredita 
-                    que cada cliente é especial e até nos casos mais difíceis sempre luta com todas as possibilidades 
-                    para ajudar todos os clientes a realizarem seus sonhos. Também acredita muito que o conhecimento é 
-                    a chave para o sucesso e ministra diversos treinamentos e capacitações na área de desenvolvimento 
-                    pessoal, inteligência financeira e crédito.
-                </p>
-            </div>
-            <div class="row mt-4">
-                <div class="col-lg-3 col-md-6 d-flex align-items-stretch mx-auto">
-                    <div class="member">
-                        <div class="member-img">
-                            <img src="./app/assets/imgs/app/fundador/wander_2.jpg" class="img-fluid">
-                            <div class="social">
-                                <a href=""><i class="fab fa-twitter"></i></a>
-                                <a href=""><i class="fab fa-facebook"></i></a>
-                                <a href=""><i class="fab fa-instagram"></i></a>
-                                <a href=""><i class="fab fa-linkedin"></i></a>
-                            </div>
-                        </div>
-                        <div class="member-info">
-                            <h4>Wander Leite</h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <section id="faq">
         <div class="container">
 
@@ -826,14 +778,14 @@
                             <div class="info-box">
                                 <i class="fas fa-map-marker-alt"></i>
                                 <h3>Endereço</h3>
-                                <p>Av. Goiás, 5673 - Segundo Andar - Sala 04 - St. Urias Magalhães, Goiânia - GO, 74565-250</p>
+                                <p>Av. 83, nº 707 - Setor Sul - CEP: 74083-195 - Goiânia/GO</p>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="info-box mt-4">
                                 <i class="fas fa-envelope"></i>
                                 <h3>Nosso e-mail</h3>
-                                <p>wander@consultoriaconfianca.com.br</p>
+                                <p>contato@consultoriaconfianca.com.br</p>
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -859,12 +811,12 @@
                 <div class="col-lg-3 col-md-6 footer-contato">
                     <h4>Consultoria Confiança</h4>
                     <p>
-                        Av. Goiás, 5673 <br>
-                        Segundo Andar - Sala 04 <br> 
-                        St. Urias Magalhães <br> 
-                        Goiânia - GO, 74565-250 <br><br>
+                        Av. 83 <br>
+                        nº 707 - Setor Sul <br> 
+                        CEP: 74083-195 <br> 
+                        Goiânia/GO <br><br>
                         <strong>Telefone:</strong> (62) 3636-3467 <br>
-                        <strong>Email:</strong> <span style="font-size: 12px !important;">wander@consultoriaconfianca.com.br</span> <br>
+                        <strong>Email:</strong> <span style="font-size: 12px !important;">contato@consultoriaconfianca.com.br</span> <br>
                     </p>
                 </div>
 
