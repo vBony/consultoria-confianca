@@ -517,7 +517,7 @@ F.A.Q
  */
 
 .accordion-button:not(.collapsed){
-    color: #ffc20c !important;
+    color: var(--primary-color) !important;
     background-color: inherit !important;
     box-shadow: none !important;
     position: relative;
@@ -537,11 +537,11 @@ F.A.Q
 }
 
 .accordion-button:hover{
-    color: #ffc20c !important;
+    color: var(--dark-primary) !important;
 }
 
 .icon-acc{
-    color:#ffc20c !important; 
+    color:var(--primary-color) !important; 
     margin-top:2px;
     font-size: 20px !important;
 }
@@ -667,7 +667,7 @@ Footer
 
 .footer-links ul li i {
     margin-right: 5px;
-    color: #ffc20c;
+    color: var(--primary-color);
     font-size: 10px;
 }
 
@@ -682,7 +682,7 @@ Footer
 }
 
 .footer-links ul a:hover{
-    color: #ffc20c;
+    color: var(--dark-primary);
 }
 
 .last-footer{
@@ -725,7 +725,7 @@ Footer
 }
 
 .btn-newsletter:hover{
-    background: #ffc411;
+    background: var(--dark-primary);
     color: white;
 }
 
