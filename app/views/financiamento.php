@@ -60,7 +60,6 @@
                                                     <?php foreach($listas['tipoImovel'] as $tipoImovel): ?>
                                                         <option value="<?=$tipoImovel['id']?>"><?=$tipoImovel['descricao']?></option>
                                                     <?php endforeach; ?>
-                                                    <option value='sexo'>sex</option>
                                                 </select>
                                                 <div class="invalid-msg m_idTipoImovel"></div>
                                             </div>
