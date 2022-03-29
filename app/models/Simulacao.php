@@ -9,7 +9,7 @@ use models\sanitazers\Simulacao as SanitazerSimulacao;
 
 class Simulacao extends modelHelper{
     static private $tabela = 'simulacao';
-    static private $formasContato = ['whatsapp', 'email'];
+    static private $formasContato = ['whatsapp', 'email', 'ligacao'];
 
     private $IpGeolocation;
 

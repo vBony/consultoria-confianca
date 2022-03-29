@@ -2,9 +2,17 @@
     <nav class="navbar navbar-expand-lg navbar-light menu-box">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img class="logo-header" src="<?=$baseUrl?>app/assets/imgs/app/logo-white.png" id="logo-header-white" alt="">
-                <img class="logo-header" src="<?=$baseUrl?>app/assets/imgs/app/logo-black.png" id="logo-header-black" alt="">
-                <strong class="h6 mb-0 font-weight-bold logo-menu">Consultoria Confiança</strong>
+                <div class="logo">
+                    <div class="logo-box">
+                        <div class="img-logo-area">
+                            <img class="logo-header" src="<?=$baseUrl?>app/assets/imgs/app/logo-primary.png" id="logo-header-white" alt="">
+                        </div>
+                        <div class="logo-title-area">
+                            <div class="logo-title">CONFIANÇA</div>
+                            <div class="logo-sub-title">Consultoria em crédito imobiliário</div>
+                        </div>
+                    </div>
+                </div>
             </a>
 
             <div id="btn-mobile-menu" class="menu-btn" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
