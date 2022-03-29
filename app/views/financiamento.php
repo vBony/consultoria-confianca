@@ -193,10 +193,16 @@
                                                     <input type="checkbox" name="formasContato[whatsapp]"  class="check-contact">
                                                 </div>
 
-                                                <div class="contact-input-area">
+                                                <div class="contact-input-area mb-1">
                                                     <i class="fa-brands fa-envelope default-title me-2"></i>
                                                     <div class="desc-contact">E-mail</div>
                                                     <input type="checkbox" class="check-contact" name="formasContato[email]">
+                                                </div>
+
+                                                <div class="contact-input-area">
+                                                    <i class="fas fa-phone-alt default-title me-2"></i>
+                                                    <div class="desc-contact">Ligação</div>
+                                                    <input type="checkbox" class="check-contact" name="formasContato[ligacao]">
                                                 </div>
 
                                                 <div class="invalid-msg m_formasContato"></div>

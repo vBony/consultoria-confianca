@@ -1,7 +1,36 @@
+.logo{
+    display: flex;
+    flex-direction: column !important;
+}
+
+.logo-title-area{
+    color: #F7F8FA;
+    font-weight: 700;
+}
+
+.logo-box{
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+}
+
+.logo-title-area{
+    letter-spacing: 1px;
+    margin-left: 5px;
+    /* margin-bottom: -5px; */
+}
+
+.logo-sub-title{
+    font-size: 12px;
+    margin-top: -5px;
+}
+
 .logo-menu{
     font-size: 18px !important;
-    color:#161616 !important;
+    color: #F7F8FA !important;
     font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
 }
 
 .logo-menu.logo-menu-header-scrolled{
@@ -17,7 +46,7 @@
 }
 
 .nav-opt{
-    color:#161616 !important;
+    color:#F7F8FA !important;
     font-weight: bold;
 }
 
@@ -26,16 +55,16 @@
     border-radius: 5px;
 }
 
-.opt-scrolled:hover{
-    background-color: var(--dark-primary) !important;
-}
-
-.opt:hover{
+.opt:hover, .opt-scrolled:hover{
     background-color: #D9D9D9;
 }
 
+.nav-opt:hover{
+    color:#161616 !important;   
+}
+
 .nav-opt.nav-header-scrolled{
-    color: white !important;
+    /* color: white !important; */
     font-weight: 600;
     font-size:15px;
 }
@@ -43,7 +72,7 @@
 #header {
     z-index: 997;
     padding: 2px 0;
-    background: #F7F8FA;
+    background: #353535;
     width: 100%;
 }
 
@@ -51,7 +80,7 @@
     /* background: var(--primary-color); */
     /* background: linear-gradient(160deg, var(--primary-color), #d1ed02); */
     /* background: linear-gradient(183deg, #ff8700,#ff500f); */
-    background: linear-gradient(180deg, var(--primary-color) 1%, #a2d144 99%);
+    background: #353535;
     padding: 5px 0;
     top:0;
     animation-name: upToDown;
@@ -75,7 +104,7 @@
 .bars {
     width: 35px;
     height: 3px;
-    background-color: #333;
+    background-color: #F7F8FA;
     margin: 3px 0;
     transition: 0.4s;
 }
@@ -106,9 +135,9 @@
 
 
 
-#logo-header-white{
+/* #logo-header-white{
     display: none;
-}
+} */
 
 @keyframes upToDown {
     from {
@@ -127,6 +156,11 @@
     .btn-simu-area{
         padding: 0px;
         margin-left:0px;
+    }
+
+    .opt, .opt-scrolled{
+        padding-left: 10px;
+        margin-bottom: 10px;
     }
 }
 
