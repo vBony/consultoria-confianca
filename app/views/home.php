@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,6 +19,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
     <title>Confiança Consultoria em Crédito Imobiliário Eireli</title>
+
+    <meta name="description" content="Financie seu imóvel com as melhores taxas de juros do mercado. Solicite uma simulação personalizada e vamos encontrar juntos as melhores opções para você.">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 </head>
 <body>
 <?php $this->loadTemplate($templateData); ?>
@@ -50,7 +53,7 @@
     
             <div class="col-lg-7 col-md-12 col-sm-12">
                 <div class="img-inicio">
-                    <img class="img-fluid rounded" src="<?=$baseUrl?>app/assets/imgs/app/submenu.png" alt="">
+                    <img class="img-fluid rounded" src="<?=$baseUrl?>app/assets/imgs/app/submenu.png" alt="Casal em um casa recém adquirida.">
                 </div>
             </div>
         </div>
@@ -71,7 +74,7 @@
     <section class="solutions">
         <div class="container">
             <div class="col-lg-6 col-md-8 col-sm-12 text-start s-title">
-                <h1><b>Conheça as <strong class="text-primary">soluções</strong> que a <strong class="text-primary">Confiança Consultoria em Crédito Imobiliário</strong> oferece a você</b></h1>   
+                <h2><b>Conheça as <strong class="text-primary">soluções</strong> que a <strong class="text-primary">Confiança Consultoria em Crédito Imobiliário</strong> oferece a você</b></h2>   
             </div>
 
             <div class="glide my-4" id="solutions_c">
@@ -79,7 +82,7 @@
                     <ul class="glide__slides mb-4">
                         <li class="glide__slide">
                             <div class="card sc-card">
-                                <img class="card-img-top sc-image" src="<?=$baseUrl?>app/assets/imgs/app/solutions-1.jpg" alt="Card image cap">
+                                <img class="card-img-top sc-image" src="<?=$baseUrl?>app/assets/imgs/app/solutions-1.jpg" alt="Casal se abraçando, comemorando a conquista da casa nova">
                                 <div class="card-body sc-body">
                                     <h6 class="card-title sc-title">Financiamento Residencial</h6>
                                     <p class="card-text sc-text">Financie sua casa ou apartamento.</p>
@@ -92,7 +95,7 @@
 
                         <li class="glide__slide">
                             <div class="card sc-card">
-                                <img class="card-img-top sc-image" src="<?=$baseUrl?>app/assets/imgs/app/solutions-2.jpg" alt="Card image cap">
+                                <img class="card-img-top sc-image" src="<?=$baseUrl?>app/assets/imgs/app/solutions-2.jpg" alt="Terreno limpo">
                                 <div class="card-body sc-body">
                                     <h5 class="card-title sc-title">Financiamento de Terreno</h5>
                                     <p class="card-text sc-text">
@@ -109,7 +112,7 @@
 
                         <li class="glide__slide">
                             <div class="card sc-card">
-                                <img class="card-img-top sc-image" src="<?=$baseUrl?>app/assets/imgs/app/solutions-3.jpg" alt="Card image cap">
+                                <img class="card-img-top sc-image" src="<?=$baseUrl?>app/assets/imgs/app/solutions-3.jpg" alt="Pedreiro trabalhando em uma parede">
                                 <div class="card-body sc-body">
                                     <h5 class="card-title sc-title">Financiamento de Construção</h5>
                                     <p class="card-text sc-text">
@@ -126,7 +129,7 @@
 
                         <li class="glide__slide">
                             <div class="card sc-card">
-                                <img class="card-img-top sc-image" src="<?=$baseUrl?>app/assets/imgs/app/solutions-4.jpeg" alt="Card image cap">
+                                <img class="card-img-top sc-image" src="<?=$baseUrl?>app/assets/imgs/app/solutions-4.jpeg" alt="Sala de escritório com várias pessoas trabalhando">
                                 <div class="card-body sc-body">
                                     <h5 class="card-title sc-title">Financiamento Comercial</h5>
                                     <p class="card-text sc-text">
@@ -143,7 +146,7 @@
 
                         <li class="glide__slide">
                             <div class="card sc-card">
-                                <img class="card-img-top sc-image" src="<?=$baseUrl?>app/assets/imgs/app/solutions-5.jpg" alt="Card image cap">
+                                <img class="card-img-top sc-image" src="<?=$baseUrl?>app/assets/imgs/app/solutions-5.jpg" alt="Emprestimo com garantia de imovel">
                                 <div class="card-body sc-body">
                                     <div class="card-title sc-title">
                                         Empréstimo com Garantia de Imóvel
@@ -163,7 +166,7 @@
 
                         <li class="glide__slide">
                             <div class="card sc-card">
-                                <img class="card-img-top sc-image" src="<?=$baseUrl?>app/assets/imgs/app/solutions-6.jpg" alt="Card image cap">
+                                <img class="card-img-top sc-image" src="<?=$baseUrl?>app/assets/imgs/app/solutions-6.jpg" alt="Portabilidade">
                                 <div class="card-body sc-body">
                                     <h5 class="card-title sc-title">Portabilidade</h5>
                                     <p class="card-text sc-text">
@@ -197,12 +200,12 @@
             <div class="d-flex align-items-center justify-content-between flex-row flex-wrap">
                 <div class="col-lg-6 col-md-12 col-sm-12 d-flex align-items-center">
                     <div class="">
-                        <img class="img-fluid rounded" src="<?=$baseUrl?>app/assets/imgs/app/simulacao.jpg" alt="">
+                        <img class="img-fluid rounded" src="<?=$baseUrl?>app/assets/imgs/app/simulacao.jpg" alt="Homem feliz olhando o celular">
                     </div>
                 </div>
                 <div class="col-lg-5 col-md-12 col-sm-12 mt-md-4 mt-sm-4 d-flex align-items-center flex-column mt-md-4 mt-sm-4 steps-area">
                     <div class="col-12 steps-title">
-                        <h1 class="default-title">Veja como é fácil financiar seu imóvel</h1>
+                        <h2 class="default-title">Veja como é fácil financiar seu imóvel</h2>
                     </div>
 
                     <div class="timeline">
@@ -272,7 +275,7 @@
             <div class="row d-flex align-items-center">
                 <div class="col-lg-7 col-md-12 col-sm-12">
                     <div class="col-12">
-                        <h1 class="default-title">Mais praticidade e simplicidade para adquirir seu imóvel</h1>
+                        <h2 class="default-title">Mais praticidade e simplicidade para adquirir seu imóvel</h2>
                     </div>
 
                     <div class="services-text-area text-secondary">
@@ -478,7 +481,7 @@
       <div class="container">
 
         <div class="col-12 my-4">
-            <h1 class="default-title">O que dizem os nossos clientes</h1>
+            <h2 class="default-title">O que dizem os nossos clientes</h2>
             <div class="text-secondary">Confira os depoimentos de algumas das centenas de pessoas que já foram nossos clientes</div>
         </div>
 
@@ -489,44 +492,7 @@
                         <div class="testemunha-item">
                             <div class="row d-flex flex-row align-items-center">
                                 <div class="testemunha-avatar col-3">
-                                    <img class="img img-fluid" src="<?=$baseUrl?>app/assets/imgs/app/testemunhas/1.png" alt="">
-                                </div>
-                                <div class="col-9">
-                                    <div class="col-12 name-testemunha"><h3>Grasiele Gomes Sousa</h3></div>
-                                    <div class="col-12 rate-testemunha">
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="desc-testemunha col-12">
-                                Através do Wander e de sua empresa foi possível 
-                                realizarmos o sonho da nossa vida e adquirimos 
-                                nossa tão sonhada franquia, ainda com carência 
-                                de 6 meses para a primeira parcela. Quando 
-                                parecia que ninguém conseguiria nos ajudar, 
-                                ele chegou e nos deu a solução. Recomendo 100%
-                            </div>
-
-                            <div class="link-google-testemunha col-12 d-flex flex-row align-items-center pt-4">
-                                <div class="google-icon-testemunha me-2">
-                                    <img class="img img-fluid" src="<?=$baseUrl?>app/assets/imgs/app/logo-google.svg" alt="">
-                                </div>
-                                <div class="data-testemunha">
-                                    4 meses atrás
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-
-                    <li class="glide__slide">
-                        <div class="testemunha-item">
-                            <div class="row d-flex flex-row align-items-center">
-                                <div class="testemunha-avatar col-3">
-                                    <img class="img img-fluid" src="<?=$baseUrl?>app/assets/imgs/app/testemunhas/2.png" alt="">
+                                    <img class="img img-fluid" src="<?=$baseUrl?>app/assets/imgs/app/testemunhas/2.png" alt="Cliente Carlos Cezar Oliveira">
                                 </div>
                                 <div class="col-9">
                                     <div class="col-12 name-testemunha"><h3>Carlos Cezar Oliveira</h3></div>
@@ -545,7 +511,7 @@
 
                             <div class="link-google-testemunha col-12 d-flex flex-row align-items-center pt-4">
                                 <div class="google-icon-testemunha me-2">
-                                    <img class="img img-fluid" src="<?=$baseUrl?>app/assets/imgs/app/logo-google.svg" alt="">
+                                    <img class="img img-fluid" src="<?=$baseUrl?>app/assets/imgs/app/logo-google.svg" alt="Logo do google">
                                 </div>
                                 <div class="data-testemunha">
                                     4 meses atrás
@@ -558,7 +524,7 @@
                         <div class="testemunha-item">
                             <div class="row d-flex flex-row align-items-center">
                                 <div class="testemunha-avatar col-3">
-                                    <img class="img img-fluid" src="<?=$baseUrl?>app/assets/imgs/app/testemunhas/3.png" alt="">
+                                    <img class="img img-fluid" src="<?=$baseUrl?>app/assets/imgs/app/testemunhas/3.png" alt="Cliente Rodrigo N. Leles">
                                 </div>
                                 <div class="col-9">
                                     <div class="col-12 name-testemunha"><h3>Rodrigo N. Leles</h3></div>
@@ -581,7 +547,7 @@
 
                             <div class="link-google-testemunha col-12 d-flex flex-row align-items-center pt-4">
                                 <div class="google-icon-testemunha me-2">
-                                    <img class="img img-fluid" src="<?=$baseUrl?>app/assets/imgs/app/logo-google.svg" alt="">
+                                    <img class="img img-fluid" src="<?=$baseUrl?>app/assets/imgs/app/logo-google.svg" alt="Logo do google">
                                 </div>
                                 <div class="data-testemunha">
                                     1 ano atrás
@@ -594,7 +560,7 @@
                         <div class="testemunha-item">
                             <div class="row d-flex flex-row align-items-center">
                                 <div class="testemunha-avatar col-3">
-                                    <img class="img img-fluid" src="<?=$baseUrl?>app/assets/imgs/app/testemunhas/4.png" alt="">
+                                    <img class="img img-fluid" src="<?=$baseUrl?>app/assets/imgs/app/testemunhas/4.png" alt="Cliente Murilo Moritz Parize">
                                 </div>
                                 <div class="col-9">
                                     <div class="col-12 name-testemunha"><h3>Murilo Moritz Parize</h3></div>
@@ -617,7 +583,7 @@
 
                             <div class="link-google-testemunha col-12 d-flex flex-row align-items-center pt-4">
                                 <div class="google-icon-testemunha me-2">
-                                    <img class="img img-fluid" src="<?=$baseUrl?>app/assets/imgs/app/logo-google.svg" alt="">
+                                    <img class="img img-fluid" src="<?=$baseUrl?>app/assets/imgs/app/logo-google.svg" alt="logo do google">
                                 </div>
                                 <div class="data-testemunha">
                                     1 ano atrás
@@ -630,7 +596,7 @@
                         <div class="testemunha-item">
                             <div class="row d-flex flex-row align-items-center">
                                 <div class="testemunha-avatar col-3">
-                                    <img class="img img-fluid" src="<?=$baseUrl?>app/assets/imgs/app/testemunhas/5.png" alt="">
+                                    <img class="img img-fluid" src="<?=$baseUrl?>app/assets/imgs/app/testemunhas/5.png" alt="Cliente Weslley Lima">
                                 </div>
                                 <div class="col-9">
                                     <div class="col-12 name-testemunha"><h3>Weslley Lima</h3></div>
@@ -651,7 +617,7 @@
 
                             <div class="link-google-testemunha col-12 d-flex flex-row align-items-center pt-4">
                                 <div class="google-icon-testemunha me-2">
-                                    <img class="img img-fluid" src="<?=$baseUrl?>app/assets/imgs/app/logo-google.svg" alt="">
+                                    <img class="img img-fluid" src="<?=$baseUrl?>app/assets/imgs/app/logo-google.svg" alt="Logo do google">
                                 </div>
                                 <div class="data-testemunha">
                                     1 ano atrás
@@ -664,7 +630,7 @@
                         <div class="testemunha-item">
                             <div class="row d-flex flex-row align-items-center">
                                 <div class="testemunha-avatar col-3">
-                                    <img class="img img-fluid" src="<?=$baseUrl?>app/assets/imgs/app/testemunhas/6.png" alt="">
+                                    <img class="img img-fluid" src="<?=$baseUrl?>app/assets/imgs/app/testemunhas/6.png" alt="Cliente Paulo Cesar Silva">
                                 </div>
                                 <div class="col-9">
                                     <div class="col-12 name-testemunha"><h3>Paulo Cesar Silva</h3></div>
@@ -686,7 +652,7 @@
 
                             <div class="link-google-testemunha col-12 d-flex flex-row align-items-center pt-4">
                                 <div class="google-icon-testemunha me-2">
-                                    <img class="img img-fluid" src="<?=$baseUrl?>app/assets/imgs/app/logo-google.svg" alt="">
+                                    <img class="img img-fluid" src="<?=$baseUrl?>app/assets/imgs/app/logo-google.svg" alt="logo do google">
                                 </div>
                                 <div class="data-testemunha">
                                     1 ano atrás
@@ -703,7 +669,6 @@
                 <button class="glide__bullet" data-glide-dir="=3"></button>
                 <button class="glide__bullet" data-glide-dir="=4"></button>
                 <button class="glide__bullet" data-glide-dir="=5"></button>
-                <button class="glide__bullet" data-glide-dir="=6"></button>
             </div>
         </div>
     </section>
@@ -712,7 +677,7 @@
         <div class="container">
 
             <div>
-                <h1 class="default-title">Dúvidas frequentes</h1>
+                <h2 class="default-title">Dúvidas frequentes</h2>
                 <!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> -->
             </div>
 

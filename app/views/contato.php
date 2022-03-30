@@ -23,8 +23,17 @@
             <div class="container">
                 <div class="col-12" id="header">
                     <div id="logo-area" class="my-auto">
-                        <img src="<?=$baseUrl?>app/assets/imgs/app/logo-black.png" class="me-3" alt="">
-                        <h1 class="default-title"><strong> Consultoria Confiança </strong></h1>
+                        <div class="logo">
+                            <div class="logo-box">
+                                <div class="img-logo-area">
+                                    <img class="logo-header" src="<?=$baseUrl?>app/assets/imgs/app/logo-primary.png" id="logo-header-white" alt="">
+                                </div>
+                                <div class="logo-title-area">
+                                    <div class="logo-title">CONFIANÇA</div>
+                                    <div class="logo-sub-title">Consultoria em crédito imobiliário</div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
 

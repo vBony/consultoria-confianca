@@ -33,6 +33,10 @@
     letter-spacing: 1px;
 }
 
+#logo{
+    background-color: #161616 !important;
+}
+
 .logo-menu.logo-menu-header-scrolled{
     color: white !important;
     font-weight: 600;

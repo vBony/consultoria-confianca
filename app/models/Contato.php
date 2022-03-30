@@ -9,7 +9,7 @@ use \PDOException;
 
 class Contato extends modelHelper{
     static private $tabela = 'contato';
-    static private $formasContato = ['whatsapp', 'email'];
+    static private $formasContato = ['whatsapp', 'email', 'ligacao'];
 
     private $IpGeolocation;
 
