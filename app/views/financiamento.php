@@ -14,7 +14,7 @@
     <script src="<?=$baseUrl?>app/assets/js/financiamento.js"></script>
     <script src="<?=$baseUrl?>app/assets/js/jquery.inputmask.min.js"></script>
     <script src="<?=$baseUrl?>app/assets/js/jquery.maskMoney.min.js"></script>
-    <title>Document</title>
+    <title>Simulação | Consultoria Confiança</title>
 </head>
 <body>
     <main>
@@ -22,8 +22,17 @@
             <div class="container">
                 <div class="col-12" id="header">
                     <div id="logo-area" class="my-auto">
-                        <img src="<?=$baseUrl?>app/assets/imgs/app/logo-black.png" class="me-3" alt="">
-                        <h1 class="default-title"><strong> Consultoria Confiança </strong></h1>
+                        <div class="logo">
+                            <div class="logo-box">
+                                <div class="img-logo-area">
+                                    <img class="logo-header" src="<?=$baseUrl?>app/assets/imgs/app/logo-primary.png" id="logo-header-white" alt="">
+                                </div>
+                                <div class="logo-title-area">
+                                    <div class="logo-title">CONFIANÇA</div>
+                                    <div class="logo-sub-title">Consultoria em crédito imobiliário</div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -98,8 +107,13 @@
                                         </div>
     
                                         <div class="row mb-2">
-                                            <div class="form-group">
-                                                <div class="input-label">Prazo em meses</div>
+                                            <div class="col-12 mb-2">
+                                                </div>
+                                                <div class="form-group">
+                                                    <div class="input-label">Prazo em meses</div>
+                                                    <div class="input-label-info ms-0">
+                                                        O prazo máximo varia entre <b>360</b> e <b>420</b> meses, a depender do banco.
+                                                    </div>
                                                 <input type="text" id="prazoFinanciamento" name="prazoFinanciamento" class="form-control default-input" placeholder="0" autocomplete="off">
                                                 <div class="invalid-msg m_prazoFinanciamento"></div>
                                             </div>
