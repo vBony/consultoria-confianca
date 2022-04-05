@@ -41,6 +41,8 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="language" content="Portuguese">
 
+    <meta name="google-site-verification" content="P5MwvEL7Gey2HwwsmrvPWOvXdUWSauFNRB2C1PIdwaM" />
+
 </head>
 <body>
 <?php $this->loadTemplate($templateData); ?>
