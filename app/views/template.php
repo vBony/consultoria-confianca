@@ -28,15 +28,15 @@
                     </li>
 
                     <li class="nav-item opt">
-                        <a href="#" class="nav-link active nav-opt header-font" aria-current="page">Sobre</a>
+                        <a href="#solutions" class="nav-link active nav-opt header-font" aria-current="page">Soluções</a>
                     </li>
 
                     <li class="nav-item opt">
-                        <a href="#" class="nav-link active nav-opt header-font" aria-current="page">Serviços</a>
+                        <a href="#services" class="nav-link active nav-opt header-font" aria-current="page">Benefícios</a>
                     </li>
 
                     <li class="nav-item opt">
-                        <a href="#" class="nav-link active nav-opt header-font" aria-current="page" onclick="window.location.href='<?=$baseUrl?>contato'">Contato</a>
+                        <a href="<?=$baseUrl?>contato" target="_blank" class="nav-link active nav-opt header-font" aria-current="page">Contato</a>
                     </li>
                     
                     <li class="nav-item d-flex align-items-center btn-simu-area">

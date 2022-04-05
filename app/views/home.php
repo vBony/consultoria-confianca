@@ -22,6 +22,25 @@
 
     <meta name="description" content="Financie seu imóvel com as melhores taxas de juros do mercado. Solicite uma simulação personalizada e vamos encontrar juntos as melhores opções para você.">
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="<?= $baseUrl ?>">
+    <meta property="og:title" content="Confiança Consultoria em Crédito Imobiliário Eireli">
+    <meta property="og:description" content="Financie seu imóvel com as melhores taxas de juros do mercado. Solicite uma simulação personalizada e vamos encontrar juntos as melhores opções para você, com parcelas que cabem no seu bolso.">
+    <meta property="og:image" content="<?=$baseUrl?>app/assets/imgs/thumb/thumb-default.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="<?=$baseUrl?>app/assets/imgs/thumb/thumb-default.jpg">
+    <meta property="twitter:url" content="<?= $baseUrl ?>">
+    <meta property="twitter:title" content="Confiança Consultoria em Crédito Imobiliário Eireli">
+    <meta property="twitter:description" content="Financie seu imóvel com as melhores taxas de juros do mercado. Solicite uma simulação personalizada e vamos encontrar juntos as melhores opções para você, com parcelas que cabem no seu bolso.">
+    <meta property="twitter:image" content="<?=$baseUrl?>app/assets/imgs/thumb/thumb-default.jpg">
+
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="Portuguese">
+
 </head>
 <body>
 <?php $this->loadTemplate($templateData); ?>
@@ -42,12 +61,13 @@
                     melhores opções para você, com parcelas que 
                     cabem no seu bolso.
                 </p>
-    
                 <div class="btn-ti-area">
-                    <button class="default-button d-flex flex-row align-items-center justify-content-center" id="btn-ti" onclick="window.location.href='<?=$baseUrl?>financiamento'"> 
-                        <div>Simular meu financiamento</div>
-                        <div class="ms-2" style="margin-top:2.3px"><i class="fas fa-angle-right"></i></div>
-                    </button>
+                    <a href="<?=$baseUrl?>financiamento" target="_blank" class="clean-link">
+                        <button class="default-button d-flex flex-row align-items-center justify-content-center" id="btn-ti"> 
+                            <div>Simular meu financiamento</div>
+                            <div class="ms-2" style="margin-top:2.3px"><i class="fas fa-angle-right"></i></div>
+                        </button>
+                    </a>
                 </div>
             </div>
     
@@ -71,7 +91,7 @@
 </section>
 
 <main>
-    <section class="solutions">
+    <section class="solutions" id="solutions">
         <div class="container">
             <div class="col-lg-6 col-md-8 col-sm-12 text-start s-title">
                 <h2><b>Conheça as <strong class="text-primary">soluções</strong> que a <strong class="text-primary">Confiança Consultoria em Crédito Imobiliário</strong> oferece a você</b></h2>   
@@ -195,7 +215,7 @@
         </div>
     </section>
 
-    <section class="simulacao">
+    <section class="simulacao" id="simulacao">
         <div class="container">
             <div class="d-flex align-items-center justify-content-between flex-row flex-wrap">
                 <div class="col-lg-6 col-md-12 col-sm-12 d-flex align-items-center">
@@ -270,7 +290,7 @@
         </div>
     </section>
 
-    <section class="services">
+    <section class="services" id="services">
         <div class="container">
             <div class="row d-flex align-items-center">
                 <div class="col-lg-7 col-md-12 col-sm-12">
