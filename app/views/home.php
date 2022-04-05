@@ -28,14 +28,14 @@
     <meta property="og:url" content="<?= $baseUrl ?>">
     <meta property="og:title" content="Confiança Consultoria em Crédito Imobiliário Eireli">
     <meta property="og:description" content="Financie seu imóvel com as melhores taxas de juros do mercado. Solicite uma simulação personalizada e vamos encontrar juntos as melhores opções para você, com parcelas que cabem no seu bolso.">
-    <meta property="og:image" content="<?=$baseUrl?>app/assets/imgs/thumb/thumb-default.jpg">
+    <meta property="og:image" content="<?=$baseUrl?>app/assets/imgs/app/thumb/thumb-default.jpg">
 
     <!-- Twitter -->
-    <meta property="twitter:card" content="<?=$baseUrl?>app/assets/imgs/thumb/thumb-default.jpg">
+    <meta property="twitter:card" content="<?=$baseUrl?>app/assets/imgs/app/thumb/thumb-default.jpg">
     <meta property="twitter:url" content="<?= $baseUrl ?>">
     <meta property="twitter:title" content="Confiança Consultoria em Crédito Imobiliário Eireli">
     <meta property="twitter:description" content="Financie seu imóvel com as melhores taxas de juros do mercado. Solicite uma simulação personalizada e vamos encontrar juntos as melhores opções para você, com parcelas que cabem no seu bolso.">
-    <meta property="twitter:image" content="<?=$baseUrl?>app/assets/imgs/thumb/thumb-default.jpg">
+    <meta property="twitter:image" content="<?=$baseUrl?>app/assets/imgs/app/thumb/thumb-default.jpg">
 
     <meta name="robots" content="index, follow">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
