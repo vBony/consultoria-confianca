@@ -107,9 +107,9 @@
                                 <img class="card-img-top sc-image" src="<?=$baseUrl?>app/assets/imgs/app/solutions-1.jpg" alt="Casal se abraçando, comemorando a conquista da casa nova">
                                 <div class="card-body sc-body">
                                     <h6 class="card-title sc-title">Financiamento Residencial</h6>
-                                    <p class="card-text sc-text">Financie sua casa ou apartamento.</p>
+                                    <p class="card-text sc-text">Financie sua casa ou apartamento, seja para morar ou investir, mesmo já possuindo outros financiamentos ativos.</p>
                                     <div class="sc-btn">
-                                        <a href="#" class="">Financiar casa ou apartamento</a>
+                                        <a href="<?php $baseUrl ?>financiamento" target="_blank" class="">Financiar casa ou apartamento</a>
                                     </div>
                                 </div>
                             </div>
@@ -122,11 +122,11 @@
                                     <h5 class="card-title sc-title">Financiamento de Terreno</h5>
                                     <p class="card-text sc-text">
                                         Financie um terreno e aproveite a oportunidade 
-                                        e pagar uma parcela sem surpresas, balões ou 
+                                        de pagar uma parcela sem surpresas, balões ou 
                                         correções mensais.
                                     </p>
                                     <div class="sc-btn">
-                                        <a href="#" class="">Financiar um terreno</a>
+                                        <a href="<?php $baseUrl ?>financiamento" target="_blank" class="">Financiar um terreno</a>
                                     </div>
                                 </div>
                             </div>
@@ -143,7 +143,7 @@
                                         necessidade.
                                     </p>
                                     <div class="sc-btn">
-                                        <a href="#" class="">Financiar construção</a>
+                                        <a href="<?php $baseUrl ?>financiamento" target="_blank" class="">Financiar construção</a>
                                     </div>
                                 </div>
                             </div>
@@ -160,7 +160,7 @@
                                         pela parcela do seu financiamento.
                                     </p>
                                     <div class="sc-btn">
-                                        <a href="#" class="">Conhecer empréstimo</a>
+                                        <a href="<?php $baseUrl ?>financiamento" target="_blank" class="">Clique aqui e simule agora!</a>
                                     </div>
                                 </div>
                             </div>
@@ -180,7 +180,7 @@
                                         literalmente o que você quiser.
                                     </p>
                                     <div class="sc-btn">
-                                        <a href="#" class="">Conhecer empréstimo</a>
+                                        <a href="<?php $baseUrl ?>financiamento" target="_blank" class="">Clique aqui e simule agora!</a>
                                     </div>
                                 </div>
                             </div>
@@ -194,10 +194,10 @@
                                     <p class="card-text sc-text">
                                         Reduza a taxa de juros e o valor da 
                                         parcela do seu financiamento já 
-                                        existente através da portabilidade
+                                        existente através da portabilidade.
                                     </p>
                                     <div class="sc-btn">
-                                        <a href="#" class="">Conhecer empréstimo</a>
+                                        <a href="<?php $baseUrl ?>financiamento" target="_blank" class="">Clique aqui e simule agora!</a>
                                     </div>
                                 </div>
                             </div>
