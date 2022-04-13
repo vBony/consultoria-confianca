@@ -222,7 +222,7 @@
             <div class="d-flex align-items-center justify-content-between flex-row flex-wrap">
                 <div class="col-lg-6 col-md-12 col-sm-12 d-flex align-items-center">
                     <div class="">
-                        <img class="img-fluid rounded" src="<?=$baseUrl?>app/assets/imgs/app/simulacao.jpg" alt="Homem feliz olhando o celular">
+                        <img class="img-fluid rounded" src="<?=$baseUrl?>app/assets/imgs/app/casal_feliz_recebendo_casa.jpg" alt="Casal feliz recebendo casa">
                     </div>
                 </div>
                 <div class="col-lg-5 col-md-12 col-sm-12 mt-md-4 mt-sm-4 d-flex align-items-center flex-column mt-md-4 mt-sm-4 steps-area">
@@ -234,7 +234,7 @@
                         <div class="outer">
                             <div class="card-steps">
                                 <div class="info-steps">
-                                    <h3 class="title-steps text-grayscale--400 fs-14 fw-600 lh-17 mb-2">
+                                    <h3 class="title-steps text-grayscale--400 fs-14 fw-600 lh-17 mb-2" data-before-content="1">
                                         Faça sua Simulação
                                     </h3>
                                     <p>
@@ -246,7 +246,7 @@
                             </div>
                             <div class="card-steps">
                                 <div class="info-steps">
-                                    <h3 class="title-steps">
+                                    <h3 class="title-steps" data-before-content="2">
                                         Juntada de documentos e Aprovação de crédito
                                     </h3>
                                     <p>
@@ -258,7 +258,7 @@
                             </div>
                             <div class="card-steps">
                                 <div class="info-steps">
-                                    <h3 class="title-steps">
+                                    <h3 class="title-steps" data-before-content="3">
                                         Vistoria do imóvel
                                     </h3>
                                     <p>
@@ -270,7 +270,7 @@
                             </div>
                             <div class="card-steps">
                                 <div class="info-steps">
-                                    <h3 class="title-steps">
+                                    <h3 class="title-steps" data-before-content="4">
                                         Análise Jurídica/Emissão do contrato
                                     </h3>
                                     <p>
@@ -296,6 +296,10 @@
         <div class="container">
             <div class="row d-flex align-items-center">
                 <div class="col-lg-7 col-md-12 col-sm-12">
+                    <div class="mb-2">
+                        <img class="img-fluid rounded" src="<?=$baseUrl?>app/assets/imgs/app/callcenter.jpg" alt="callcenter">
+                    </div>
+
                     <div class="col-12">
                         <h2 class="default-title">Mais praticidade e simplicidade para adquirir seu imóvel</h2>
                     </div>
@@ -354,7 +358,7 @@
                             <p>
                                 Você pode utilizar seu saldo de FGTS para ajudar 
                                 no seu financiamento de imóvel residencial ou 
-                                construção
+                                construção.
                             </p>
                         </div>
 
@@ -705,50 +709,159 @@
 
             <div class="accordion" id="accordionExample">
                 <div class="accordion-item faq-acc-item shadow-sm">
-                    <h2 class="accordion-header" id="headingOne">
-                        <button class="accordion-button collapsed d-flex align-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                            <i class="far fa-question-circle me-3 icon-acc"></i> <div> <b> Como fazer empréstimo online? </b> </div>
+                    <h2 class="accordion-header" id="heading1">
+                        <button class="accordion-button collapsed d-flex align-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+                            <i class="far fa-question-circle me-3 icon-acc"></i> <div> <b> Qualquer pessoa pode fazer um financiamento imobiliário? </b> </div>
                         </button>
                     </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div id="collapse1" class="accordion-collapse collapse" aria-labelledby="heading1" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            <strong> Lorem Ipsum is simply dummy text </strong> of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.
+                            <b>Sim</b>, desde que seja maior de idade e não possua restrição 
+                            junto aos órgãos de proteção ao crédito. As demais questões, cuidamos aqui.
                         </div>
                     </div>
                 </div>
                 <div class="accordion-item faq-acc-item shadow-sm">
-                    <h2 class="accordion-header" id="headingTwo">
-                        <button class="accordion-button collapsed d-flex align-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            <i class="far fa-question-circle me-3 icon-acc"></i> <div> <b> Qual a diferença entre empréstimo pessoal e empréstimo com garantia? </b> </div>
+                    <h2 class="accordion-header" id="heading2">
+                        <button class="accordion-button collapsed d-flex align-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                            <i class="far fa-question-circle me-3 icon-acc"></i> <div> <b> Sou autônomo(a). Consigo um financiamento imobiliário? </b> </div>
                         </button>
                     </h2>
-                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                        <strong> Lorem Ipsum is simply dummy text </strong> of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.
+                            <b>Sim</b>. Existem várias formas  de comprovar sua renda para os bancos. 
+                            Nossa especialidade é te ajudar a formalizar sua renda dentro das 
+                            exigências do banco e concretizar seu financiamento.
                         </div>
                     </div>
                 </div>
                 <div class="accordion-item faq-acc-item shadow-sm">
-                    <h2 class="accordion-header" id="headingThree">
-                        <button class="accordion-button collapsed d-flex align-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            <i class="far fa-question-circle me-3 icon-acc"></i> <div> <b> Qual é o valor máximo do empréstimo? </b> </div>
+                    <h2 class="accordion-header" id="heading3">
+                        <button class="accordion-button collapsed d-flex align-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                            <i class="far fa-question-circle me-3 icon-acc"></i> <div> <b>Para que serve a consultoria em um financiamento imobiliário?</b> </div>
                         </button>
                     </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                    <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                        <strong> Lorem Ipsum is simply dummy text </strong> of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.
+                            Nosso papel é desburocratizar o processo de finaciamento bancário dos nossos clientes, 
+                            trazendo o máximo de conforto, facilidade, tranquilidade, conveniência e reduzindo o 
+                            tempo médio do processo. Cuidamos de tudo, desde a simulação, organização de documentos, 
+                            aprovação de crédito, vistoria do imóvel, análise jurídica, emissão do contrato e até 
+                            mesmo prefeitura e cartório. Temos uma equipe de profissionais que fazem só isso, 
+                            possuindo muita expersite no assunto. 
                         </div>
                     </div>
                 </div>
                 <div class="accordion-item faq-acc-item shadow-sm">
-                    <h2 class="accordion-header" id="headingFive">
-                        <button class="accordion-button collapsed d-flex align-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                            <i class="far fa-question-circle me-3 icon-acc"></i> <div> <b> Posso compor renda? Ou seja, usar duas ou mais rendas para pedir o empréstimo? </b> </div>
+                    <h2 class="accordion-header" id="heading4">
+                        <button class="accordion-button collapsed d-flex align-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                            <i class="far fa-question-circle me-3 icon-acc"></i> <div> <b> Preciso pagar pela consultoria de vocês? </b> </div>
                         </button>
                     </h2>
-                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                    <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                        <strong> Lorem Ipsum is simply dummy text </strong> of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.
+                            <b> Não</b>. Nossa consultoria é 100% gratuita para você até a emissão do contrato de financiamento.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item faq-acc-item shadow-sm">
+                    <h2 class="accordion-header" id="heading5">
+                        <button class="accordion-button collapsed d-flex align-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                            <i class="far fa-question-circle me-3 icon-acc"></i> <div> <b> Posso utilizar meu FGTS no meu  processo de financiamento immobiliário? </b> </div>
+                        </button>
+                    </h2>
+                    <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p>O FGTS pode ser usado no seu financiamento, como entrada, desde que você atenda os seguintes requisitos:</p>
+                            <ul>
+                                <li>Não possuir financiamento ativo em nenhum local do país;</li>
+                                <li>Não possuir imóvel (quitado ou financiado) na cidade ou região limítrofe (que faz divisa) em que você está comprando seu atual imóvel;</li>
+                                <li>Possuir 36 meses de carteira assinada ao longo de sua vida;</li>
+                                <li>Morar ou trabalhar na cidade ou região limítrofe do imóvel que está sendo adquirido;</li>
+                                <li>Caso seja casado(a), o conjuge também deve atender a todos os requisitos, mesmo que não participe da composição da renda;</li>
+                            </ul>
+                            <p>As regras do uso do FGTS são extensas. Acima citamos as principais delas. Em caso de dúvidas, fale com um de nossos consultores e obtenha um atendimento personalizado e gratuito. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item faq-acc-item shadow-sm">
+                    <h2 class="accordion-header" id="heading6">
+                        <button class="accordion-button collapsed d-flex align-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                            <i class="far fa-question-circle me-3 icon-acc"></i> <div> <b> Quais as opções de uso do FGTS no meu contrato habitacional? </b> </div>
+                        </button>
+                    </h2>
+                    <div id="collapse6" class="accordion-collapse collapse" aria-labelledby="heading6" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p>É possível utilizar o FGTS nas seguintes opções:</p>
+                            <ul>
+                                <li>Utilizar como entrada no financiamento;</li>
+                                <li>Amortizar o saldo devedo real, reduzindo o prazo do financiamento ou o valor da parcela;</li>
+                                <li>Pagar até 80% do valor da prestação;</li>
+                                <li>Quitar o saldo devedor.</li>
+                            </ul>
+                            <p>As regras do uso do FGTS são extensas. Acima citamos as principais delas. Em caso de dúvidas, fale com um de nossos consultores e obtenha um atendimento personalizado e gratuito. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item faq-acc-item shadow-sm">
+                    <h2 class="accordion-header" id="heading7">
+                        <button class="accordion-button collapsed d-flex align-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+                            <i class="far fa-question-circle me-3 icon-acc"></i> <div> <b> Quais os sistemas de amortização do saldo devedor? </b> </div>
+                        </button>
+                    </h2>
+                    <div id="collapse7" class="accordion-collapse collapse" aria-labelledby="heading7" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p> Os bancos utilizam geralmente 2 sistemas de amortização: </p>
+                            <ol>
+                                <li>SAC (Sistema de amortização constante): Parcelas decrescentes;</li>
+                                <li>TABELA PRICE: Parcelas fixas;</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item faq-acc-item shadow-sm">
+                    <h2 class="accordion-header" id="heading8">
+                        <button class="accordion-button collapsed d-flex align-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
+                            <i class="far fa-question-circle me-3 icon-acc"></i> <div> <b> Qual a melhor forma de financiamento: Tabela Price ou SAC? </b> </div>
+                        </button>
+                    </h2>
+                    <div id="collapse8" class="accordion-collapse collapse" aria-labelledby="heading8" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p>
+                                <b>A escolha, nesse caso, é bastante pessoal</b>. Na Tabela Price o comprador paga 
+                                juros maiores e o valor das parcelas tende a aumentar. No entanto, a 
+                                primeira prestação é menor. Pelo SAC os juros são menores e as prestações 
+                                vão ficando mais baratas, mas a primeira é maior.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item faq-acc-item shadow-sm">
+                    <h2 class="accordion-header" id="heading9">
+                        <button class="accordion-button collapsed d-flex align-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
+                            <i class="far fa-question-circle me-3 icon-acc"></i> <div> <b> É necessário avalista para a realização de um financiamento imobiliário? </b> </div>
+                        </button>
+                    </h2>
+                    <div id="collapse9" class="accordion-collapse collapse" aria-labelledby="heading9" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p>
+                                <b> Não é necessário</b>, pois o próprio imóvel já é dado como garantia.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item faq-acc-item shadow-sm">
+                    <h2 class="accordion-header" id="heading10">
+                        <button class="accordion-button collapsed d-flex align-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapse10" aria-expanded="false" aria-controls="collapse10">
+                            <i class="far fa-question-circle me-3 icon-acc"></i> <div> <b> Tenho que estar com o nome limpo nos órgãos de crédito para fazer um financiamento habitacional? </b> </div>
+                        </button>
+                    </h2>
+                    <div id="collapse10" class="accordion-collapse collapse" aria-labelledby="heading10" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p>
+                                <b> Sim</b>, é importante que não haja restrições vinculadas ao CPF dos compradores do imóvel. Caso contrário o financiamento não é aprovado.
+                            </p>
                         </div>
                     </div>
                 </div>

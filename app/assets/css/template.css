@@ -5,7 +5,7 @@
 
 .logo-title-area{
     color: #F7F8FA;
-    font-weight: 700;
+    /* font-weight: 700;; */
 }
 
 .logo-box{
@@ -14,7 +14,15 @@
     align-items: center !important;
 }
 
+.logo-title{
+    text-decoration: underline var(--primary-color);
+    text-underline-offset: 2px;
+    font-size: 30px !important;
+    margin-bottom: 2px;
+}
+
 .logo-title-area{
+    text-align: center;
     letter-spacing: 1px;
     margin-left: 5px;
     /* margin-bottom: -5px; */

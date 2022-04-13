@@ -241,13 +241,15 @@ Steps/simulacao
   
   /* Timeline dot  */
 .title-steps::before {
-    content: "";
+    color: white;
+    text-align: center;
+    content: attr(data-before-content);
     position: absolute;
     width: 20px;
     height: 20px;
     background: var(--primary-color);
     border-radius: 100%;
-    left: -42px;
+    left: -41px;
     border: 3px solid var(--primary-color);
 }
 
