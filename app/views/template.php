@@ -8,7 +8,7 @@
                             <img class="logo-header" src="<?=$baseUrl?>app/assets/imgs/app/logo-primary.png" id="logo-header-white" alt="">
                         </div>
                         <div class="logo-title-area">
-                            <div class="logo-title">CONFIANÇA</div>
+                            <div class="logo-title">Confiança</div>
                             <div class="logo-sub-title">Consultoria em crédito imobiliário</div>
                         </div>
                     </div>
