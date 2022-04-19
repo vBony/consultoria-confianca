@@ -5,11 +5,21 @@ use models\Estados;
 use models\Simulacao;
 use models\TipoImovel;
 use models\IpGeolocation;
+use models\Acessos;
+
 class financiamentoController extends controllerHelper{
+    private $Acessos;
+
+    public function __construct(){
+        $this->Acessos = new Acessos();
+    }
+    
     public function index(){
         $data = array();
         $data['baseUrl'] = $this->baseUrl();
         $data['listas'] = $this->getListas();
+
+        $this->Acessos->setAcesso();
 
         $this->loadView('financiamento', $data);
     }
