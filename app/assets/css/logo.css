@@ -1,0 +1,38 @@
+/* LOGO */
+.logo-box{
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+}
+
+.logo-box-bg{
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    background-color: #353535 !important;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.logo-title-area{
+    text-align: center;
+    letter-spacing: 1px;
+    margin-left: 5px;
+    /* margin-bottom: -5px; */
+}
+
+.logo-title{
+    text-decoration: underline var(--primary-color);
+    text-underline-offset: 2px;
+    font-size: 20px !important;
+    margin-bottom: 2px;
+}
+
+.logo-sub-title{
+    font-size: 12px;
+    margin-top: -5px;
+}
+
+.logo-header{
+    width: 40px;
+}

@@ -10,14 +10,14 @@
 
 .logo-box{
     display: flex !important;
-    flex-direction: row !important;
+    flex-direction: column !important;
     align-items: center !important;
 }
 
 .logo-title{
     text-decoration: underline var(--primary-color);
     text-underline-offset: 2px;
-    font-size: 25px !important;
+    font-size: 20px !important;
     margin-bottom: 2px;
 }
 
@@ -142,7 +142,7 @@
 }
 
 .logo-header{
-    width: 55px;
+    width: 40px;
 }
 
 

@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="<?=$baseUrl?>app/assets/css/financiamento.css">
+    <link rel="stylesheet" href="<?=$baseUrl?>app/assets/css/logo.css">
     <script src="<?=$baseUrl?>app/assets/js/financiamento.js"></script>
     <script src="<?=$baseUrl?>app/assets/js/jquery.inputmask.min.js"></script>
     <script src="<?=$baseUrl?>app/assets/js/jquery.maskMoney.min.js"></script>
@@ -21,16 +22,14 @@
         <section id="simulacao-financiamento">
             <div class="container">
                 <div class="col-12" id="header">
-                    <div id="logo-area" class="my-auto">
-                        <div class="logo">
-                            <div class="logo-box">
-                                <div class="img-logo-area">
-                                    <img class="logo-header" src="<?=$baseUrl?>app/assets/imgs/app/logo-primary.png" id="logo-header-white" alt="">
-                                </div>
-                                <div class="logo-title-area">
-                                    <div class="logo-title">CONFIANÇA</div>
-                                    <div class="logo-sub-title">Consultoria em crédito imobiliário</div>
-                                </div>
+                    <div class="logo">
+                        <div class="logo-box-bg">
+                            <div class="img-logo-area">
+                                <img class="logo-header" src="<?=$baseUrl?>app/assets/imgs/app/logo-primary.png" id="logo-header-white" alt="">
+                            </div>
+                            <div class="logo-title-area">
+                                <div class="logo-title">CONFIANÇA</div>
+                                <div class="logo-sub-title">Consultoria em crédito imobiliário</div>
                             </div>
                         </div>
                     </div>
