@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="<?=$baseUrl?>app/assets/css/financiamento.css">
     <link rel="stylesheet" href="<?=$baseUrl?>app/assets/css/contato.css">
+    <link rel="stylesheet" href="<?=$baseUrl?>app/assets/css/logo.css">
     <script src="<?=$baseUrl?>app/assets/js/contato.js"></script>
     <script src="<?=$baseUrl?>app/assets/js/jquery.inputmask.min.js"></script>
     <script src="<?=$baseUrl?>app/assets/js/jquery.maskMoney.min.js"></script>
@@ -22,16 +23,14 @@
         <section id="simulacao-financiamento">
             <div class="container">
                 <div class="col-12" id="header">
-                    <div id="logo-area" class="my-auto">
-                        <div class="logo">
-                            <div class="logo-box">
-                                <div class="img-logo-area">
-                                    <img class="logo-header" src="<?=$baseUrl?>app/assets/imgs/app/logo-primary.png" id="logo-header-white" alt="">
-                                </div>
-                                <div class="logo-title-area">
-                                    <div class="logo-title">CONFIANÇA</div>
-                                    <div class="logo-sub-title">Consultoria em crédito imobiliário</div>
-                                </div>
+                    <div class="logo">
+                        <div class="logo-box-bg">
+                            <div class="img-logo-area">
+                                <img class="logo-header" src="<?=$baseUrl?>app/assets/imgs/app/logo-primary.png" id="logo-header-white" alt="">
+                            </div>
+                            <div class="logo-title-area">
+                                <div class="logo-title">Confiança</div>
+                                <div class="logo-sub-title">Consultoria em crédito imobiliário</div>
                             </div>
                         </div>
                     </div>
