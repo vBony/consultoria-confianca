@@ -42,7 +42,9 @@
     <meta name="language" content="Portuguese">
 
     <meta name="google-site-verification" content="P5MwvEL7Gey2HwwsmrvPWOvXdUWSauFNRB2C1PIdwaM" />
+    <link rel="icon" type="image/png" href="<?=$baseUrl?>app/assets/imgs/app/logo-black.png">
 
+    <meta name="robots" content="noindex, nofollow">
 </head>
 <body>
 <?php $this->loadTemplate($templateData); ?>
@@ -109,7 +111,7 @@
                                     <h6 class="card-title sc-title">Financiamento Residencial</h6>
                                     <p class="card-text sc-text">Financie sua casa ou apartamento, seja para morar ou investir, mesmo já possuindo outros financiamentos ativos.</p>
                                     <div class="sc-btn">
-                                        <a href="<?php $baseUrl ?>financiamento" target="_blank" class="">Financiar casa ou apartamento</a>
+                                        <a href="<?php $baseUrl ?>financiamento" target="_blank" class="">Clique aqui e simule agora!</a>
                                     </div>
                                 </div>
                             </div>
@@ -126,7 +128,7 @@
                                         correções mensais.
                                     </p>
                                     <div class="sc-btn">
-                                        <a href="<?php $baseUrl ?>financiamento" target="_blank" class="">Financiar um terreno</a>
+                                        <a href="<?php $baseUrl ?>financiamento" target="_blank" class="">Clique aqui e simule agora!</a>
                                     </div>
                                 </div>
                             </div>
@@ -143,7 +145,7 @@
                                         necessidade.
                                     </p>
                                     <div class="sc-btn">
-                                        <a href="<?php $baseUrl ?>financiamento" target="_blank" class="">Financiar construção</a>
+                                        <a href="<?php $baseUrl ?>financiamento" target="_blank" class="">Clique aqui e simule agora!</a>
                                     </div>
                                 </div>
                             </div>
