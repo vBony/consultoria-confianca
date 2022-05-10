@@ -58,7 +58,7 @@ class Acessos extends modelHelper{
             $registro = $sql->fetch(PDO::FETCH_ASSOC);
             $agora = date("Y-m-d H:i:s");
 
-            if($agora < $registro['validoAte']){
+            if(strtotime($agora) < strtotime($registro['validoAte'])){
                 return $registro;
             }
         }
