@@ -17,6 +17,7 @@
     <script src="<?=$baseUrl?>app/assets/js/jquery.inputmask.min.js"></script>
     <script src="<?=$baseUrl?>app/assets/js/jquery.maskMoney.min.js"></script>
     <title>Contato | Consultoria Confiança</title>
+    <link rel="icon" type="image/png" href="<?=$baseUrl?>app/assets/imgs/app/logo-black.png">
 </head>
 <body>
     <main>
