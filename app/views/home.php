@@ -43,6 +43,8 @@
 
     <meta name="google-site-verification" content="P5MwvEL7Gey2HwwsmrvPWOvXdUWSauFNRB2C1PIdwaM" />
     <link rel="icon" type="image/png" href="<?=$baseUrl?>app/assets/imgs/app/logo-black.png">
+
+    <meta name="robots" content="noindex, nofollow">
 </head>
 <body>
 <?php $this->loadTemplate($templateData); ?>
