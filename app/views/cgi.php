@@ -186,5 +186,18 @@
             </ul>
         </div>
     </section>
+    <section>
+        <div id="background">
+            <div id="background-items">
+                <div id="dolar">
+                    <i class="fa-solid fa-money-bill-wave"></i>
+                </div>
+                <div id="back-text">
+                    <h1>Que modalidade de crédito é essa?</h1>
+                    <p>É simples. Temos uma modalidade de crédito onde o seu imóvel  ou o imóvel de um parente de primeiro grau é a garantia do empréstimo. Ainda que este seja uma casa, um apartamento, um lote, um imóvel comercial ou até mesmo um imóvel sem averbação, sendo possível levantar até 50% do valor do imóvel em questão. O melhor de tudo é que fazemos tudo para você, desde a montagem, iniciação, condução e finalização desse processo, te mantendo sempre próximo e atualizado de todos os passos, sem burocracia, de forma muito tranquila e profissional. </p>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
