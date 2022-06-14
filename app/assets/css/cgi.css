@@ -64,6 +64,7 @@ section {
 
 #text-fundador{
     margin-top: 20px;
+    padding: 5px 10px;
 }
 
 #gif {
@@ -157,7 +158,7 @@ i{
 li {
     list-style: none;
     word-wrap: break-word;
-    width: 50%;
+    width: 100%;
     margin-bottom: 50px;
     padding-left: 10px;
     font-size: 25px;
@@ -176,7 +177,6 @@ li {
     background-color: #FF7E00;
     color: #FFFFFF;
     margin-top: 15px;
-    height: 90px;
     margin: 10px;
 }
 
@@ -234,7 +234,6 @@ li {
 .items-comments {
     display: flex;
     padding: 0px 10px;
-
 }
 
 .items-comments>li {
@@ -251,4 +250,32 @@ li {
 .items-comments>li>h3{
     font-style: normal;
     margin-bottom: 0;
+}
+
+@media (max-width:830px){
+    .items-comments{
+        flex-direction: column !important;
+        margin: 0px !important;
+    }
+
+    .items-comments>li {
+        margin: 10px 0px !important;
+    }
+}
+
+@media (max-width:530px){
+    .items{
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+}
+
+@media (max-width: 452px){
+    #container1>img{
+        height: 250px !important;
+    }
+
+    #text-fundador{
+        padding: 20px !important;
+    }
 }
