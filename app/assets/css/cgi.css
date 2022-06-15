@@ -266,22 +266,21 @@ li {
     width: 100%;
     display: flex;
     padding: 50px;
-
+    justify-content: center;
+    align-items: center;
 }
 
 #dolar {
     background-color: black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius:100px ;
-    width: 710px;
-    
+    border-radius:100% ;
+    padding: 25px 25px !important;
+    text-align: center !important;
 }
 
 #dolar>i{
     color: #20C461;
     font-size: 90px;
+    margin: 10px auto 0px auto;
 }
 
 
@@ -298,6 +297,16 @@ li {
 
     .items-comments>li {
         margin: 10px 0px !important;
+    }
+}
+
+@media (max-width:560px){
+    #background-items{
+        flex-direction: column;
+    }
+
+    #dolar{
+        margin-bottom: 20px !important;
     }
 }
 
