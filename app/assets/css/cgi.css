@@ -142,6 +142,8 @@ section {
 
 .items {
     display: flex;
+    padding: 10px 0px !important;
+    margin-left: 0px !important;
 }
 
 .container-items {
@@ -211,6 +213,7 @@ li {
 
 #container-img {
     text-align: center;
+    background-color: white;
     background-image: url("../imgs/app/casa_carro_bicicleta_dinheiro.jpg") ;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -287,6 +290,76 @@ li {
 #back-text {
     text-align: left;
     margin-left: 20px;
+}
+
+#melhor_momento{
+    background-color: white !important;
+}
+
+.container-content{
+    padding: 60px 15px !important;
+}
+
+.tb {
+    font-weight: bolder !important;
+}
+
+.btn-green{
+    background-attachment: scroll;
+    background-color: rgb(32, 196, 97);
+    border: none;
+    border-radius: 12px;
+    padding: 40px;
+    font-size: 48px;
+    transition: 0.1s ease-in-out;
+    color: white !important;
+    outline: none !important;
+    text-align: center;
+    box-shadow: inset 0 -4px 0 rgb(0 0 0 / 19%);
+}
+
+.btn-orange{
+    background-attachment: scroll;
+    background-color: #ff7e00;
+    border: none;
+    border-radius: 12px;
+    padding: 40px;
+    font-size: 48px;
+    transition: 0.1s ease-in-out;
+    color: white !important;
+    outline: none !important;
+    text-align: center;
+    box-shadow: inset 0 -4px 0 rgb(0 0 0 / 19%);
+}
+
+#contato_diretor{
+    background-color: white;
+    background:linear-gradient( rgba(255, 255, 255, 0.3) 100%, rgba(255, 255, 255, 0.3)100%),url(../imgs/app/chuva_de_dinheiro.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size:cover;
+}
+
+#sub-footer{
+    background-color: rgb(25, 28, 30);
+    color: #7c7c7c !important;
+}
+
+#footer{
+    background-color: rgb(17, 19, 20); background-attachment: scroll;
+    color: #787e82 !important;
+}
+
+@media (max-width: 768px){
+    .btn-green{
+        font-size: 21px !important;
+        line-height: 1.4 !important;
+    }
+
+    .btn-orange{
+        font-size: 21px !important;
+        line-height: 1.4 !important;
+    }
 }
 
 @media (max-width:830px){
