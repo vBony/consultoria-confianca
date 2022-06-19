@@ -1,0 +1,401 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    background-color: #F6F6F6 !important;
+}
+
+h2{
+    margin: 20px 0px;
+}
+
+header {
+    background-color: black;
+    margin-top: 20px;
+    padding: 16px 0px;
+    width: 100%;
+    margin: auto;
+}
+
+#contents-header {
+    display: flex;
+    justify-content: space-around;
+}
+
+#logo1>img {
+    width: 69px;
+}
+
+#phrase {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #17C461;
+    font-size: 24px;
+    font-family: 'Just Another Hand', sans-serif;
+}
+
+#section-fundador{
+    background-color: white !important;
+}
+
+#section-btn2{
+    margin-bottom: 40px;
+}
+
+section {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+#container0 {
+    background-color: #0F5914;
+    width: 100%;
+}
+
+#contents-section1{
+    background-color: #0F5914;
+    text-align: center;
+    padding: 16px;
+    margin: 10px;
+}
+
+#text-fundador{
+    margin-top: 20px;
+    padding: 5px 10px;
+}
+
+#gif {
+    width: 100%;
+    max-width: 800px;
+
+}
+
+#contents-section1>h2{
+    font-size: 42px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+#btn1 {
+    width: 636px;
+    max-width: 100%;
+    padding: 20px;
+    font-family: 'Lato';
+    font-size: 20px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #FF7E00;
+    color: #FFFFFF;
+    margin-top: 15px;
+}
+
+#contents-section2 {
+    max-width: 1000px;
+}
+
+#blue>p{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    color: #0E1CA1;
+    text-align: center;
+    margin: 20px;
+}
+
+.black>p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+#contents-section2>h2 {
+    font-family: 'Just Another Hand', sans-serif;
+    font-size: 60px;
+    text-align: center;
+}
+
+.sub-title {
+    font-style: italic;
+    font-size: 29px;
+    color: #0E15A1;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#warning {
+    text-align: center;
+    color: #FF0000;
+    font-size: 29px;
+}
+
+.color-red {
+    color: #FF0000;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.items {
+    display: flex;
+    padding: 10px 0px !important;
+    margin-left: 0px !important;
+}
+
+.container-items {
+    width: 100%;
+    max-width: 1300px;
+}
+
+i{
+    font-size: 30px;
+    color: #85B5DE;
+    margin-right: 10px;
+}
+
+li {
+    list-style: none;
+    word-wrap: break-word;
+    width: 100%;
+    margin-bottom: 50px;
+    padding-left: 10px;
+    font-size: 25px;
+    color: #404040;
+    font-family: 'Lato', sans-serif;
+}
+
+#btn2 {
+    max-width: 1000px;
+    width: 100%;
+    padding: 20px;
+    font-family: 'Lato';
+    font-size: 20px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #FF7E00;
+    color: #FFFFFF;
+    margin-top: 15px;
+    margin: 10px;
+}
+
+#container1 {
+    text-align: center;
+    max-width: 1000px;
+    margin: 80px 0px;
+    background-color: white !important;
+}
+
+#container1>img {
+    height: 450px;
+    border-radius: 50%;
+}
+
+#container1>h2{
+    font-family: 'Just Another Hand', sans-serif;
+    font-size: 70px;
+    text-align: center;
+}
+
+#container1>p{
+    text-align: left;
+    font-size: 18px;
+    color: #555;
+    font-family: sans-serif;
+}
+
+:root {
+    --url-bg-depoimentos: attr('data-urlimage');
+}
+
+#container-img {
+    text-align: center;
+    background-color: white;
+    background-image: url("../imgs/app/casa_carro_bicicleta_dinheiro.jpg") ;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size:cover;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 47px 0px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#container-img>h2 {
+    word-wrap: break-word;
+    font-size: 50px;
+    width: 100%;
+    max-width: 1000px;
+    color: rgb(227, 243, 21);
+}
+
+.items-comments {
+    display: flex;
+    padding: 0px 10px;
+}
+
+.items-comments>li {
+    font-size: 18px;
+    padding: 20px;
+    border-color: #404040;
+    background-color: #ffffff;
+    border-radius: 3px;
+    margin: 20px;
+    box-shadow: 1px 1px 0 rgb(0 0 0 / 5%);
+    font-style: italic;
+}
+
+.items-comments>li>h3{
+    font-style: normal;
+    margin-bottom: 0;
+}
+
+#background {
+    background-color: #20C461;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#background-items {
+    max-width: 1300px;
+    width: 100%;
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+#dolar {
+    background-color: black;
+    border-radius:100% ;
+    padding: 25px 25px !important;
+    text-align: center !important;
+}
+
+#dolar>i{
+    color: #20C461;
+    font-size: 90px;
+    margin: 10px auto 0px auto;
+}
+
+
+#back-text {
+    text-align: left;
+    margin-left: 20px;
+}
+
+#melhor_momento{
+    background-color: white !important;
+}
+
+.container-content{
+    padding: 60px 15px !important;
+}
+
+.tb {
+    font-weight: bolder !important;
+}
+
+.btn-green{
+    background-attachment: scroll;
+    background-color: rgb(32, 196, 97);
+    border: none;
+    border-radius: 12px;
+    padding: 40px;
+    font-size: 48px;
+    transition: 0.1s ease-in-out;
+    color: white !important;
+    outline: none !important;
+    text-align: center;
+    box-shadow: inset 0 -4px 0 rgb(0 0 0 / 19%);
+}
+
+.btn-orange{
+    background-attachment: scroll;
+    background-color: #ff7e00;
+    border: none;
+    border-radius: 12px;
+    padding: 40px;
+    font-size: 48px;
+    transition: 0.1s ease-in-out;
+    color: white !important;
+    outline: none !important;
+    text-align: center;
+    box-shadow: inset 0 -4px 0 rgb(0 0 0 / 19%);
+}
+
+#contato_diretor{
+    background-color: white;
+    background:linear-gradient( rgba(255, 255, 255, 0.3) 100%, rgba(255, 255, 255, 0.3)100%),url(../imgs/app/chuva_de_dinheiro.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size:cover;
+}
+
+#sub-footer{
+    background-color: rgb(25, 28, 30);
+    color: #7c7c7c !important;
+}
+
+#footer{
+    background-color: rgb(17, 19, 20); background-attachment: scroll;
+    color: #787e82 !important;
+}
+
+@media (max-width: 768px){
+    .btn-green{
+        font-size: 21px !important;
+        line-height: 1.4 !important;
+    }
+
+    .btn-orange{
+        font-size: 21px !important;
+        line-height: 1.4 !important;
+    }
+}
+
+@media (max-width:830px){
+    .items-comments{
+        flex-direction: column !important;
+        margin: 0px !important;
+    }
+
+    .items-comments>li {
+        margin: 10px 0px !important;
+    }
+}
+
+@media (max-width:560px){
+    #background-items{
+        flex-direction: column;
+    }
+
+    #dolar{
+        margin-bottom: 20px !important;
+    }
+}
+
+@media (max-width:530px){
+    .items{
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+}
+
+@media (max-width: 452px){
+    #container1>img{
+        height: 250px !important;
+    }
+
+    #text-fundador{
+        padding: 20px !important;
+    }
+}
