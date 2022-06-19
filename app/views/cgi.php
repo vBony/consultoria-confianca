@@ -199,5 +199,77 @@
             </div>
         </div>
     </section>
+
+    <section id="melhor_momento">
+        <div class="container container-content">
+            <h1 class="text-center">Por que <span class="color-red">agora</span> é o <span class="color-red">melhor momento</span> para adquirir o crédito?</h1>
+            <div class="row mt-4">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <h3>A taxa "mãe" (Selic) que regulamenta todas as outras taxas NUNCA esteve tão baixa na história!</h3>
+                    <p>
+                        A Selic é a taxa que serve de referência para todas as outras taxas de juros do mercado, então com a 
+                        Selic mais baixa, os juros caem e isso incentiva a produção e o consumo. A redução dos juros reflete 
+                        também na aquisição de empréstimos e financiamentos, tornando este o melhor momento para adquirir um 
+                        crédito.
+                    </p>
+
+                    <p>
+                        No último ano a Selic atingiu o menor percentual desde a adoção do regime de metas para a inflação, 
+                        em 1999, porém os especialistas acreditam que ela volte a subir nos próximos meses. 
+                    </p>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-12 mt-3">
+                    <img class="img img-fluid" src="<?=$baseUrl?>app/assets/imgs/app/selic.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato_diretor">
+        <div class="container container-content">
+            <div class="row">
+                <h3 class="text-center mt-4">
+                    Estamos com uma <span class="tb"> promoção de início de ano </span>, para 
+                    <span class="tb"> ajudar você </span> a tirar seus projetos do papel, 
+                    <span class="tb">com um desconto</span> imperdível na taxa de juros.
+                </h3>
+    
+                <h1 class="color-red text-center mt-4">Não perca tempo!</h1>
+    
+                <h3 class="text-center mt-4">
+                    <span class="tb">CLIQUE AGORA</span> no botão abaixo e <span class="tb">FALE DIRETAMENTE</span> 
+                    com nosso <span class="tb"> DIRETOR! </span> <br> ou se preferir,<span class="tb"> SOLICITE O CONTATO </span> de um dos nossos <span class="tb"> ESPECIALISTAS. </span>
+                </h3>
+    
+                <button class="btn-green mt-4" onclick="window.open('https://bit.ly/38eCpDc', '_blank')">
+                    <span class="tb"> QUERO FALAR AGORA COM O DIRETOR PELO WHATSAPP </span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato_fila">
+        <div class="container container-content">
+            <button class="btn-orange" onclick="window.open('<?=$baseUrl?>financiamento')">
+                <span class="tb"> QUERO ENTRAR NA FILA PARA QUE UM ESPECIALISTA ENTRE EM CONTATO COMIGO! </span>
+            </button>
+        </div>
+    </section>
+
+    <footer id="sub-footer">
+        <div class="container py-4">
+            <div class="row">
+                <p class="m-0 text-center">*Esta oferta não garante aprovação de crédito de nenhum cliente. Cada caso será analisado separadamente por profissionais e dependerá da análise e aprovação do setor de crédito.</p>
+            </div>
+        </div>
+    </footer>
+    <footer id="footer">
+        <div class="container py-4">
+            <div class="row">
+                <p class="m-0 text-center">Copyright 2021 - Confiança Consultoria em Crédito Imobiliário Eireli - Todos os Direitos Reservados</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
