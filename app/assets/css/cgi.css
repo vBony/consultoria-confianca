@@ -350,6 +350,89 @@ li {
     color: #787e82 !important;
 }
 
+.line-text-red{
+    text-decoration: line-through !important;
+    text-decoration-color: red !important;
+    text-decoration-thickness: 2px !important;
+}
+
+/* 
+========================
+Testemunhas
+========================
+ */
+
+.testemunha-item{
+    background-color: #fff;
+    padding: 20px 20px 20px 20px;
+    box-shadow: 0px 2px 1px rgb(0 0 0 / 5%), 0px 0px 1px rgb(0 0 0 / 25%);
+    border-radius: 5px;
+    border: 1px solid #D6DAE4;
+    z-index: 1;
+}
+
+.name-testemunha{
+    color: var(--text-primary);
+}
+
+.rate-testemunha i {
+    color: gold;
+}
+
+.quote-icon{
+    color: #ffe7a0;
+    font-size: 26px;
+}
+
+.testemunha-item h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #111;
+}
+
+.google-icon-testemunha img{
+    height: 25px !important;
+}
+
+.desc-testemunha{
+    display: -webkit-box;
+    height: 150px;
+    -webkit-line-clamp: 10;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.625;
+    font-size: 15px !important;
+}
+
+.data-testemunha{
+    font-size: 12px;
+    color: #9CA0AC;
+}
+
+.testemunha-item h4 {
+    font-size: 14px;
+    color: #999;
+}
+
+.desc-testemunha{
+    color: #6a6c72;
+    padding-top:5px;
+}
+
+.glide__bullet{
+    width: 12px !important;
+    height: 12px !important;
+    background-color: #fff !important;
+    opacity: 1 !important;
+    border: 1px solid var(--primary-color) !important;
+    box-shadow: none !important;
+}
+
+.glide__bullet--active{
+    background-color: var(--primary-color) !important;
+}
+
 @media (max-width: 768px){
     .btn-green{
         font-size: 21px !important;
