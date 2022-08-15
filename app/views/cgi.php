@@ -96,7 +96,7 @@
             <h2>Independente de qual é o seu PROJETO, SONHO ou OBJETIVO, VOCÊ PODE REALIZAR!</h2>
             <div class="sub-title">Saiba agora mesmo o que várias pessoas estão fazendo para realizar seus objetivos, como estão levantando dinheiro, onde estão obtendo ajuda, qual o passo a passo para isso e faça o mesmo você também!</div>
             <div class="black">
-                <p>Nós somos a uma empresa sediada em Goiânia, com atuação a nível nacional e uma equipe de especialistas que já ajudou centenas de pessoas a realizarem seus sonhos, projetos e objetivos, levando para essas pessoas um tipo de crédito que o seu banco não gosta odeia te oferecer.</p>
+                <p>Nós somos a uma empresa sediada em Goiânia, com atuação a nível nacional e uma equipe de especialistas que já ajudou centenas de pessoas a realizarem seus sonhos, projetos e objetivos, levando para essas pessoas um tipo de crédito que o seu banco <span class="line-text-red">não gosta</span> odeia te oferecer.</p>
                 <p>É isso mesmo. Os bancos te oferecem sempre as modalidades de crédito mais caras e burocráticas que existem no mercado e no final das contas você acaba pagando mais caro e não conseguindo o tanto que gostaria. Isso quando te emprestam...</p>
             </div>
             <div class="sub-title">Bom, isso não será mais um problema para você!</div>
@@ -144,7 +144,17 @@
         <div id="container1">
             <h2>Conheça melhor nosso fundador</h2>
             <img src="<?=$baseUrl?>app/assets/imgs/app/wander_2.jpg" alt="">
-            <p id="text-fundador">Wander Leite, empresário, administrador de empresas, sempre foi apaixonado por empreendedorismo, abrindo seu primeiro negócio aos 19 anos de idade. Especialista em crédito, hoje é diretor fundador de uma empresa que atua diretamente junto aos bancos, buscando sempre as melhores opções para os clientes conseguirem o crédito que precisam aliado a menor taxa de juros do mercado, tendo ajudado centenas de pessoas a realizarem seus sonhos, planos e objetivos. Em sua filosofia acredita que cada cliente é especial e até nos casos mais difíceis sempre luta com todas as possibilidades para ajudar todos os clientes a realizarem seus sonhos. Também acredita muito que o conhecimento é a chave para o sucesso e ministra diversos treinamentos e capacitações na área de desenvolvimento pessoal, inteligência financeira e crédito.</p>
+            <p id="text-fundador">
+                Wander Leite, empresário, administrador de empresas e gestor, sempre foi apaixonado por empreendedorismo, 
+                abrindo seu primeiro negócio aos 19 anos de idade. Especialista em crédito, é diretor fundador de duas 
+                empresas que atuam diretamente junto aos bancos, buscando sempre as melhores opções para os clientes 
+                conseguirem o crédito que precisam aliado a menor taxa de juros do mercado, tendo ajudado centenas de 
+                pessoas a realizarem seus sonhos, planos e objetivos. Em sua filosofia acredita que cada cliente é 
+                especial e até nos casos mais difíceis sempre luta com todas as possibilidades para ajudar todos os 
+                clientes a realizarem seus sonhos. Também acredita muito que o conhecimento é a chave para o sucesso e 
+                ministra diversos treinamentos e capacitações na área de desenvolvimento pessoal, inteligência financeira e 
+                crédito.
+            </p>
         </div>
     </section>
     <section>
@@ -152,38 +162,150 @@
             <h2>Confira os depoimentos de algumas das centenas de pessoas que já foram nossos clientes</h2>
         </div>
     </section>
-    <section>
-        <div class="container-items">
-            <ul class="items-comments">
-                <li>
-                    <div>"Através do Wander e de sua empresa foi possível realizarmos o sonho da nossa vida e adquirimos nossa tão sonhada franquia, ainda com carência de 6 meses para a primeira parcela. Quando parecia que ninguém conseguiria nos ajudar, ele chegou e nos deu a solução. Recomendo 100%" </div> 
-                    <h3>Luiza Souza</h3>
-                </li>
-                <li>
-                    <div>"Minha construtora precisava levantar um recurso para concluir uma obra. Recorri a ajuda e em pouco tempo estava com o dinheiro na mão. Concluí minha obra, vendi algumas unidades e já quitei o empréstimo. Foi ótimo e com certeza eu pegaria novamente se fosse necessário!"
-                    </div>
-                    <h3>Bruno Oliveira</h3>
-                </li>
-                <li>
-                    <div>"O Wander me disse que se algo não der certo na mão dele, não da certo na mão de mais ninguém. Realmente pude provar isso. Quando todos os gerentes disseram que meu caso era impossível de resolver, ele resolveu e me entregou tudo pronto."
-                    </div>
-                    <h3>Adriana Silva</h3>
-                </li>
-            </ul>
-            <ul class="items-comments">
-                <li>
-                    <div>"Fui muito bem atendido e assistido, e o processo foi extremamente rápido, isso foi muito bom."</div>
-                    <h3>Paulo Cesar</h3>
-                </li>
-                <li>
-                    <div>"Atendimento sensacional. Toda a equipe foi muito profissional e humana em me ajudar a realizar meu sonho. Consegui economizar bastante. Obrigado".</div>
-                    <h3>Leonardo Gomes</h3>
-                </li>
-                <li>
-                    <div>"Mesmo eu morando no exterior consegui a minha aprovação de crédito. Adorei!"</div>
-                    <h3>Claudia Lima</h3>
-                </li>
-            </ul>
+    <section id="section-depoimentos" class="container container-content">
+        <div class="glide" id="depoimentos_c">
+            <div class="glide__track" data-glide-el="track">
+                <ul class="glide__slides">
+                    <li class="glide__slide">
+                        <div class="testemunha-item">
+                            <div class="col-12">
+                                <div class="col-12 name-testemunha"><h3>Luiza Souza</h3></div>
+                            </div>
+                            <div class="desc-testemunha col-12">
+                                Através do Wander e de sua empresa foi possível realizarmos o sonho da nossa vida e 
+                                adquirimos nossa tão sonhada franquia, ainda com carência de 6 meses para a primeira 
+                                parcela. Quando parecia que ninguém conseguiria nos ajudar, ele chegou e nos deu a 
+                                solução. Recomendo 100%
+                            </div>
+
+                            <div class="link-google-testemunha col-12 d-flex flex-row align-items-center pt-1">
+                                <div class="google-icon-testemunha me-2">
+                                    <img class="img img-fluid" src="<?=$baseUrl?>app/assets/imgs/app/logo-google.svg" alt="Logo do google">
+                                </div>
+                                <div class="data-testemunha">
+                                    1 meses atrás
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="glide__slide">
+                        <div class="testemunha-item">
+                            <div class="col-12">
+                                <div class="col-12 name-testemunha"><h3>Bruno Oliveira</h3></div>
+                            </div>
+                            <div class="desc-testemunha col-12">
+                                Minha construtora precisava levantar um recurso para concluir uma obra. Recorri a 
+                                ajuda e em pouco tempo estava com o dinheiro na mão. Concluí minha obra, vendi 
+                                algumas unidades e já quitei o empréstimo. Foi ótimo e com certeza eu pegaria 
+                                novamente se fosse necessário!
+                            </div>
+
+                            <div class="link-google-testemunha col-12 d-flex flex-row align-items-center pt-1">
+                                <div class="google-icon-testemunha me-2">
+                                    <img class="img img-fluid" src="<?=$baseUrl?>app/assets/imgs/app/logo-google.svg" alt="Logo do google">
+                                </div>
+                                <div class="data-testemunha">
+                                    2 meses atrás
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="glide__slide">
+                        <div class="testemunha-item">
+                            <div class="col-12">
+                                <div class="col-12 name-testemunha"><h3>Adriana Silva</h3></div>
+                            </div>
+                            <div class="desc-testemunha col-12">
+                                O Wander me disse que se algo não der certo na mão dele, não da certo na mão de mais 
+                                ninguém. Realmente pude provar isso. Quando todos os gerentes disseram que meu caso 
+                                era impossível de resolver, ele resolveu e me entregou tudo pronto.
+                            </div>
+
+                            <div class="link-google-testemunha col-12 d-flex flex-row align-items-center pt-1">
+                                <div class="google-icon-testemunha me-2">
+                                    <img class="img img-fluid" src="<?=$baseUrl?>app/assets/imgs/app/logo-google.svg" alt="Logo do google">
+                                </div>
+                                <div class="data-testemunha">
+                                    4 meses atrás
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="glide__slide">
+                        <div class="testemunha-item">
+                            <div class="col-12">
+                                <div class="col-12 name-testemunha"><h3>Paulo Cesar</h3></div>
+                            </div>
+                            <div class="desc-testemunha col-12">
+                                Fui muito bem atendido e assistido, e o processo foi extremamente rápido, isso foi 
+                                muito bom.
+                            </div>
+
+                            <div class="link-google-testemunha col-12 d-flex flex-row align-items-center pt-1">
+                                <div class="google-icon-testemunha me-2">
+                                    <img class="img img-fluid" src="<?=$baseUrl?>app/assets/imgs/app/logo-google.svg" alt="Logo do google">
+                                </div>
+                                <div class="data-testemunha">
+                                    4 meses atrás
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="glide__slide">
+                        <div class="testemunha-item">
+                            <div class="col-12">
+                                <div class="col-12 name-testemunha"><h3>Leonardo Gomes</h3></div>
+                            </div>
+                            <div class="desc-testemunha col-12">
+                                Atendimento sensacional. Toda a equipe foi muito profissional e humana em me ajudar a 
+                                realizar meu sonho. Consegui economizar bastante. Obrigado
+                            </div>
+
+                            <div class="link-google-testemunha col-12 d-flex flex-row align-items-center pt-1">
+                                <div class="google-icon-testemunha me-2">
+                                    <img class="img img-fluid" src="<?=$baseUrl?>app/assets/imgs/app/logo-google.svg" alt="Logo do google">
+                                </div>
+                                <div class="data-testemunha">
+                                    5 meses atrás
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="glide__slide">
+                        <div class="testemunha-item">
+                            <div class="col-12">
+                                <div class="col-12 name-testemunha"><h3>Claudia Lima</h3></div>
+                            </div>
+                            <div class="desc-testemunha col-12">
+                                Mesmo eu morando no exterior consegui a minha aprovação de crédito. Adorei!
+                            </div>
+
+                            <div class="link-google-testemunha col-12 d-flex flex-row align-items-center pt-1">
+                                <div class="google-icon-testemunha me-2">
+                                    <img class="img img-fluid" src="<?=$baseUrl?>app/assets/imgs/app/logo-google.svg" alt="Logo do google">
+                                </div>
+                                <div class="data-testemunha">
+                                    5 meses atrás
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <br><br>
+            <div class="glide__bullets" data-glide-el="controls[nav]">
+                <button class="glide__bullet" data-glide-dir="=0"></button>
+                <button class="glide__bullet" data-glide-dir="=1"></button>
+                <button class="glide__bullet" data-glide-dir="=3"></button>
+                <button class="glide__bullet" data-glide-dir="=4"></button>
+                <button class="glide__bullet" data-glide-dir="=5"></button>
+                <button class="glide__bullet" data-glide-dir="=6"></button>
+            </div>
         </div>
     </section>
     <section>
@@ -194,7 +316,17 @@
                 </div>
                 <div id="back-text">
                     <h1>Que modalidade de crédito é essa?</h1>
-                    <p>É simples. Temos uma modalidade de crédito onde o seu imóvel  ou o imóvel de um parente de primeiro grau é a garantia do empréstimo. Ainda que este seja uma casa, um apartamento, um lote, um imóvel comercial ou até mesmo um imóvel sem averbação, sendo possível levantar até 50% do valor do imóvel em questão. O melhor de tudo é que fazemos tudo para você, desde a montagem, iniciação, condução e finalização desse processo, te mantendo sempre próximo e atualizado de todos os passos, sem burocracia, de forma muito tranquila e profissional. </p>
+                    <p>
+                        É simples. Temos uma modalidade de crédito onde o seu imóvel ou o imóvel de um 
+                        terceiro é a garantia do empréstimo. Ainda que este seja uma casa, um 
+                        apartamento, um lote em condomínio, um imóvel comercial ou até mesmo um imóvel 
+                        sem averbação, sendo possível levantar até 50% do valor do imóvel em questão. 
+                        O melhor de tudo é que fazemos tudo para você, desde a montagem, iniciação, 
+                        condução e finalização desse processo, te mantendo sempre próximo e atualizado 
+                        de todos os passos, sem burocracia, de forma muito tranquila e profissional. 
+                        E caso o imóvel não seja seu, não tem problema. É possível usar o imóvel de 
+                        outra pessoa, desde que ela esteja de acordo.
+                    </p>
                 </div>
             </div>
         </div>
@@ -230,7 +362,7 @@
         <div class="container container-content">
             <div class="row">
                 <h3 class="text-center mt-4">
-                    Estamos com uma <span class="tb"> promoção de início de ano </span>, para 
+                    Estamos com uma <span class="tb">campanha ativa</span>, para 
                     <span class="tb"> ajudar você </span> a tirar seus projetos do papel, 
                     <span class="tb">com um desconto</span> imperdível na taxa de juros.
                 </h3>
@@ -238,13 +370,9 @@
                 <h1 class="color-red text-center mt-4">Não perca tempo!</h1>
     
                 <h3 class="text-center mt-4">
-                    <span class="tb">CLIQUE AGORA</span> no botão abaixo e <span class="tb">FALE DIRETAMENTE</span> 
-                    com nosso <span class="tb"> DIRETOR! </span> <br> ou se preferir,<span class="tb"> SOLICITE O CONTATO </span> de um dos nossos <span class="tb"> ESPECIALISTAS. </span>
+                    <span class="tb">CLIQUE AGORA</span> no botão abaixo e <span class="tb">SOLICITE O CONTATO</span> 
+                    com um de nossos <span class="tb"> ESPECIALISTAS. </span>
                 </h3>
-    
-                <button class="btn-green mt-4" onclick="window.open('https://bit.ly/38eCpDc', '_blank')">
-                    <span class="tb"> QUERO FALAR AGORA COM O DIRETOR PELO WHATSAPP </span>
-                </button>
             </div>
         </div>
     </section>
@@ -260,7 +388,11 @@
     <footer id="sub-footer">
         <div class="container py-4">
             <div class="row">
-                <p class="m-0 text-center">*Esta oferta não garante aprovação de crédito de nenhum cliente. Cada caso será analisado separadamente por profissionais e dependerá da análise e aprovação do setor de crédito.</p>
+                <p class="m-0 text-center">
+                    *Esta oferta não garante aprovação de crédito de nenhum cliente. Cada caso será analisado 
+                    separadamente por profissionais e dependerá da análise e aprovação do setor de crédito. 
+                    A quantidade máxima de parcelas também poderá sofrer alterações no caso a caso.
+                </p>
             </div>
         </div>
     </footer>
