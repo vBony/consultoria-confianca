@@ -23,21 +23,23 @@
 
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item opt">
-                        <a href="#" class="nav-link active nav-opt header-font" aria-current="page">Início</a>
-                    </li>
+                    <?php if($noHomeMenu != true) { ?>
+                        <li class="nav-item opt">
+                            <a href="#" class="nav-link active nav-opt header-font" aria-current="page">Início</a>
+                        </li>
 
-                    <li class="nav-item opt">
-                        <a href="#solutions" class="nav-link active nav-opt header-font" aria-current="page">Soluções</a>
-                    </li>
+                        <li class="nav-item opt">
+                            <a href="#solutions" class="nav-link active nav-opt header-font" aria-current="page">Soluções</a>
+                        </li>
 
-                    <li class="nav-item opt">
-                        <a href="#services" class="nav-link active nav-opt header-font" aria-current="page">Benefícios</a>
-                    </li>
+                        <li class="nav-item opt">
+                            <a href="#services" class="nav-link active nav-opt header-font" aria-current="page">Benefícios</a>
+                        </li>
 
-                    <li class="nav-item opt">
-                        <a href="<?=$baseUrl?>contato" target="_blank" class="nav-link active nav-opt header-font" aria-current="page">Contato</a>
-                    </li>
+                        <li class="nav-item opt">
+                            <a href="<?=$baseUrl?>contato" target="_blank" class="nav-link active nav-opt header-font" aria-current="page">Contato</a>
+                        </li>
+                    <?php } ?>
                     
                     <li class="nav-item d-flex align-items-center btn-simu-area">
                         <button type="submit" id="simular-btn" class="default-button primary-button" onclick="window.location.href='<?=$baseUrl?>financiamento'">Simular</button>

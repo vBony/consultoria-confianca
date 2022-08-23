@@ -7,13 +7,14 @@ class controllerHelper{
         require 'app/views/'.$viewName.'.php';
     }
 
-    public function loadTemplate($viewData = array()){
+    public function loadTemplate($viewData = array(), $noHomeMenu = false){
+        $viewData['noHomeMenu'] = $noHomeMenu;
         extract ($viewData);
-
         require 'app/views/template.php';
     }
 
-    public function loadViewInTemplate($viewName, $viewData = array()){
+    public function loadViewInTemplate($viewName, $viewData = array(), $noHomeMenu = false){
+        $viewData['noHomeMenu'] = $noHomeMenu;
         extract($viewData);
         require 'app/views/'.$viewName.'.php';
     }
