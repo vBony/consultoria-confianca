@@ -331,7 +331,156 @@
     </div>
 </section>
 <section id="depoimentos">
-    
+<div class="container">
+    <h2 class="text-primary text-bold mb-4">
+        Confira os depoimentos de algumas das centenas de pessoas que já foram nossos clientes
+        <br>
+    </h2>
+    <div class="glide" id="depoimentos_c">
+        <div class="glide__track" data-glide-el="track">
+            <ul class="glide__slides">
+                <li class="glide__slide">
+                    <div class="testemunha-item">
+                        <div class="col-12">
+                            <div class="col-12 name-testemunha"><h3>Luiza Souza</h3></div>
+                        </div>
+                        <div class="desc-testemunha col-12">
+                            Através do Wander e de sua empresa foi possível realizarmos o sonho da nossa vida e 
+                            adquirimos nossa tão sonhada franquia, ainda com carência de 6 meses para a primeira 
+                            parcela. Quando parecia que ninguém conseguiria nos ajudar, ele chegou e nos deu a 
+                            solução. Recomendo 100%
+                        </div>
+
+                        <div class="link-google-testemunha col-12 d-flex flex-row align-items-center pt-1">
+                            <div class="google-icon-testemunha me-2">
+                                <img class="img img-fluid" src="<?=$baseUrl?>app/assets/imgs/app/logo-google.svg" alt="Logo do google">
+                            </div>
+                            <div class="data-testemunha">
+                                1 meses atrás
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="glide__slide">
+                    <div class="testemunha-item">
+                        <div class="col-12">
+                            <div class="col-12 name-testemunha"><h3>Bruno Oliveira</h3></div>
+                        </div>
+                        <div class="desc-testemunha col-12">
+                            Minha construtora precisava levantar um recurso para concluir uma obra. Recorri a 
+                            ajuda e em pouco tempo estava com o dinheiro na mão. Concluí minha obra, vendi 
+                            algumas unidades e já quitei o empréstimo. Foi ótimo e com certeza eu pegaria 
+                            novamente se fosse necessário!
+                        </div>
+
+                        <div class="link-google-testemunha col-12 d-flex flex-row align-items-center pt-1">
+                            <div class="google-icon-testemunha me-2">
+                                <img class="img img-fluid" src="<?=$baseUrl?>app/assets/imgs/app/logo-google.svg" alt="Logo do google">
+                            </div>
+                            <div class="data-testemunha">
+                                2 meses atrás
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="glide__slide">
+                    <div class="testemunha-item">
+                        <div class="col-12">
+                            <div class="col-12 name-testemunha"><h3>Adriana Silva</h3></div>
+                        </div>
+                        <div class="desc-testemunha col-12">
+                            O Wander me disse que se algo não der certo na mão dele, não da certo na mão de mais 
+                            ninguém. Realmente pude provar isso. Quando todos os gerentes disseram que meu caso 
+                            era impossível de resolver, ele resolveu e me entregou tudo pronto.
+                        </div>
+
+                        <div class="link-google-testemunha col-12 d-flex flex-row align-items-center pt-1">
+                            <div class="google-icon-testemunha me-2">
+                                <img class="img img-fluid" src="<?=$baseUrl?>app/assets/imgs/app/logo-google.svg" alt="Logo do google">
+                            </div>
+                            <div class="data-testemunha">
+                                4 meses atrás
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="glide__slide">
+                    <div class="testemunha-item">
+                        <div class="col-12">
+                            <div class="col-12 name-testemunha"><h3>Paulo Cesar</h3></div>
+                        </div>
+                        <div class="desc-testemunha col-12">
+                            Fui muito bem atendido e assistido, e o processo foi extremamente rápido, isso foi 
+                            muito bom.
+                        </div>
+
+                        <div class="link-google-testemunha col-12 d-flex flex-row align-items-center pt-1">
+                            <div class="google-icon-testemunha me-2">
+                                <img class="img img-fluid" src="<?=$baseUrl?>app/assets/imgs/app/logo-google.svg" alt="Logo do google">
+                            </div>
+                            <div class="data-testemunha">
+                                4 meses atrás
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="glide__slide">
+                    <div class="testemunha-item">
+                        <div class="col-12">
+                            <div class="col-12 name-testemunha"><h3>Leonardo Gomes</h3></div>
+                        </div>
+                        <div class="desc-testemunha col-12">
+                            Atendimento sensacional. Toda a equipe foi muito profissional e humana em me ajudar a 
+                            realizar meu sonho. Consegui economizar bastante. Obrigado
+                        </div>
+
+                        <div class="link-google-testemunha col-12 d-flex flex-row align-items-center pt-1">
+                            <div class="google-icon-testemunha me-2">
+                                <img class="img img-fluid" src="<?=$baseUrl?>app/assets/imgs/app/logo-google.svg" alt="Logo do google">
+                            </div>
+                            <div class="data-testemunha">
+                                5 meses atrás
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="glide__slide">
+                    <div class="testemunha-item">
+                        <div class="col-12">
+                            <div class="col-12 name-testemunha"><h3>Claudia Lima</h3></div>
+                        </div>
+                        <div class="desc-testemunha col-12">
+                            Mesmo eu morando no exterior consegui a minha aprovação de crédito. Adorei!
+                        </div>
+
+                        <div class="link-google-testemunha col-12 d-flex flex-row align-items-center pt-1">
+                            <div class="google-icon-testemunha me-2">
+                                <img class="img img-fluid" src="<?=$baseUrl?>app/assets/imgs/app/logo-google.svg" alt="Logo do google">
+                            </div>
+                            <div class="data-testemunha">
+                                5 meses atrás
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <br><br>
+        <div class="glide__bullets" data-glide-el="controls[nav]">
+            <button class="glide__bullet" data-glide-dir="=0"></button>
+            <button class="glide__bullet" data-glide-dir="=1"></button>
+            <button class="glide__bullet" data-glide-dir="=3"></button>
+            <button class="glide__bullet" data-glide-dir="=4"></button>
+            <button class="glide__bullet" data-glide-dir="=5"></button>
+            <button class="glide__bullet" data-glide-dir="=6"></button>
+        </div>
+    </div>
+</div>
 </section>
 </main>
 
