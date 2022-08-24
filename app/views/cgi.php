@@ -303,6 +303,36 @@
         </div>
     </div>
 </section>
+<section id="fundador">
+    <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-12 col-sm-12 mb-4">
+                    <img class="img-fluid rounded" id="img-fundador" src="<?=$baseUrl?>app/assets/imgs/app/fundador/wander_2.jpg" alt="Wander Leite">
+                </div>
+    
+                <div class="col-lg-8 col-md-12 col-sm-12">
+                    <h2 class="text-bold mb-4">
+                        Conheça melhor nosso fundador
+                    </h2>
+                    <p>
+                        Wander Leite, empresário, administrador de empresas e gestor, sempre foi apaixonado por 
+                        empreendedorismo, abrindo seu primeiro negócio aos 19 anos de idade. Especialista em 
+                        crédito, é diretor fundador de duas empresas que atuam diretamente junto aos bancos, 
+                        buscando sempre as melhores opções para os clientes conseguirem o crédito que precisam 
+                        aliado a menor taxa de juros do mercado, tendo ajudado centenas de pessoas a realizarem 
+                        seus sonhos, planos e objetivos. Em sua filosofia acredita que cada cliente é especial e 
+                        até nos casos mais difíceis sempre luta com todas as possibilidades para ajudar todos os 
+                        clientes a realizarem seus sonhos. Também acredita muito que o conhecimento é a chave 
+                        para o sucesso e ministra diversos treinamentos e capacitações na área de desenvolvimento 
+                        pessoal, inteligência financeira e crédito.
+                    </p>
+                </div>
+            </div>
+    </div>
+</section>
+<section id="depoimentos">
+    
+</section>
 </main>
 
 </body>

@@ -60,6 +60,10 @@
     color: var(--primary-color);
 }
 
+#fundador{
+    background-color: #F7F8FA;
+}
+
 @media (max-width: 575px){
     .texts-inicio-area{
         margin-top: 1.5rem;
@@ -79,6 +83,11 @@
         padding: 80px 12px;
         justify-content: flex-start !important;
         align-items: baseline;
+    }
+
+    
+    #img-fundador{
+        height: 250px !important;
     }
 
     .abaixo{
