@@ -217,10 +217,90 @@
 </section>
 
 <section id="beneficios">
-    <div class="row">
-        <h2 class="text-primary text-center text-bold mt-4">
-            Continue lendo e entenda os benefícios desse CRÉDITO MISTERIOSO que ninguém quer que você saiba
-        </h2>
+    <div class="container">
+        <div class="row">
+            <h2 class="text-primary text-center text-bold mt-4">
+                Continue lendo e entenda os benefícios desse CRÉDITO MISTERIOSO que ninguém quer que você saiba
+            </h2>
+    
+            <div class="row mt-4">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="col-12 beneficios-list-item">
+                        <i class="fas fa-check-circle"></i>
+                        <h5><span class="text-bold">Crédito</span> de 50 mil até 4 milhões de reais;</h5>
+                    </div>        
+
+                    <div class="col-12 beneficios-list-item">
+                        <i class="fas fa-check-circle"></i>
+                        <h5><span class="text-bold">Menores taxas</span> de juros do mercado;</h5>
+                    </div>     
+
+                    <div class="col-12 beneficios-list-item">
+                        <i class="fas fa-check-circle"></i>
+                        <h5>
+                            <span class="text-bold">Carência</span> de até <span class="text-bold">6 meses </span> 
+                            para pagar a primeira parcela em casos de <span class="text-bold">abertura de franquias;</span>
+                        </h5>
+                    </div>        
+
+                    <div class="col-12 beneficios-list-item">
+                        <i class="fas fa-check-circle"></i>
+                        <h5>
+                            <span class="text-bold">Agilidade</span> em todas as etapas;
+                        </h5>
+                    </div>        
+
+                    <div class="col-12 beneficios-list-item">
+                        <i class="fas fa-check-circle"></i>
+                        <h5>
+                            <span class="text-bold">Comodidade</span> em poder realizar análise de crédito online e sem custos;
+                        </h5>
+                    </div>   
+
+                    <div class="col-12 beneficios-list-item">
+                        <i class="fas fa-check-circle"></i>
+                        <h5>
+                            <span class="text-bold">Local físico</span> em Goiânia para tirar dúvidas, fazer simulações e conhecer tudo de perto;
+                        </h5>
+                    </div>   
+                </div>
+
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="col-12 beneficios-list-item">
+                        <i class="fas fa-check-circle"></i>
+                        <h5><span class="text-bold">Parcelamento</span> em até 20 anos (240 meses);</h5>
+                    </div>
+                    
+                    <div class="col-12 beneficios-list-item">
+                        <i class="fas fa-check-circle"></i>
+                        <h5>Análise de crédito flexível com <span class="text-bold">ajuda</span> na <span class="text-bold">aprovação</strong>;</h5>
+                    </div>
+
+                    <div class="col-12 beneficios-list-item">
+                        <i class="fas fa-check-circle"></i>
+                        <h5><span class="text-bold">Carência</span> de até <span class="text-bold">3 meses</span> para pagar a primeira parcela, <span class="text-bold">independente</span> do motivo do crédito;</h5>
+                    </div>
+
+                    <div class="col-12 beneficios-list-item">
+                        <i class="fas fa-check-circle"></i>
+                        <h5><span class="text-bold">Liberdade</span> para você fazer o que quiser com o seu dinheiro;</h5>
+                    </div>
+
+                    <div class="col-12 beneficios-list-item">
+                        <i class="fas fa-check-circle"></i>
+                        <h5>Processo <span class="text-bold">transparente</span> que pode ser acompanhado tanto <span class="text-bold">online</span> quanto <span class="text-bold">presencialmente</span>;</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 d-flex justify-content-center">
+                <a href="<?=$baseUrl?>financiamento" target="_blank" class="clean-link">
+                    <button class="default-button"> 
+                        Quero entrar na fila para que um especialista entre em contato comigo
+                    </button>
+                </a>
+            </div>
+        </div>
     </div>
 </section>
 </main>

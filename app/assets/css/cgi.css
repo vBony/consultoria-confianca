@@ -47,6 +47,19 @@
     display: none;
 }
 
+.beneficios-list-item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.beneficios-list-item i {
+    font-size: 25px;
+    margin-bottom: 2px;
+    margin-right: 10px;
+    color: var(--primary-color);
+}
+
 @media (max-width: 575px){
     .texts-inicio-area{
         margin-top: 1.5rem;
