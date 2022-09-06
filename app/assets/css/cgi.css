@@ -9,6 +9,13 @@
     /* d-flex align-items-center justify-content-center */
 }
 
+.text-cgi{
+    text-align: center;
+    font-size: 1.5rem !important;
+    margin-block-start: 1.1em !important;
+    margin-block-end: 1.1em !important;
+}
+
 .img-inicio{
     text-align: center;
 }
@@ -33,18 +40,23 @@
     text-decoration: none;
 }
 
+.btn-cgi {
+    width: 100% !important;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    font-size: 1.3rem !important;
+    font-weight: bold !important;
+}
+
 .indicador-sobre{
     font-weight: bold;
     color: var(--primary-color);
     cursor: pointer;
+    margin: 40px 0px;
 }
 
 #inicio .btn-conheca:hover {
     background: var(--primary-color);
-}
-
-.abaixo{
-    display: none;
 }
 
 .beneficios-list-item{
@@ -64,6 +76,16 @@
     background-color: #F7F8FA;
 }
 
+#modalidade-credito{
+    background-color: var(--primary-color);
+    padding: 2vh 0px 2vh 0px !important;
+}
+
+#modalidade-credito-icone{
+    font-size: 15rem;
+    color: white;
+}
+
 @media (max-width: 575px){
     .texts-inicio-area{
         margin-top: 1.5rem;
@@ -74,6 +96,12 @@
         padding: 30px 12px;
         justify-content: flex-start !important;
         align-items: baseline;
+    }
+}
+
+@media (max-width: 767px){
+    #modalidade-credito-icone-area{
+        display: none !important;
     }
 }
 
@@ -88,14 +116,6 @@
     
     #img-fundador{
         height: 250px !important;
-    }
-
-    .abaixo{
-        display: block;
-    }
-
-    .aolado{
-        display: none;
     }
 
     .box-submenu{

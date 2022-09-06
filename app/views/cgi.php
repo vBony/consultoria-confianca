@@ -64,26 +64,29 @@
 <section id="inicio">
     <div class="container d-flex flex-column align-content-between box-submenu">
         <div class="d-flex flex-wrap-reverse">
-            <div class="col-lg-5 col-md-12 col-sm-12 mt-md-4 mt-sm-4 texts-inicio-area pe-lg-4">
-                <h1 class="text-inicio mb-4" id="title-ti">
+            <div class="col-12">
+                <h1 class="text-inicio text-center mt-4" id="title-ti">
                     Chegou a hora de tirar seus projetos do papel!
                 </h1>
         
                 <div class="btn-ti-area">
-                    <a href="<?=$baseUrl?>financiamento" target="_blank" class="clean-link">
-                        <button class="default-button d-flex flex-row align-items-center justify-content-center" id="btn-ti"> 
-                            <div>Quero saber mais</div>
-                            <div class="ms-2" style="margin-top:2.3px"><i class="fas fa-angle-down"></i></div>
-                        </button>
-                    </a>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-12 m-auto">
+                        <a href="<?=$baseUrl?>financiamento" target="_blank" class="clean-link">
+                            <button class="default-button d-flex flex-row align-items-center justify-content-center btn-cgi"> 
+                                <div>Quero saber mais</div>
+                                <div class="ms-2" style="margin-top:2.3px"><i class="fas fa-angle-down"></i></div>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12">
+                <div class="img-inicio">
+                    <img class="img-fluid rounded" src="<?=$baseUrl?>app/assets/imgs/app/raining-money-5.gif" alt="raining money">
                 </div>
             </div>
     
-            <div class="col-lg-7 col-md-12 col-sm-12">
-                <div class="img-inicio">
-                    <img class="img-fluid rounded" src="<?=$baseUrl?>app/assets/imgs/app/submenu-cgi.jpg" alt="raining money">
-                </div>
-            </div>
         </div>
     </div>
 </section>
@@ -92,75 +95,70 @@
 <section id="sobre">
     <div class="container">
         <div class="row mb-3">
-            <div class="col-12">
+            <div class="col-12 text-center">
                 <h2><strong class="text-primary"> O que está te impedindo?</strong></h2> 
             </div>
         </div>
 
         <div class="row">
-            <div class="col-lg-6 col-md-12 col-sm-12 text-start s-title">
-                <p>
-                    A cada virada de ano nos últimos anos muitas pessoas fizeram diversas 
-                    promessas para MUDAR DE VIDA. Teve gente que pulou 7 ondinhas, alguns 
-                    comeram arroz com lentilha, usaram roupas amarelas e outros disseram: 
-                    <b>AGORA VAI!</b>
-                </p>  
-                <p>
-                    Acontece que os anos se passaram e a maioria não fez nada a respeito. 
-                    De cara já vamos te deixar uma dica: <br>
-                    <b>
-                        Se você não fizer algo diferente, continuará a ter os mesmos resultados 
-                        de sempre.
-                    </b>
-                </p>
+            <p class="text-cgi">
+                A cada virada de ano nos últimos anos muitas pessoas fizeram diversas 
+                promessas para MUDAR DE VIDA. Teve gente que pulou 7 ondinhas, alguns 
+                comeram arroz com lentilha, usaram roupas amarelas e outros disseram: 
+                <b>AGORA VAI!</b>
+            </p>  
+            <p class="text-cgi">
+                Acontece que os anos se passaram e a maioria não fez nada a respeito. 
+                De cara já vamos te deixar uma dica: <br>
+            </p>
+
+            <p class="text-cgi">
+                <b><u>
+                    Se você não fizer algo diferente, continuará a ter os mesmos resultados 
+                    de sempre.
+                </b></u>
+            </p>
+
+            <p class="text-cgi">
+                Se a gente te desse um empurrãozinho, como <b>já fizemos com centenas de 
+                pessoas</b> para te ajudar a tirar seus projetos do papel e <b>colher resultados 
+                diferentes</b>, você gostaria de saber como?<br>
+                <div class="abaixo indicador-sobre text-center text-cgi">Veja abaixo <i class="fas fa-angle-down"></i></div>
+            </p>
     
-                <p>
-                    Se a gente te desse um empurrãozinho, como já fizemos com centenas de 
-                    pessoas para te ajudar a tirar seus projetos do papel e colher resultados 
-                    diferentes, você gostaria de saber como?<br>
-                    <div class="aolado indicador-sobre text-center">Veja ao lado <i class="fas fa-angle-right"></i></div>
-                    <div class="abaixo indicador-sobre text-center">Veja abaixo <i class="fas fa-angle-down"></i></div>
-                    
-                </p>
-            </div>
-    
-            <div class="col-lg-6 col-md-12 col-sm-12 text-start s-title">
-                <ul class="list-unstyled">
-                    <li class="mb-4">
-                        <i class="fas fa-hand-point-right me-1 icon-acc"></i>
-                        <b>
-                            Já pensou como seria ótimo se você pudesse agora mesmo montar o 
-                            seu próprio negócio e se tornar empresário?
-                        </b>
-                    </li>
-    
-                    <li class="mb-4">
-                        <i class="fas fa-hand-point-right me-1 icon-acc"></i>
-                        <b>
-                            E se você pudesse ampliar sua empresa para faturar mais?
-                        </b>
-                    </li>
-    
-                    <li class="mb-4">
-                        <i class="fas fa-hand-point-right me-1 icon-acc"></i>
-                        <b>
-                            E se de repente, você tirasse do papel aquele projeto de reforma ou 
-                            construção da sua casa e a deixasse do jeitinho que você sempre imaginou?
-                        </b>
-                    </li>
-    
-                    <li class="mb-4">
-                        <i class="fas fa-hand-point-right me-1 icon-acc"></i>
-                        <b>
-                            Já imaginou fazer a viagem dos sonhos com sua família, para aquele 
-                            local paradisíaco que parece coisa de cinema, sem ter que se preocupar?
-                        </b>
-                    </li>
-                </ul>
-            </div>
+            <p class="mb-4 text-cgi">
+                <i class="fas fa-hand-point-right me-1 icon-acc"></i>
+                <b>
+                    Já pensou como seria ótimo se você pudesse agora mesmo montar o 
+                    seu próprio negócio e se tornar empresário?
+                </b>
+            </p>
+
+            <p class="mb-4 text-cgi">
+                <i class="fas fa-hand-point-right me-1 icon-acc"></i>
+                <b>
+                    E se você pudesse ampliar sua empresa para faturar mais?
+                </b>
+            </p>
+
+            <p class="mb-4 text-cgi">
+                <i class="fas fa-hand-point-right me-1 icon-acc"></i>
+                <b>
+                    E se de repente, você tirasse do papel aquele projeto de reforma ou 
+                    construção da sua casa e a deixasse do jeitinho que você sempre imaginou?
+                </b>
+            </p>
+
+            <p class="mb-4 text-cgi">
+                <i class="fas fa-hand-point-right me-1 icon-acc"></i>
+                <b>
+                    Já imaginou fazer a viagem dos sonhos com sua família, para aquele 
+                    local paradisíaco que parece coisa de cinema, sem ter que se preocupar?
+                </b>
+            </p>
         </div>
 
-        <div class="row">
+        <div class="row mt-4">
             <h2 class="mb-3">
                 <strong class="text-primary">
                     Independente de qual é o seu <b>projeto, sonho ou objetivo, você pode
@@ -168,43 +166,40 @@
                 </strong>
             </h2> 
 
-            <div class="col-lg-6 col-md-12 col-sm-12 text-start s-title">
-                <h5>
-                    <b>
-                        Saiba agora mesmo o que várias pessoas estão fazendo para realizar seus 
-                        objetivos, como estão levantando dinheiro, onde estão obtendo ajuda, qual
-                        o passo a passo para isso e faça o mesmo você também!
-                    </b>
-                </h5>
+            <h3 class="text-cgi">
+                <b>
+                    Saiba agora mesmo o que várias pessoas estão fazendo para realizar seus 
+                    objetivos, como estão levantando dinheiro, onde estão obtendo ajuda, qual
+                    o passo a passo para isso e faça o mesmo você também!
+                </b>
+            </h3>
 
-                <p>
-                    Nós somos a uma empresa sediada em Goiânia, com atuação a nível nacional e uma 
-                    equipe de especialistas que já ajudou centenas de pessoas a realizarem seus 
-                    sonhos, projetos e objetivos, levando para essas pessoas um tipo de crédito que 
-                    o seu banco não gosta odeia te oferecer.
-                </p>
+            <p class="text-cgi">
+                Nós somos a uma empresa sediada em Goiânia, com atuação a nível nacional e uma 
+                equipe de especialistas que já ajudou centenas de pessoas a realizarem seus 
+                sonhos, projetos e objetivos, levando para essas pessoas um tipo de crédito que 
+                o seu banco não gosta odeia te oferecer.
+            </p>
 
-                <p>
-                    É isso mesmo. Os bancos te oferecem sempre as modalidades de crédito mais caras e 
-                    burocráticas que existem no mercado e no final das contas você acaba pagando mais 
-                    caro e não conseguindo o tanto que gostaria. Isso quando te emprestam...
-                </p>
-            </div>
+            <p class="text-cgi">
+                É isso mesmo. Os bancos te oferecem sempre as modalidades de crédito mais caras e 
+                burocráticas que existem no mercado e no final das contas você acaba pagando mais 
+                caro e não conseguindo o tanto que gostaria. Isso quando te emprestam...
+            </p>
 
-            <div class="col-lg-6 col-md-12 col-sm-12 text-start s-title">
-                <h5>
-                    <b>
-                        Bom, isso não será mais um problema para você!
-                    </b>
-                </h5>
+            <p class="text-cgi">
+                <b>
+                    Bom, isso não será mais um problema para você!
+                </b>
+            </p>
 
-                <p>
-                    Agora que você conhece a gente, saiba que nossa equipe de especialistas está aqui 
-                    para te ajudar a realizar tudo que você sempre quis, adquirindo um crédito com uma 
-                    taxa de juros ridícula que já fez milhares de agiotas pararem de emprestar dinheiro 
-                    por aí e que seu banco faz o máximo de esforço para que você não descubra!
-                </p>
-            </div>
+            <p class="text-cgi">
+                Agora que você conhece a gente, saiba que nossa equipe de especialistas está aqui 
+                para te ajudar a realizar tudo que você sempre quis, adquirindo um crédito com uma 
+                taxa de juros ridícula que já fez milhares de agiotas pararem de emprestar dinheiro 
+                por aí e que seu banco faz o máximo de esforço para que você não descubra!
+            </p>
+
         </div>
 
         <div class="row">
@@ -294,11 +289,13 @@
             </div>
 
             <div class="col-12 d-flex justify-content-center">
-                <a href="<?=$baseUrl?>financiamento" target="_blank" class="clean-link">
-                    <button class="default-button"> 
-                        Quero entrar na fila para que um especialista entre em contato comigo
-                    </button>
-                </a>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12 m-auto">
+                    <a href="<?=$baseUrl?>financiamento" target="_blank" class="clean-link">
+                        <button class="default-button btn-cgi"> 
+                            Quero entrar na fila para que um especialista entre em contato comigo
+                        </button>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
@@ -306,15 +303,16 @@
 <section id="fundador">
     <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-md-12 col-sm-12 mb-4">
-                    <img class="img-fluid rounded" id="img-fundador" src="<?=$baseUrl?>app/assets/imgs/app/fundador/wander_2.jpg" alt="Wander Leite">
-                </div>
-    
-                <div class="col-lg-8 col-md-12 col-sm-12">
-                    <h2 class="text-bold mb-4">
+                <div class="col-12">
+                    <h2 class="text-bold text-center mb-4">
                         Conheça melhor nosso fundador
                     </h2>
-                    <p>
+
+                    <div class="col-lg-4 col-md-12 col-sm-12 mb-4 m-auto">
+                        <img class="img-fluid rounded" id="img-fundador" src="<?=$baseUrl?>app/assets/imgs/app/fundador/wander_2.jpg" alt="Wander Leite">
+                    </div>
+
+                    <p class="text-cgi">
                         Wander Leite, empresário, administrador de empresas e gestor, sempre foi apaixonado por 
                         empreendedorismo, abrindo seu primeiro negócio aos 19 anos de idade. Especialista em 
                         crédito, é diretor fundador de duas empresas que atuam diretamente junto aos bancos, 
@@ -326,7 +324,9 @@
                         para o sucesso e ministra diversos treinamentos e capacitações na área de desenvolvimento 
                         pessoal, inteligência financeira e crédito.
                     </p>
+
                 </div>
+    
             </div>
     </div>
 </section>
@@ -482,6 +482,35 @@
     </div>
 </div>
 </section>
+
+<section id="modalidade-credito">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12 text-center d-flex align-items-center justify-content-center" id="modalidade-credito-icone-area">
+                <i class="fas fa-dollar-sign" id="modalidade-credito-icone"></i>
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-12">
+                <h2 class="text-white text-center"><b> Que modalidade de crédito é essa?</b></h2>
+                <p class="text-white text-cgi">
+                    É simples. Temos uma modalidade de crédito onde o seu <b>imóvel</b> ou o imóvel de um 
+                    parente de primeiro grau é a <b>garantia do empréstimo</b>. Ainda que este seja uma 
+                    <b>casa</b>, um <b>apartamento</b>, um <b>lote</b>, um imóvel <b>comercial</b> ou até mesmo um imóvel <b>sem 
+                    averbação</b>, sendo possível levantar <b>até 50%</b> do <b>valor do imóvel</b> em questão. 
+                    O melhor de tudo é que <b>fazemos tudo</b> para você, desde a montagem, iniciação, condução 
+                    e finalização desse processo, te mantendo sempre próximo e atualizado de todos os 
+                    passos, sem burocracia, de forma muito tranquila e profissional. 
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="selic">
+    <div class="container">
+        <h2 class="text-primary text-center">Por que <b>agora</b> é o <b>melhor momento</b> para adquirir crédito?</h2>
+    </div>
+</section>
+
 </main>
 
 </body>
