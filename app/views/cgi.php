@@ -548,7 +548,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <iframe src="<?=$baseUrl?>/contato" frameborder="0" id="frame-contato"></iframe>
+                <iframe src="<?=$baseUrl?>/contato" frameborder="0" class="frame-sys"> </iframe>
             </div>
         </div>
     </div>
