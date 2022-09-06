@@ -71,7 +71,7 @@
         
                 <div class="btn-ti-area">
                     <div class="col-lg-6 col-md-6 col-sm-12 col-12 m-auto">
-                        <a href="<?=$baseUrl?>financiamento" target="_blank" class="clean-link">
+                        <a href="#sobre" class="clean-link">
                             <button class="default-button d-flex flex-row align-items-center justify-content-center btn-cgi"> 
                                 <div>Quero saber mais</div>
                                 <div class="ms-2" style="margin-top:2.3px"><i class="fas fa-angle-down"></i></div>
@@ -159,7 +159,7 @@
         </div>
 
         <div class="row mt-4">
-            <h2 class="mb-3">
+            <h2 class="mb-3 text-center">
                 <strong class="text-primary">
                     Independente de qual é o seu <b>projeto, sonho ou objetivo, você pode
                     realizar!</b>
@@ -175,10 +175,10 @@
             </h3>
 
             <p class="text-cgi">
-                Nós somos a uma empresa sediada em Goiânia, com atuação a nível nacional e uma 
-                equipe de especialistas que já ajudou centenas de pessoas a realizarem seus 
-                sonhos, projetos e objetivos, levando para essas pessoas um tipo de crédito que 
-                o seu banco não gosta odeia te oferecer.
+                Nós somos a uma empresa sediada em Goiânia, com atuação a nível nacional e uma equipe de 
+                especialistas que já ajudou centenas de pessoas a realizarem seus sonhos, projetos e objetivos, 
+                levando para essas pessoas um tipo de crédito que o seu banco <b>não gosta</b> 
+                odeia te oferecer.
             </p>
 
             <p class="text-cgi">
@@ -308,21 +308,20 @@
                         Conheça melhor nosso fundador
                     </h2>
 
-                    <div class="col-lg-4 col-md-12 col-sm-12 mb-4 m-auto">
+                    <div class="col-lg-4 col-md-12 col-sm-12 mb-4 m-auto text-center">
                         <img class="img-fluid rounded" id="img-fundador" src="<?=$baseUrl?>app/assets/imgs/app/fundador/wander_2.jpg" alt="Wander Leite">
                     </div>
 
                     <p class="text-cgi">
-                        Wander Leite, empresário, administrador de empresas e gestor, sempre foi apaixonado por 
-                        empreendedorismo, abrindo seu primeiro negócio aos 19 anos de idade. Especialista em 
-                        crédito, é diretor fundador de duas empresas que atuam diretamente junto aos bancos, 
-                        buscando sempre as melhores opções para os clientes conseguirem o crédito que precisam 
-                        aliado a menor taxa de juros do mercado, tendo ajudado centenas de pessoas a realizarem 
-                        seus sonhos, planos e objetivos. Em sua filosofia acredita que cada cliente é especial e 
-                        até nos casos mais difíceis sempre luta com todas as possibilidades para ajudar todos os 
-                        clientes a realizarem seus sonhos. Também acredita muito que o conhecimento é a chave 
-                        para o sucesso e ministra diversos treinamentos e capacitações na área de desenvolvimento 
-                        pessoal, inteligência financeira e crédito.
+                        Wander Leite, empresário, administrador de empresas e gestor, sempre foi apaixonado por empreendedorismo, 
+                        abrindo seu primeiro negócio aos 19 anos de idade. Especialista em crédito, é diretor fundador de duas 
+                        empresas que atuam diretamente junto aos bancos, buscando sempre as melhores opções para os clientes 
+                        conseguirem o crédito que precisam aliado a menor taxa de juros do mercado, tendo ajudado centenas de 
+                        pessoas a realizarem seus sonhos, planos e objetivos. Em sua filosofia acredita que cada cliente é 
+                        especial e até nos casos mais difíceis sempre luta com todas as possibilidades para ajudar todos os 
+                        clientes a realizarem seus sonhos. Também acredita muito que o conhecimento é a chave para o sucesso e 
+                        ministra diversos treinamentos e capacitações na área de desenvolvimento pessoal, inteligência financeira e 
+                        crédito.
                     </p>
 
                 </div>
@@ -493,12 +492,14 @@
                 <h2 class="text-white text-center"><b> Que modalidade de crédito é essa?</b></h2>
                 <p class="text-white text-cgi">
                     É simples. Temos uma modalidade de crédito onde o seu <b>imóvel</b> ou o imóvel de um 
-                    parente de primeiro grau é a <b>garantia do empréstimo</b>. Ainda que este seja uma 
-                    <b>casa</b>, um <b>apartamento</b>, um <b>lote</b>, um imóvel <b>comercial</b> ou até mesmo um imóvel <b>sem 
-                    averbação</b>, sendo possível levantar <b>até 50%</b> do <b>valor do imóvel</b> em questão. 
-                    O melhor de tudo é que <b>fazemos tudo</b> para você, desde a montagem, iniciação, condução 
-                    e finalização desse processo, te mantendo sempre próximo e atualizado de todos os 
-                    passos, sem burocracia, de forma muito tranquila e profissional. 
+                    terceiro é a <b>garantia do empréstimo</b>. Ainda que este seja uma <b>casa</b>, um 
+                    <b>apartamento</b>, um <b>lote</b> em condomínio, um imóvel <b>comercial</b> ou até mesmo um <b>sem 
+                    averbação</b>, sendo possível levantar até <b>até 50%</b> do <b>valor do imóvel</b> em questão. 
+                    O melhor de tudo é que <b>fazemos tudo</b> para você, desde a montagem, iniciação, 
+                    condução e finalização desse processo, te mantendo sempre próximo e atualizado 
+                    de todos os passos, sem burocracia, de forma muito tranquila e profissional. 
+                    E caso o imóvel não seja seu, não tem problema. É possível usar o imóvel de 
+                    outra pessoa, desde que ela esteja de acordo.
                 </p>
             </div>
         </div>
@@ -507,11 +508,59 @@
 
 <section id="selic">
     <div class="container">
-        <h2 class="text-primary text-center">Por que <b>agora</b> é o <b>melhor momento</b> para adquirir crédito?</h2>
+        <h2 class="text-primary text-center mb-4 h1">Por que <b>agora</b> é o <b>melhor momento</b> para adquirir crédito?</h2>
+        <div class="col-lg-10 col-md-10 col-sm-12 m-auto">
+            <img class="img img-fluid" src="<?=$baseUrl?>app/assets/imgs/app/selic.jpeg" alt="">
+        </div>
     </div>
 </section>
 
+<section id="contato_diretor">
+        <div class="container container-content">
+            <div class="row">
+                <h2 class="text-center mt-4">
+                    Estamos com uma <b>campanha ativa</b>, para 
+                    <b>ajudar você</b> a tirar seus projetos do papel, 
+                    <b>com um desconto</b> imperdível na taxa de juros.
+                </h2>
+    
+                <h1 class="text-primary h1 text-center mt-4"><b><u>Não perca tempo!</u></b></h1>
+    
+                <h3 class="text-center mt-4 mb-4">
+                    <b>CLIQUE AGORA</b> no botão abaixo e <b>SOLICITE O CONTATO</b> 
+                    com um de nossos<b> ESPECIALISTAS. </b>
+                </h3>
+
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12 m-auto">
+                    <a href="" class="clean-link">
+                        <button class="default-button btn-cgi"> 
+                            <b>QUERO ENTRAR NA FILA PARA QUE UM ESPECIALISTA ENTRE EM CONTATO COMIGO!</b>
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+</section>
 </main>
+
+<footer id="sub-footer">
+    <div class="container py-4">
+        <div class="row">
+            <p class="m-0 text-center">
+                *Esta oferta não garante aprovação de crédito de nenhum cliente. Cada caso será analisado 
+                separadamente por profissionais e dependerá da análise e aprovação do setor de crédito. 
+                A quantidade máxima de parcelas também poderá sofrer alterações no caso a caso.
+            </p>
+        </div>
+    </div>
+</footer>
+<footer id="footer">
+    <div class="container py-4">
+        <div class="row">
+            <p class="m-0 text-center">Copyright 2021 - Confiança Consultoria em Crédito Imobiliário Eireli - Todos os Direitos Reservados</p>
+        </div>
+    </div>
+</footer>
 
 </body>
 </html>
