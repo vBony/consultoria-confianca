@@ -290,11 +290,9 @@
 
             <div class="col-12 d-flex justify-content-center">
                 <div class="col-lg-6 col-md-6 col-sm-12 col-12 m-auto">
-                    <a href="<?=$baseUrl?>financiamento" target="_blank" class="clean-link">
-                        <button class="default-button btn-cgi"> 
-                            Quero entrar na fila para que um especialista entre em contato comigo
-                        </button>
-                    </a>
+                    <button class="default-button btn-cgi" data-bs-toggle="modal" data-bs-target="#modalContato"> 
+                        Quero entrar na fila para que um especialista entre em contato comigo
+                    </button>
                 </div>
             </div>
         </div>
@@ -532,16 +530,29 @@
                 </h3>
 
                 <div class="col-lg-6 col-md-6 col-sm-12 col-12 m-auto">
-                    <a href="" class="clean-link">
-                        <button class="default-button btn-cgi"> 
-                            <b>QUERO ENTRAR NA FILA PARA QUE UM ESPECIALISTA ENTRE EM CONTATO COMIGO!</b>
-                        </button>
-                    </a>
+                    <button class="default-button btn-cgi" data-bs-toggle="modal" data-bs-target="#modalContato"> 
+                        <b>QUERO ENTRAR NA FILA PARA QUE UM ESPECIALISTA ENTRE EM CONTATO COMIGO!</b>
+                    </button>
                 </div>
             </div>
         </div>
 </section>
 </main>
+
+<!-- Modal -->
+<div class="modal fade" id="modalContato" tabindex="-1" aria-labelledby="modalContatoLabel" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalContatoLabel">Formulário de contato</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <iframe src="<?=$baseUrl?>/contato" frameborder="0" id="frame-contato"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
 
 <footer id="sub-footer">
     <div class="container py-4">
