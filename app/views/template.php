@@ -39,11 +39,16 @@
                         <li class="nav-item opt">
                             <a href="<?=$baseUrl?>contato" target="_blank" class="nav-link active nav-opt header-font" aria-current="page">Contato</a>
                         </li>
+
+                        <li class="nav-item d-flex align-items-center btn-simu-area">
+                            <button type="submit" id="simular-btn" class="default-button primary-button" onclick="window.location.href='<?=$baseUrl?>financiamento'">Simular</button>
+                        </li>
+                    <?php }else{ ?>
+                        <li class="nav-item d-flex align-items-center btn-simu-area">
+                            <button type="submit" id="simular-btn" class="default-button primary-button" data-bs-toggle="modal" data-bs-target="#modalSimulacao">Simular</button>
+                        </li>
                     <?php } ?>
                     
-                    <li class="nav-item d-flex align-items-center btn-simu-area">
-                        <button type="submit" id="simular-btn" class="default-button primary-button" onclick="window.location.href='<?=$baseUrl?>financiamento'">Simular</button>
-                    </li>
                 </ul>
             </div>
         </div>
