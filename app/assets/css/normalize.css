@@ -2,6 +2,10 @@
     font-family: 'Nunito Sans', sans-serif, "Font Awesome 6 Free", "Font Awesome 6 Brands"  !important;
 }
 
+.logo-header{
+    width: 40px;
+}
+
 :root{
     --primary-color: #86BD3A;
     --dark-primary: #7daf36;
@@ -9,6 +13,10 @@
     --text-primary: #212529;
     --text-secondary: #6a6c72;
     --primary-color-transparency: #86bd3a0e;
+}
+
+.text-bold {
+    font-weight: bolder !important;
 }
 
 .default-button{
