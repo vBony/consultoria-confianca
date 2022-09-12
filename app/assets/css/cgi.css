@@ -81,11 +81,6 @@
     padding: 2vh 0px 2vh 0px !important;
 }
 
-#modalidade-credito-icone{
-    font-size: 15rem;
-    color: white;
-}
-
 #contato_diretor{
     background-color: #F7F8FA;
 }
@@ -103,6 +98,12 @@
 .frame-sys{
     width: 100% !important;
     height: 100% !important;
+}
+
+.p-text{
+    color: var(--primary-color) !important;
+    font-weight: bold !important;
+    text-decoration: underline !important;
 }
 
 @media (max-width: 575px){
