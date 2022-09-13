@@ -7,7 +7,7 @@
 }
 
 :root{
-    --primary-color: #86BD3A;
+    --primary-color: #6c9730;
     --dark-primary: #7daf36;
     --secondary-color: #FF7A00;
     --text-primary: #212529;
@@ -27,8 +27,8 @@
     padding: 3px 35px;
     border-radius: 7px;
     transition: 0.5s;
-    border: 2px solid var(--dark-primary);
-    background-color: var(--dark-primary);
+    border: 2px solid var(--primary-color);
+    background-color: var(--primary-color);
     color: #fff;
     text-decoration: none;
     cursor: pointer;
@@ -42,8 +42,8 @@
 }
 
 .primary-button{
-    background-color: var(--dark-primary) !important;
-    border-color: var(--dark-primary) !important;
+    background-color: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
 }
 
 .secondary-button{
@@ -52,7 +52,7 @@
 }
 
 .bg-primary{
-    background-color: var(--dark-primary) !important;
+    background-color: var(--primary-color) !important;
 }
 
 .bg-secondary{
@@ -60,7 +60,7 @@
 }
 
 .text-primary{
-    color: var(--dark-primary) !important; 
+    color: var(--primary-color) !important; 
 }
 
 .text-secondaty{
