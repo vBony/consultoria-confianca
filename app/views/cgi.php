@@ -63,13 +63,19 @@
 
 <section id="inicio">
     <div class="container d-flex flex-column align-content-between box-submenu">
-        <div class="d-flex flex-wrap-reverse">
+        <div class="d-flex">
             <div class="col-12">
                 <h1 class="text-inicio text-center mt-4" id="title-ti">
-                    Chegou a hora de tirar seus projetos do papel!
+                    CHEGOU A HORA DE TIRAR <b class="text-primary"><u>SEUS PROJETOS</u></b> DO PAPEL
                 </h1>
+
+                <div class="col-12">
+                    <div class="img-inicio">
+                        <img class="img-fluid rounded" src="<?=$baseUrl?>app/assets/imgs/app/raining-money-5.gif" alt="raining money">
+                    </div>
+                </div>
         
-                <div class="btn-ti-area">
+                <div class="btn-ti-area mt-4">
                     <div class="col-lg-6 col-md-6 col-sm-12 col-12 m-auto">
                         <a href="#sobre" class="clean-link">
                             <button class="default-button d-flex flex-row align-items-center justify-content-center btn-cgi"> 
@@ -80,13 +86,6 @@
                     </div>
                 </div>
             </div>
-
-            <div class="col-12">
-                <div class="img-inicio">
-                    <img class="img-fluid rounded" src="<?=$baseUrl?>app/assets/imgs/app/raining-money-5.gif" alt="raining money">
-                </div>
-            </div>
-    
         </div>
     </div>
 </section>
@@ -113,7 +112,7 @@
             </p>
 
             <p class="text-cgi">
-                <b><u>
+                <b class="h1"><u>
                     Se você não fizer algo diferente, continuará a ter os mesmos resultados 
                     de sempre.
                 </b></u>
@@ -129,46 +128,80 @@
             <p class="mb-4 text-cgi">
                 <i class="fas fa-hand-point-right me-1 icon-acc"></i>
                 <b>
-                    Já pensou como seria ótimo se você pudesse agora mesmo montar o 
-                    seu próprio negócio e se tornar empresário?
+                    Já pensou como seria ótimo se você pudesse agora mesmo <span class="p-text">montar</span> o 
+                    <span class="p-text">seu próprio negócio</span> e se tornar <span class="p-text">empresário</span>?
                 </b>
             </p>
 
             <p class="mb-4 text-cgi">
                 <i class="fas fa-hand-point-right me-1 icon-acc"></i>
                 <b>
-                    E se você pudesse ampliar sua empresa para faturar mais?
+                    E se você pudesse <span class="p-text">ampliar</span> sua <span class="p-text">empresa</span> para 
+                    <span class="p-text">faturar mais</span>?
                 </b>
             </p>
 
             <p class="mb-4 text-cgi">
                 <i class="fas fa-hand-point-right me-1 icon-acc"></i>
                 <b>
-                    E se de repente, você tirasse do papel aquele projeto de reforma ou 
-                    construção da sua casa e a deixasse do jeitinho que você sempre imaginou?
+                    E se de repente, você <span class="p-text">tirasse do papel</span> aquele projeto de 
+                    <span class="p-text">reforma</span> ou <span class="p-text">construção</span> da sua 
+                    casa e a deixasse do jeitinho que você sempre imaginou?
                 </b>
             </p>
 
             <p class="mb-4 text-cgi">
                 <i class="fas fa-hand-point-right me-1 icon-acc"></i>
                 <b>
-                    Já imaginou fazer a viagem dos sonhos com sua família, para aquele 
-                    local paradisíaco que parece coisa de cinema, sem ter que se preocupar?
+                    Já imaginou fazer a <span class="p-text">viagem dos sonhos</span> com sua 
+                    <span class="p-text">família</span>, para aquele local paradisíaco que 
+                    parece coisa de cinema, sem ter que se preocupar?
+                </b>
+            </p>
+
+            <p class="mb-4 text-cgi">
+                <i class="fas fa-hand-point-right me-1 icon-acc"></i>
+                <b>
+                    E se você pudesse mobiliar toda sua casa com <span class="p-text">móveis planejados</span> 
+                    ao seu gosto e medida, totalmente personalizado para você e sua família?
+                </b>
+            </p>
+
+            <p class="mb-4 text-cgi">
+                <i class="fas fa-hand-point-right me-1 icon-acc"></i>
+                <b>
+                    E se você pudesse colocar aquela tão sonhada <span class="p-text">piscina em casa</span>?
+                </b>
+            </p>
+
+            <p class="mb-4 text-cgi">
+                <i class="fas fa-hand-point-right me-1 icon-acc"></i>
+                <b>
+                    E se você pudesse pagar aquela <span class="p-text">faculdade</span> de 
+                    <span class="p-text">medicina</span> pro seu filho?
+                </b>
+            </p>
+
+            <p class="mb-4 text-cgi">
+                <i class="fas fa-hand-point-right me-1 icon-acc"></i>
+                <b>
+                    E se desse para levantar a grana para <span class="p-text">construir</span> e 
+                    <span class="p-text">vender</span> as casinhas da Caixa que todo mundo está comprando?
                 </b>
             </p>
         </div>
 
         <div class="row mt-4">
             <h2 class="mb-3 text-center">
-                <strong class="text-primary">
-                    Independente de qual é o seu <b>projeto, sonho ou objetivo, você pode
-                    realizar!</b>
+                <strong class="text-primary h1">
+                    <span class="p-text">INDEPENDENTE</span> DE QUAL É O SEU <b>PROJETO, SONHO OU OBJETIVO, VOCÊ PODE
+                    REALIZAR!</b>
                 </strong>
             </h2> 
 
             <h3 class="text-cgi">
                 <b>
-                    Saiba agora mesmo o que várias pessoas estão fazendo para realizar seus 
+                    <span class="p-text">Saiba agora mesmo</span> o que várias pessoas estão fazendo para realizar seus 
                     objetivos, como estão levantando dinheiro, onde estão obtendo ajuda, qual
                     o passo a passo para isso e faça o mesmo você também!
                 </b>
@@ -188,8 +221,8 @@
             </p>
 
             <p class="text-cgi">
-                <b>
-                    Bom, isso não será mais um problema para você!
+                <b class="h1 p-text">
+                    BOM, ISSO NÃO SERÁ MAIS UM PROBLEMA PARA VOCÊ!
                 </b>
             </p>
 
@@ -291,7 +324,7 @@
             <div class="col-12 d-flex justify-content-center">
                 <div class="col-lg-6 col-md-6 col-sm-12 col-12 m-auto">
                     <button class="default-button btn-cgi" data-bs-toggle="modal" data-bs-target="#modalContato"> 
-                        Quero entrar na fila para que um especialista entre em contato comigo
+                        QUERO ENTRAR NA FILA PARA QUE UM ESPECIALISTA ENTRE EM CONTATO COMIGO
                     </button>
                 </div>
             </div>
@@ -484,14 +517,14 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-4 col-md-4 col-sm-12 text-center d-flex align-items-center justify-content-center" id="modalidade-credito-icone-area">
-                <i class="fas fa-dollar-sign" id="modalidade-credito-icone"></i>
+                <img class="img-fluid" src="<?=$baseUrl?>app/assets/imgs/app/CGI.png" alt="" srcset="">
             </div>
-            <div class="col-lg-8 col-md-8 col-sm-12">
+            <div class="col-lg-8 col-md-8 col-sm-12 mt-4">
                 <h2 class="text-white text-center"><b> Que modalidade de crédito é essa?</b></h2>
                 <p class="text-white text-cgi">
                     É simples. Temos uma modalidade de crédito onde o seu <b>imóvel</b> ou o imóvel de um 
                     terceiro é a <b>garantia do empréstimo</b>. Ainda que este seja uma <b>casa</b>, um 
-                    <b>apartamento</b>, um <b>lote</b> em condomínio, um imóvel <b>comercial</b> ou até mesmo um <b>sem 
+                    <b>apartamento</b>, um <b>lote</b>, um imóvel <b>comercial</b> ou até mesmo um <b>imóvel sem 
                     averbação</b>, sendo possível levantar até <b>até 50%</b> do <b>valor do imóvel</b> em questão. 
                     O melhor de tudo é que <b>fazemos tudo</b> para você, desde a montagem, iniciação, 
                     condução e finalização desse processo, te mantendo sempre próximo e atualizado 

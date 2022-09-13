@@ -35,7 +35,7 @@
     border-radius: 50px;
     transition: 0.5s;
     margin-top: 40px;
-    border: 2px solid var(--primary-color);
+    border: 2px solid var(--dark-primary);
     color: #fff;
     text-decoration: none;
 }
@@ -50,13 +50,13 @@
 
 .indicador-sobre{
     font-weight: bold;
-    color: var(--primary-color);
+    color: var(--dark-primary);
     cursor: pointer;
     margin: 40px 0px;
 }
 
 #inicio .btn-conheca:hover {
-    background: var(--primary-color);
+    background: var(--dark-primary);
 }
 
 .beneficios-list-item{
@@ -69,7 +69,7 @@
     font-size: 25px;
     margin-bottom: 2px;
     margin-right: 10px;
-    color: var(--primary-color);
+    color: var(--dark-primary);
 }
 
 #fundador{
@@ -77,13 +77,8 @@
 }
 
 #modalidade-credito{
-    background-color: var(--primary-color);
+    background-color: var(--dark-primary);
     padding: 2vh 0px 2vh 0px !important;
-}
-
-#modalidade-credito-icone{
-    font-size: 15rem;
-    color: white;
 }
 
 #contato_diretor{
@@ -103,6 +98,12 @@
 .frame-sys{
     width: 100% !important;
     height: 100% !important;
+}
+
+.p-text{
+    color: var(--dark-primary) !important;
+    font-weight: bold !important;
+    text-decoration: underline !important;
 }
 
 @media (max-width: 575px){
