@@ -45,7 +45,7 @@
                         </li>
                     <?php }else{ ?>
                         <li class="nav-item d-flex align-items-center btn-simu-area">
-                            <button type="submit" id="simular-btn" class="default-button primary-button" data-bs-toggle="modal" data-bs-target="#modalSimulacao">Simular</button>
+                            <!-- <button type="submit" id="simular-btn" class="default-button primary-button" data-bs-toggle="modal" data-bs-target="#modalSimulacao">Simular</button> -->
                         </li>
                     <?php } ?>
                     
