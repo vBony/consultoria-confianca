@@ -1,0 +1,144 @@
+#inicio{
+    width: 100%;
+    /* height: 85vh; */
+    background-color: #F7F8FA;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* d-flex align-items-center justify-content-center */
+}
+
+.text-cgi{
+    text-align: center;
+    font-size: 1.5rem !important;
+    margin-block-start: 1.1em !important;
+    margin-block-end: 1.1em !important;
+}
+
+.img-inicio{
+    text-align: center;
+}
+
+#inicio.container {
+    text-align: center;
+    padding-top: 50px;
+}
+
+#inicio .btn-conheca {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 9px 35px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin-top: 40px;
+    border: 2px solid var(--primary-color);
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-cgi {
+    width: 100% !important;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    font-size: 1.3rem !important;
+    font-weight: bold !important;
+}
+
+.indicador-sobre{
+    font-weight: bold;
+    color: var(--primary-color);
+    cursor: pointer;
+    margin: 40px 0px;
+}
+
+#inicio .btn-conheca:hover {
+    background: var(--primary-color);
+}
+
+.beneficios-list-item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.beneficios-list-item i {
+    font-size: 25px;
+    margin-bottom: 2px;
+    margin-right: 10px;
+    color: var(--primary-color);
+}
+
+#fundador{
+    background-color: #F7F8FA;
+}
+
+#modalidade-credito{
+    background-color: var(--primary-color);
+    padding: 2vh 0px 2vh 0px !important;
+}
+
+#contato_diretor{
+    background-color: #F7F8FA;
+}
+
+#sub-footer{
+    background-color: rgb(25, 28, 30);
+    color: #7c7c7c !important;
+}
+
+#footer{
+    background-color: rgb(17, 19, 20); background-attachment: scroll;
+    color: #787e82 !important;
+}
+
+.frame-sys{
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.p-text{
+    color: var(--primary-color) !important;
+    font-weight: bold !important;
+    text-decoration: underline !important;
+}
+
+@media (max-width: 575px){
+    .texts-inicio-area{
+        margin-top: 1.5rem;
+    }
+
+    #inicio{
+        /* height: 90vh; */
+        padding: 30px 12px;
+        justify-content: flex-start !important;
+        align-items: baseline;
+    }
+}
+
+@media (max-width: 767px){
+    #modalidade-credito-icone-area img{
+        max-height: 250px !important;
+    }
+}
+
+@media(max-width: 991px){
+    #inicio{
+        /* height: 60vh; */
+        padding: 80px 12px;
+        justify-content: flex-start !important;
+        align-items: baseline;
+    }
+
+    
+    #img-fundador{
+        height: 250px !important;
+    }
+
+    .box-submenu{
+        padding: 0px;
+    }
+}
