@@ -1,3 +1,4 @@
 <?php
 global $routes;
-$routes = array();
+$routes['/tireseusprojetosdopapel'] = '/cgi';
+$routes['/tire-seus-projetos-do-papel'] = '/cgi';
