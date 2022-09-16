@@ -25,7 +25,7 @@
 
     <link rel="icon" type="image/png" href="<?=$baseUrl?>app/assets/imgs/app/logo-black.png">
 
-    <meta name="robots" content="noindex, nofollow">
+    <!-- <meta name="robots" content="noindex, nofollow"> -->
 </head>
 <body>
 <?php $this->loadTemplate($templateData); ?>
